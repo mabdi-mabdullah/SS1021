@@ -5680,8 +5680,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun (Time) / اسْمُ زَمَان",
         "ur":  "دن، وقت، روزِ جزا",
-        "en":  "Creation, Good portion",
-        "cleanEn":  "creation good portion"
+        "en":  "Day, Time, Day of Judgment",
+        "cleanEn":  "day time day of judgment"
     },
     {
         "idx":  407,

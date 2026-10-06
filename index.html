@@ -3,8 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>مُعْجَمُ الْقُرْآنِ — Quranic Arabic Dictionary</title>
+  <title>Lexicon (BETA) — Quranic Arabic Study Companion</title>
   <meta name="description" content="Alphabetical Quranic Arabic vocabulary dictionary (407 Base Words) with bilingual English and Urdu meanings. Fast, diacritic-tolerant search.">
+  <meta name="theme-color" content="#0f766e">
+
+  <!-- Open Graph / WhatsApp Preview Meta Tags -->
+  <meta property="og:title" content="Lexicon (BETA) — Quranic Arabic Study Companion">
+  <meta property="og:description" content="FAST-NUCES SS-1021 bilingual Quranic Arabic dictionary & color-coded verse study companion.">
+  <meta property="og:type" content="website">
 
   <!-- Google Fonts: Amiri (Arabic), Inter (English) & Noto Nastaliq Urdu (Urdu) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,9 +27,8 @@
     <header class="app-header">
       <div class="brand-wrapper">
         <h1 class="brand-title">
-          <span class="brand-arabic">مُعْجَمُ الْقُرْآنِ</span>
+          Lexicon <sub class="beta-tag">BETA</sub>
         </h1>
-        <p class="brand-subtitle">Quranic Arabic Dictionary • 407 Words • Alphabetical Lexicon</p>
       </div>
 
       <div class="header-actions">
@@ -45,52 +50,94 @@
       </div>
     </header>
 
-    <!-- Sticky Search & Alphabet Controls -->
-    <section class="search-controls">
-      <!-- Search Input Box with distinct examples -->
-      <div class="search-box-wrapper">
-        <span class="search-icon">🔍</span>
-        <input 
-          type="text" 
-          id="searchInput" 
-          class="search-input" 
-          placeholder="Search English (righteous), transliteration (taqwa), Arabic (مُتَّقُونَ), or Urdu (بخشش)... [/]"
-          autocomplete="off"
-          autocorrect="off"
-          spellcheck="false"
-        >
-        <button id="clearSearchBtn" class="clear-btn" aria-label="Clear search">✕</button>
-      </div>
+    <!-- Main Navigation Tabs: Words vs. Ayahs -->
+    <nav class="main-tabs" role="tablist" aria-label="Main study views">
+      <button id="tabWordsBtn" class="main-tab-btn active" role="tab" aria-selected="true" aria-controls="viewWords">
+        <span class="tab-icon">📖</span>
+        <span class="tab-text">Words • <span class="font-urdu">الفاظ</span></span>
+      </button>
+      <button id="tabAyahsBtn" class="main-tab-btn" role="tab" aria-selected="false" aria-controls="viewAyahs">
+        <span class="tab-icon">📜</span>
+        <span class="tab-text">Ayahs • <span class="font-urdu">آیات</span></span>
+      </button>
+    </nav>
 
-      <!-- Horizontal Alphabet Jump Bar -->
-      <nav id="alphabetBar" class="alphabet-bar" aria-label="Alphabetical navigation">
-        <!-- Rendered dynamically by app.js -->
-      </nav>
-
-      <!-- Sub-filter / Status Bar -->
-      <div class="status-bar">
-        <div>
-          Showing: <span id="wordCount" class="word-count">407 words</span>
+    <!-- Tab View 1: Words Dictionary (407 Base Words) -->
+    <div id="viewWords" class="tab-view active" role="tabpanel" aria-labelledby="tabWordsBtn">
+      <!-- Sticky Search & Alphabet Controls -->
+      <section class="search-controls">
+        <!-- Search Input Box prioritizing Arabic & Transliteration -->
+        <div class="search-box-wrapper">
+          <span class="search-icon">🔍</span>
+          <input 
+            type="text" 
+            id="searchInput" 
+            class="search-input" 
+            placeholder="Search Arabic (مُتَّقُونَ) or transliteration (taqwa, allah)... [/]"
+            autocomplete="off"
+            autocorrect="off"
+            spellcheck="false"
+          >
+          <button id="clearSearchBtn" class="clear-btn" aria-label="Clear search">✕</button>
         </div>
-        <div class="category-filters">
-          <button class="cat-filter-btn active" data-cat="ALL">All</button>
-          <button class="cat-filter-btn" data-cat="اسْم">Noun • <span class="font-urdu">اسم</span></button>
-          <button class="cat-filter-btn" data-cat="حَرْف">Particle • <span class="font-urdu">حرف</span></button>
-          <button class="cat-filter-btn" data-cat="عَلَم">Proper Name • <span class="font-urdu">اسمِ علم</span></button>
-          <button class="cat-filter-btn" data-cat="فِعْل">Verb • <span class="font-urdu">فعل</span></button>
+
+        <!-- Horizontal Alphabet Jump Bar -->
+        <nav id="alphabetBar" class="alphabet-bar" aria-label="Alphabetical navigation">
+          <!-- Rendered dynamically by app.js -->
+        </nav>
+
+        <!-- Category Filters -->
+        <div class="status-bar">
+          <div class="category-filters">
+            <button class="cat-filter-btn active" data-cat="ALL">All</button>
+            <button class="cat-filter-btn" data-cat="اسْم">Noun • <span class="font-urdu">اسم</span></button>
+            <button class="cat-filter-btn" data-cat="حَرْف">Particle • <span class="font-urdu">حرف</span></button>
+            <button class="cat-filter-btn" data-cat="عَلَم">Proper Name • <span class="font-urdu">اسمِ علم</span></button>
+            <button class="cat-filter-btn" data-cat="فِعْل">Verb • <span class="font-urdu">فعل</span></button>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Word List Display -->
-    <main id="dictionaryList" class="dictionary-list" aria-live="polite">
-      <!-- Cards rendered dynamically by app.js -->
-    </main>
+      <!-- Word List Display -->
+      <main id="dictionaryList" class="dictionary-list" aria-live="polite">
+        <!-- Cards rendered dynamically by app.js -->
+      </main>
+    </div>
 
-    <!-- Neutral Footer -->
-    <footer class="app-footer">
-      <p>Quranic Arabic Lexicon • 407 Words • Alphabetical Study Guide</p>
-    </footer>
+    <!-- Tab View 2: Quranic Ayahs Practice (115 Verses) -->
+    <div id="viewAyahs" class="tab-view" role="tabpanel" aria-labelledby="tabAyahsBtn" style="display: none;">
+      <!-- Sticky Unit & Lesson Selector -->
+      <section class="search-controls">
+        <!-- Unit > Lesson Dual Filter Boxes (No Search Bar) -->
+        <div class="ayah-filter-row">
+          <div class="filter-box">
+            <label for="ayahUnitSelect" class="filter-box-label">Unit</label>
+            <select id="ayahUnitSelect" class="filter-select">
+              <option value="1" disabled>Unit 1 (Coming Soon)</option>
+              <option value="2" selected>Unit 2</option>
+              <option value="3" disabled>Unit 3 (Coming Soon)</option>
+            </select>
+          </div>
+
+          <div class="filter-box">
+            <label for="ayahLessonSelect" class="filter-box-label">Lesson</label>
+            <select id="ayahLessonSelect" class="filter-select">
+              <!-- Populated dynamically by app.js: Lesson 1, Lesson 2, ... -->
+            </select>
+          </div>
+        </div>
+
+        <!-- Subtle Helper Hint -->
+        <div class="ayah-hint-bar">
+          <span class="ayah-hint-text">💡 Tap or hover over any word to highlight matching translations.</span>
+        </div>
+      </section>
+
+      <!-- Ayahs List Display -->
+      <main id="ayahsList" class="ayahs-list" aria-live="polite">
+        <!-- Ayah cards rendered dynamically by app.js -->
+      </main>
+    </div>
 
   </div>
 
@@ -163,6 +210,7 @@
 
   <!-- Embedded Data & App Logic -->
   <script src="data.js"></script>
+  <script src="ayahs_data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

@@ -1,25 +1,49 @@
 /**
- * Quranic Arabic Dictionary — Application Logic
- * High-performance, diacritic-tolerant search across 407 words
- * Independent toggles (off by default = both shown, on = only that language shown)
+ * Quranic Arabic Dictionary & Ayahs Companion — Application Logic
+ * High-performance, diacritic-tolerant search across 407 words & 115 Quranic verses
+ * Prioritizes Arabic and transliteration over meanings
+ * Separate tabs for Words (الفاظ) and Ayahs (آیات)
+ * Pure Unit & Lesson hierarchy (no rule/tag clutter in Ayahs, non-searchable Ayahs)
  */
 
 (function () {
   'use strict';
 
+  // -------------------------------------------------------------
   // State
+  // -------------------------------------------------------------
+  let activeTab = 'words'; // 'words' | 'ayahs'
   let activeLetter = 'ALL';
   let activeCategory = 'ALL';
+  let activeAyahUnit = '2'; // Unit 2 default
+  let activeAyahLesson = '1'; // Default to Lesson 1 of selected Unit
   let activeLangMode = 'ALL'; // 'ALL' (both shown by default), 'UR' (Urdu only), 'EN' (English only)
   let searchQuery = '';
 
+  // -------------------------------------------------------------
   // DOM Elements
+  // -------------------------------------------------------------
+  // Tab Navigation Elements
+  const tabWordsBtn = document.getElementById('tabWordsBtn');
+  const tabAyahsBtn = document.getElementById('tabAyahsBtn');
+  const viewWords = document.getElementById('viewWords');
+  const viewAyahs = document.getElementById('viewAyahs');
+
+  // Words View Elements
   const searchInput = document.getElementById('searchInput');
   const clearSearchBtn = document.getElementById('clearSearchBtn');
   const alphabetBar = document.getElementById('alphabetBar');
   const dictionaryList = document.getElementById('dictionaryList');
   const wordCountDisplay = document.getElementById('wordCount');
   const catFilterBtns = document.querySelectorAll('.cat-filter-btn');
+
+  // Ayahs View Elements (Simple Unit & Lesson, no search)
+  const ayahUnitSelect = document.getElementById('ayahUnitSelect');
+  const ayahLessonSelect = document.getElementById('ayahLessonSelect');
+  const ayahsList = document.getElementById('ayahsList');
+  const ayahCountDisplay = document.getElementById('ayahCount');
+
+  // Header & Global Controls
   const themeToggleBtn = document.getElementById('themeToggleBtn');
   const toggleUrduBtn = document.getElementById('toggleUrduBtn');
   const toggleEnglishBtn = document.getElementById('toggleEnglishBtn');
@@ -29,7 +53,7 @@
   const outlineModal = document.getElementById('outlineModal');
   const outlineCloseBtn = document.getElementById('outlineCloseBtn');
 
-  // Arabic Alphabet list for the filter bar
+  // Arabic Alphabet list for the Words filter bar
   const ARABIC_ALPHABET = [
     'أ', 'ب', 'ت', 'ث', 'ج', 'ح', 'خ', 'د', 'ذ', 'ر', 
     'ز', 'س', 'ش', 'ص', 'ض', 'ط', 'ظ', 'ع', 'غ', 'ف', 
@@ -37,9 +61,8 @@
   ];
 
   // -------------------------------------------------------------
-  // 1. Text Normalization Helpers
+  // 1. Text Normalization Helpers & Scroll Utility
   // -------------------------------------------------------------
-
   function normalizeEnglish(str) {
     if (!str) return '';
     return str
@@ -64,12 +87,51 @@
       .replace(/\u06A9/g, '\u0643')
       .replace(/[\u06CC\u0649]/g, '\u064A')
       .replace(/[\u06C1\u0629]/g, '\u0647')
-      .replace(/[\s\-\–\—\.\,\;\:]/g, '')
+      .replace(/[\s\-\–\—\.\,\;\:\•]/g, '')
       .trim();
   }
 
+  // Smooth scroll back to top of list/page when searching or changing filters
+  function scrollToTopIfScrolled() {
+    if (window.scrollY > 40) {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
+  }
+
   // -------------------------------------------------------------
-  // 2. Alphabet Bar Initialization
+  // 2. Main Tabs Navigation (Words vs. Ayahs)
+  // -------------------------------------------------------------
+  function initTabs() {
+    tabWordsBtn.addEventListener('click', () => switchTab('words'));
+    tabAyahsBtn.addEventListener('click', () => switchTab('ayahs'));
+  }
+
+  function switchTab(tab) {
+    activeTab = tab;
+    const isWords = tab === 'words';
+
+    tabWordsBtn.classList.toggle('active', isWords);
+    tabWordsBtn.setAttribute('aria-selected', isWords ? 'true' : 'false');
+    tabAyahsBtn.classList.toggle('active', !isWords);
+    tabAyahsBtn.setAttribute('aria-selected', !isWords ? 'true' : 'false');
+
+    viewWords.style.display = isWords ? 'block' : 'none';
+    viewAyahs.style.display = !isWords ? 'block' : 'none';
+
+    scrollToTopIfScrolled();
+
+    if (!isWords) {
+      renderAyahs();
+    } else {
+      renderWords();
+    }
+  }
+
+  // -------------------------------------------------------------
+  // 3. Alphabet Bar (Words View)
   // -------------------------------------------------------------
   function initAlphabetBar() {
     alphabetBar.innerHTML = '';
@@ -82,9 +144,11 @@
     alphabetBar.appendChild(allBtn);
 
     const letterCounts = {};
-    DICTIONARY_WORDS.forEach(w => {
-      letterCounts[w.letter] = (letterCounts[w.letter] || 0) + 1;
-    });
+    if (typeof DICTIONARY_WORDS !== 'undefined') {
+      DICTIONARY_WORDS.forEach(w => {
+        letterCounts[w.letter] = (letterCounts[w.letter] || 0) + 1;
+      });
+    }
 
     ARABIC_ALPHABET.forEach(letter => {
       const btn = document.createElement('button');
@@ -110,11 +174,56 @@
     document.querySelectorAll('.letter-btn').forEach(btn => {
       btn.classList.toggle('active', btn.getAttribute('data-letter') === letter);
     });
+    scrollToTopIfScrolled();
     renderWords();
   }
 
   // -------------------------------------------------------------
-  // 3. Category & Language Filter Toggles
+  // 4. Unit & Lesson Dual Filter Boxes (Ayahs View)
+  // -------------------------------------------------------------
+  function populateLessonsForUnit(unitVal) {
+    ayahLessonSelect.innerHTML = '';
+
+    if (unitVal === '2') {
+      for (let i = 1; i <= 13; i++) {
+        const opt = document.createElement('option');
+        opt.value = i.toString();
+        opt.textContent = `Lesson ${i}`;
+        ayahLessonSelect.appendChild(opt);
+      }
+      ayahLessonSelect.value = '1';
+      activeAyahLesson = '1';
+    } else {
+      const opt = document.createElement('option');
+      opt.value = '1';
+      opt.textContent = 'Lesson 1';
+      ayahLessonSelect.appendChild(opt);
+      activeAyahLesson = '1';
+    }
+  }
+
+  function initAyahFilters() {
+    // Populate Unit 2 lessons by default
+    populateLessonsForUnit('2');
+
+    // Unit change listener (defaults to Lesson 1 of selected unit)
+    ayahUnitSelect.addEventListener('change', () => {
+      activeAyahUnit = ayahUnitSelect.value;
+      populateLessonsForUnit(activeAyahUnit);
+      scrollToTopIfScrolled();
+      renderAyahs();
+    });
+
+    // Lesson change listener
+    ayahLessonSelect.addEventListener('change', () => {
+      activeAyahLesson = ayahLessonSelect.value;
+      scrollToTopIfScrolled();
+      renderAyahs();
+    });
+  }
+
+  // -------------------------------------------------------------
+  // 5. Category & Language Filter Toggles
   // -------------------------------------------------------------
   function initCategoryFilters() {
     catFilterBtns.forEach(btn => {
@@ -122,6 +231,7 @@
         catFilterBtns.forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         activeCategory = btn.getAttribute('data-cat') || 'ALL';
+        scrollToTopIfScrolled();
         renderWords();
       });
     });
@@ -130,36 +240,20 @@
   function initLanguageToggles() {
     const savedMode = localStorage.getItem('mq_lang_mode') || 'ALL';
     activeLangMode = savedMode;
-
     updateToggleButtonsUI();
 
-    // Clicking Urdu toggle
     toggleUrduBtn.addEventListener('click', () => {
-      if (activeLangMode === 'UR') {
-        // Untoggle -> returns to default both languages
-        activeLangMode = 'ALL';
-      } else {
-        // Toggled -> only Urdu is showed
-        activeLangMode = 'UR';
-      }
+      activeLangMode = (activeLangMode === 'UR') ? 'ALL' : 'UR';
       saveAndRender();
     });
 
-    // Clicking English toggle
     toggleEnglishBtn.addEventListener('click', () => {
-      if (activeLangMode === 'EN') {
-        // Untoggle -> returns to default both languages
-        activeLangMode = 'ALL';
-      } else {
-        // Toggled -> only English is showed
-        activeLangMode = 'EN';
-      }
+      activeLangMode = (activeLangMode === 'EN') ? 'ALL' : 'EN';
       saveAndRender();
     });
   }
 
   function updateToggleButtonsUI() {
-    // Buttons are active only when explicitly filtering to that language
     toggleUrduBtn.classList.toggle('active', activeLangMode === 'UR');
     toggleEnglishBtn.classList.toggle('active', activeLangMode === 'EN');
   }
@@ -168,72 +262,98 @@
     localStorage.setItem('mq_lang_mode', activeLangMode);
     updateToggleButtonsUI();
     renderWords();
+    renderAyahs();
   }
 
   // -------------------------------------------------------------
-  // 4. Filtering Engine
+  // 6. Filtering Engine (Words: Prioritizes Arabic & Transliteration)
   // -------------------------------------------------------------
   function getFilteredWords() {
+    if (typeof DICTIONARY_WORDS === 'undefined') return [];
     const rawQuery = searchQuery.trim();
     const normEnQuery = normalizeEnglish(rawQuery);
     const normArQuery = normalizeArabic(rawQuery);
 
-    return DICTIONARY_WORDS.filter(w => {
-      // 1. Alphabet Letter Match
-      if (activeLetter !== 'ALL' && w.letter !== activeLetter) {
-        return false;
-      }
+    // If no search query, filter by letter and category preserving alphabetical order
+    if (rawQuery.length === 0) {
+      return DICTIONARY_WORDS.filter(w => {
+        if (activeLetter !== 'ALL' && w.letter !== activeLetter) return false;
+        if (activeCategory !== 'ALL' && !w.cat.includes(activeCategory)) return false;
+        return true;
+      });
+    }
 
-      // 2. Category Match
-      if (activeCategory !== 'ALL') {
-        if (!w.cat.includes(activeCategory)) {
-          return false;
+    // When searching: Strictly prioritize Arabic and Transliteration
+    const scoredMatches = [];
+
+    DICTIONARY_WORDS.forEach(w => {
+      if (activeCategory !== 'ALL' && !w.cat.includes(activeCategory)) return;
+
+      let score = 0;
+
+      // 1. Exact match on Arabic or Transliteration (Highest priority: 1000)
+      const exactAr = normArQuery.length > 0 && w.cleanAr === normArQuery;
+      const exactTr = normEnQuery.length > 0 && w.cleanTr === normEnQuery;
+
+      // 2. Starts-with prefix match on Arabic or Transliteration (Priority: 500)
+      const startsAr = normArQuery.length > 0 && w.cleanAr.startsWith(normArQuery);
+      const startsTr = normEnQuery.length > 0 && w.cleanTr.startsWith(normEnQuery);
+
+      // 3. Substring match on Arabic or Transliteration (Priority: 250)
+      const containsAr = normArQuery.length > 0 && w.cleanAr.includes(normArQuery);
+      const containsTr = normEnQuery.length > 0 && w.cleanTr.includes(normEnQuery);
+
+      if (exactAr || exactTr) {
+        score = 1000;
+      } else if (startsAr || startsTr) {
+        score = 500;
+      } else if (containsAr || containsTr) {
+        score = 250;
+      } else {
+        // 4. Meaning matches (strictly secondary, requiring at least 3 chars)
+        // Token-level check so random partial collisions do not displace real words
+        const containsEnMeaning = normEnQuery.length >= 3 && w.cleanEn && 
+          w.cleanEn.split(/\s+/).some(token => token === normEnQuery || token.startsWith(normEnQuery));
+        const normUr = normalizeArabic(w.ur);
+        const containsUrMeaning = normArQuery.length >= 3 && 
+          normUr.split(/\s+/).some(token => token === normArQuery || token.startsWith(normArQuery));
+
+        if (containsEnMeaning || containsUrMeaning) {
+          score = 10;
         }
       }
 
-      // 3. Search Query Match
-      if (rawQuery.length > 0) {
-        // Match 1: Transliteration (plain English: "kitab", "ibrahim", "taqwa")
-        if (normEnQuery.length > 0 && w.cleanTr.includes(normEnQuery)) {
-          return true;
-        }
-
-        // Match 2: English Meaning (e.g. "righteous", "covenant", "punishment")
-        if (normEnQuery.length > 0 && w.cleanEn && w.cleanEn.includes(normEnQuery)) {
-          return true;
-        }
-
-        // Match 3: Arabic text (diacritic-tolerant: "متقون", "عاقبه", "ظلمات")
-        if (normArQuery.length > 0 && w.cleanAr.includes(normArQuery)) {
-          return true;
-        }
-
-        // Match 4: Urdu Meaning (e.g. "بخشش", "نافرمانی", "سرکش")
-        const normUrduMeaning = normalizeArabic(w.ur);
-        if (normArQuery.length > 0 && normUrduMeaning.includes(normArQuery)) {
-          return true;
-        }
-
-        return false;
+      if (score > 0) {
+        scoredMatches.push({ word: w, score });
       }
-
-      return true;
     });
+
+    // Sort: Highest match score first, then fallback to original alphabetical order
+    scoredMatches.sort((a, b) => {
+      if (b.score !== a.score) {
+        return b.score - a.score;
+      }
+      return a.word.idx - b.word.idx;
+    });
+
+    return scoredMatches.map(item => item.word);
   }
 
   // -------------------------------------------------------------
-  // 5. Render Words List
+  // 7. Render Words List
   // -------------------------------------------------------------
   function renderWords() {
     const filtered = getFilteredWords();
-    wordCountDisplay.textContent = `${filtered.length} words`;
+    if (wordCountDisplay) {
+      wordCountDisplay.textContent = `${filtered.length} words`;
+    }
 
     if (filtered.length === 0) {
       dictionaryList.innerHTML = `
         <div class="empty-state">
           <div class="empty-state-icon">🔍</div>
           <div class="empty-state-text">No words found</div>
-          <div class="empty-state-hint">Try searching in English (righteous), transliteration (taqwa), Arabic (مُتَّقُونَ), or Urdu (بخشش).</div>
+          <div class="empty-state-hint">Try searching by Arabic (مُتَّقُونَ) or transliteration (taqwa, allah).</div>
         </div>
       `;
       return;
@@ -245,7 +365,6 @@
       const card = document.createElement('article');
       card.className = 'dict-card';
 
-      // Bilingual Category Badge with consistent Urdu font
       let badgeClass = 'badge-default';
       let badgeText = w.cat;
       if (w.cat.includes('اسْم')) {
@@ -265,10 +384,6 @@
         badgeText = 'Adjective • <span class="font-urdu">صفت</span>';
       }
 
-      // Meanings section based on activeLangMode:
-      // When both are off (activeLangMode === 'ALL'): Both languages are available!
-      // When UR is toggled: Only Urdu is showed.
-      // When EN is toggled: Only English is showed.
       let meaningsHtml = '';
       let meaningsBoxClass = 'card-meanings';
 
@@ -310,7 +425,154 @@
   }
 
   // -------------------------------------------------------------
-  // 6. Search Event Handling
+  // 8. Filtering Engine (Ayahs: Unit > Lesson only, no search)
+  // -------------------------------------------------------------
+  function getFilteredAyahs() {
+    if (typeof QURANIC_AYAHS === 'undefined') return [];
+
+    return QURANIC_AYAHS.filter(a => {
+      // 1. Unit Filter (Unit 2 default)
+      if (a.unit.toString() !== activeAyahUnit) {
+        return false;
+      }
+
+      // 2. Lesson Filter (Lesson 1 default)
+      if (a.lesson.toString() !== activeAyahLesson) {
+        return false;
+      }
+
+      return true;
+    });
+  }
+
+  // -------------------------------------------------------------
+  // 9. Render Ayahs List (Word-to-Translation Color Coded)
+  // -------------------------------------------------------------
+  function renderAyahs() {
+    const filtered = getFilteredAyahs();
+    if (ayahCountDisplay) {
+      ayahCountDisplay.textContent = `${filtered.length} verses`;
+    }
+
+    if (filtered.length === 0) {
+      ayahsList.innerHTML = `
+        <div class="empty-state">
+          <div class="empty-state-icon">📜</div>
+          <div class="empty-state-text">No verses found</div>
+        </div>
+      `;
+      return;
+    }
+
+    const fragment = document.createDocumentFragment();
+
+    filtered.forEach((a, idx) => {
+      const card = document.createElement('article');
+      card.className = 'ayah-card';
+
+      // Check for color-coded chunks
+      let arabicHtml = '';
+      let urduHtml = '';
+      let enHtml = '';
+
+      if (a.chunks && a.chunks.length > 0) {
+        arabicHtml = a.chunks.map((c, cIdx) => 
+          `<span class="chunk-seg chunk-${cIdx % 6}" data-chunk="${cIdx}">${c.ar}</span>`
+        ).join(' ');
+
+        urduHtml = a.chunks.map((c, cIdx) => 
+          `<span class="chunk-seg chunk-${cIdx % 6}" data-chunk="${cIdx}">${c.ur}</span>`
+        ).join(' ');
+
+        enHtml = a.chunks.map((c, cIdx) => 
+          `<span class="chunk-seg chunk-${cIdx % 6}" data-chunk="${cIdx}">${c.en}</span>`
+        ).join(' ');
+      } else {
+        arabicHtml = a.arabic;
+        urduHtml = a.urdu;
+        enHtml = a.en;
+      }
+
+      let meaningsHtml = '';
+      let meaningsBoxClass = 'ayah-meanings';
+
+      if (activeLangMode === 'ALL') {
+        meaningsHtml = `
+          <div class="meaning-urdu" dir="rtl">${urduHtml}</div>
+          <div class="meaning-en">${enHtml}</div>
+        `;
+      } else if (activeLangMode === 'UR') {
+        meaningsHtml = `
+          <div class="meaning-urdu" dir="rtl">${urduHtml}</div>
+        `;
+      } else if (activeLangMode === 'EN') {
+        meaningsBoxClass += ' single-en';
+        meaningsHtml = `
+          <div class="meaning-en">${enHtml}</div>
+        `;
+      }
+
+      // Clean Ayah Card: subtle verse numeral, prominent color-coded Arabic, and synchronized color translations
+      card.innerHTML = `
+        <span class="ayah-num">#${idx + 1}</span>
+        <div class="ayah-arabic" dir="rtl">
+          ${arabicHtml}
+        </div>
+        <div class="${meaningsBoxClass}">
+          ${meaningsHtml}
+        </div>
+      `;
+
+      // Synchronized hover & mobile tap highlighting across Arabic, Urdu, and English
+      function setChunkHighlight(chunkId) {
+        card.querySelectorAll('.chunk-seg').forEach(el => {
+          if (el.getAttribute('data-chunk') === chunkId) {
+            el.classList.add('chunk-hover');
+          } else {
+            el.classList.remove('chunk-hover');
+          }
+        });
+      }
+
+      function clearChunkHighlight() {
+        card.querySelectorAll('.chunk-seg').forEach(el => el.classList.remove('chunk-hover'));
+      }
+
+      card.addEventListener('mouseover', (e) => {
+        const seg = e.target.closest('.chunk-seg');
+        if (!seg) return;
+        setChunkHighlight(seg.getAttribute('data-chunk'));
+      });
+
+      card.addEventListener('mouseout', (e) => {
+        const seg = e.target.closest('.chunk-seg');
+        if (!seg) return;
+        clearChunkHighlight();
+      });
+
+      card.addEventListener('click', (e) => {
+        const seg = e.target.closest('.chunk-seg');
+        if (!seg) {
+          clearChunkHighlight();
+          return;
+        }
+        const cId = seg.getAttribute('data-chunk');
+        if (seg.classList.contains('chunk-hover')) {
+          clearChunkHighlight();
+        } else {
+          setChunkHighlight(cId);
+        }
+      });
+
+      fragment.appendChild(card);
+    });
+
+    ayahsList.innerHTML = '';
+    ayahsList.appendChild(fragment);
+  }
+
+  // -------------------------------------------------------------
+  // 10. Search Event Handling (Words View only)
   // -------------------------------------------------------------
   function initSearchEvents() {
     let debounceTimer;
@@ -319,6 +581,16 @@
       clearTimeout(debounceTimer);
       const val = e.target.value;
       clearSearchBtn.style.display = val.length > 0 ? 'block' : 'none';
+
+      // When starting a search query, reset letter filter to ALL so entire lexicon is searched
+      if (val.length > 0 && activeLetter !== 'ALL') {
+        activeLetter = 'ALL';
+        document.querySelectorAll('.letter-btn').forEach(btn => {
+          btn.classList.toggle('active', btn.getAttribute('data-letter') === 'ALL');
+        });
+      }
+
+      scrollToTopIfScrolled();
 
       debounceTimer = setTimeout(() => {
         searchQuery = val;
@@ -331,9 +603,11 @@
       searchQuery = '';
       clearSearchBtn.style.display = 'none';
       searchInput.focus();
+      scrollToTopIfScrolled();
       renderWords();
     });
 
+    // Keyboard Shortcuts
     window.addEventListener('keydown', e => {
       if (e.key === 'Escape') {
         if (outlineModal.classList.contains('open')) {
@@ -345,18 +619,21 @@
           searchQuery = '';
           clearSearchBtn.style.display = 'none';
           searchInput.blur();
+          scrollToTopIfScrolled();
           renderWords();
         }
-      } else if (e.key === '/' && document.activeElement !== searchInput && !outlineModal.classList.contains('open')) {
+      } else if (e.key === '/' && !['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName) && !outlineModal.classList.contains('open')) {
         e.preventDefault();
-        searchInput.focus();
-        searchInput.select();
+        if (activeTab === 'words') {
+          searchInput.focus();
+          searchInput.select();
+        }
       }
     });
   }
 
   // -------------------------------------------------------------
-  // 7. Course Outline Modal Handlers
+  // 11. Course Outline Modal Handlers
   // -------------------------------------------------------------
   function openOutlineModal() {
     outlineModal.classList.add('open');
@@ -382,7 +659,7 @@
   }
 
   // -------------------------------------------------------------
-  // 8. Theme Toggle (Dark / Light)
+  // 12. Theme Toggle (Dark / Light)
   // -------------------------------------------------------------
   function initTheme() {
     const savedTheme = localStorage.getItem('mq_theme') || 'light';
@@ -407,13 +684,15 @@
   }
 
   // -------------------------------------------------------------
-  // 9. Bootstrap Application
+  // 13. Bootstrap Application
   // -------------------------------------------------------------
   function init() {
     initTheme();
     initLanguageToggles();
+    initTabs();
     initAlphabetBar();
     initCategoryFilters();
+    initAyahFilters();
     initSearchEvents();
     initOutlineModal();
     renderWords();
