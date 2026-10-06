@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مُعْجَمُ الْقُرْآنِ — Quranic Arabic Dictionary</title>
+  <meta name="description" content="Alphabetical Quranic Arabic vocabulary dictionary (407 Base Words) with bilingual English and Urdu meanings. Fast, diacritic-tolerant search.">
+
+  <!-- Google Fonts: Amiri (Arabic), Inter (English) & Noto Nastaliq Urdu (Urdu) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- Top Header -->
+    <header class="app-header">
+      <div class="brand-wrapper">
+        <h1 class="brand-title">
+          <span class="brand-arabic">مُعْجَمُ الْقُرْآنِ</span>
+        </h1>
+        <p class="brand-subtitle">Quranic Arabic Dictionary • 407 Words • Alphabetical Lexicon</p>
+      </div>
+
+      <div class="header-actions">
+        <!-- Dual Language Toggles (Off by default: both languages shown) -->
+        <div class="lang-switcher" role="group" aria-label="Language selection toggles">
+          <button id="toggleUrduBtn" class="lang-pill" title="Filter to Urdu only"><span class="font-urdu">اردو</span></button>
+          <button id="toggleEnglishBtn" class="lang-pill" title="Filter to English only">English</button>
+        </div>
+
+        <!-- Course Outline Button -->
+        <button id="outlineToggleBtn" class="btn-action highlight" aria-label="Open Course Outline">
+          📋 Course Outline
+        </button>
+
+        <!-- Theme Toggle Button -->
+        <button id="themeToggleBtn" class="btn-action" aria-label="Toggle theme">
+          🌙 Dark
+        </button>
+      </div>
+    </header>
+
+    <!-- Sticky Search & Alphabet Controls -->
+    <section class="search-controls">
+      <!-- Search Input Box with distinct examples -->
+      <div class="search-box-wrapper">
+        <span class="search-icon">🔍</span>
+        <input 
+          type="text" 
+          id="searchInput" 
+          class="search-input" 
+          placeholder="Search English (righteous), transliteration (taqwa), Arabic (مُتَّقُونَ), or Urdu (بخشش)... [/]"
+          autocomplete="off"
+          autocorrect="off"
+          spellcheck="false"
+        >
+        <button id="clearSearchBtn" class="clear-btn" aria-label="Clear search">✕</button>
+      </div>
+
+      <!-- Horizontal Alphabet Jump Bar -->
+      <nav id="alphabetBar" class="alphabet-bar" aria-label="Alphabetical navigation">
+        <!-- Rendered dynamically by app.js -->
+      </nav>
+
+      <!-- Sub-filter / Status Bar -->
+      <div class="status-bar">
+        <div>
+          Showing: <span id="wordCount" class="word-count">407 words</span>
+        </div>
+        <div class="category-filters">
+          <button class="cat-filter-btn active" data-cat="ALL">All</button>
+          <button class="cat-filter-btn" data-cat="اسْم">Noun • <span class="font-urdu">اسم</span></button>
+          <button class="cat-filter-btn" data-cat="حَرْف">Particle • <span class="font-urdu">حرف</span></button>
+          <button class="cat-filter-btn" data-cat="عَلَم">Proper Name • <span class="font-urdu">اسمِ علم</span></button>
+          <button class="cat-filter-btn" data-cat="فِعْل">Verb • <span class="font-urdu">فعل</span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Word List Display -->
+    <main id="dictionaryList" class="dictionary-list" aria-live="polite">
+      <!-- Cards rendered dynamically by app.js -->
+    </main>
+
+    <!-- Neutral Footer -->
+    <footer class="app-footer">
+      <p>Quranic Arabic Lexicon • 407 Words • Alphabetical Study Guide</p>
+    </footer>
+
+  </div>
+
+  <!-- Course Outline Modal (SS-1021: UOHQ-I Weeks 01 to 08) -->
+  <div id="outlineModal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-labelledby="outlineModalTitle">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <h2 id="outlineModalTitle" class="modal-title">SS-1021: Understanding Holy Quran - I (UOHQ-I)</h2>
+          <p class="modal-subtitle">Course Syllabus & Weekly Academic Roadmap (Weeks 01 – 08)</p>
+        </div>
+        <button id="outlineCloseBtn" class="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+
+      <!-- Weekly Roadmap (Weeks 1 to 8 only) -->
+      <div class="outline-section">
+        <h3 class="outline-section-title">🗓️ Weekly Academic Roadmap (Part I)</h3>
+
+        <div class="week-list">
+          <div class="week-item">
+            <div class="week-item-title">Week 01: Introduction & Tajweed Fundamentals</div>
+            <div class="week-item-desc">Definition and importance of Tajweed, fundamental articulation points (Makhārij), and basic recitation rules.</div>
+          </div>
+
+          <div class="week-item">
+            <div class="week-item-title">Week 02: Basic & Famous Words of the Holy Quran</div>
+            <div class="week-item-desc">Introduction to basic Quranic vocabulary, Parts of Speech (Ism, Fi‘l, Ḥarf), Masculine vs. Feminine, Singular vs. Plural.</div>
+          </div>
+
+          <div class="week-item">
+            <div class="week-item-title">Week 03: Famous Attributes of Allah Mentioned in the Quran</div>
+            <div class="week-item-desc">Study and translation of selected Divine Names and Attributes in their Quranic context (Unit 1, Lesson 9).</div>
+          </div>
+
+          <div class="week-item">
+            <div class="week-item-title">Week 04: Demonstrative Pronouns (اسْمُ الْإِشَارَة) — هٰذَا and ذٰلِكَ</div>
+            <div class="week-item-desc">Near demonstrative (هٰذَا) and distant demonstrative (ذٰلِكَ), identifying the indicated noun (Mushārun Ilayh) in short Ayaat.</div>
+          </div>
+
+          <div class="week-item">
+            <div class="week-item-title">Week 05: Particles of Emphasis — إِنَّ and Assertive Lām لَـ</div>
+            <div class="week-item-desc">Particle of emphasis (Ḥarf Tawkīd), accusative case effect (Naṣb) on nominal sentences, and double-emphasis (Inna ... la-).</div>
+          </div>
+
+          <div class="week-item">
+            <div class="week-item-title">Week 06: Sessional Examination 1</div>
+            <div class="week-item-desc">Mid-term evaluation covering vocabulary and grammatical structures from Weeks 01 through 05.</div>
+          </div>
+
+          <div class="week-item">
+            <div class="week-item-title">Week 07: Prepositions of Direction and Instrumentality — إِلَىٰ and بِـ</div>
+            <div class="week-item-desc">Prepositions (Ḥurūf al-Jarr) and their genitive effect (Jarr / Kasrah) on subsequent nouns (Unit 2, Lessons 6 & 7).</div>
+          </div>
+
+          <div class="week-item">
+            <div class="week-item-title">Week 08: The Descriptive Compound (صفت اور موصوف) & Semester Review</div>
+            <div class="week-item-desc">Adjective phrases (مرکب توصیفی), 4-way mandatory agreement (gender, number, definiteness, and case), and synthesis for final review.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="outline-section" style="margin-bottom: 0;">
+        <p style="font-size: 0.8rem; color: var(--text-muted); text-align: center;">
+          Contact Hours: 02 • Credit Hours: 01 • Press ESC or click outside to close
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Embedded Data & App Logic -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
