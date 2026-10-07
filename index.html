@@ -32,48 +32,52 @@
       </div>
 
       <div class="header-actions">
-        <!-- Dual Language Toggles (Off by default: both languages shown) -->
+        <!-- Language Toggles ('Both' visible only on Words tab) -->
         <div class="lang-switcher" role="group" aria-label="Language selection toggles">
+          <button id="toggleBothBtn" class="lang-pill active" title="Show both languages">Both</button>
           <button id="toggleUrduBtn" class="lang-pill" title="Filter to Urdu only"><span class="font-urdu">اردو</span></button>
           <button id="toggleEnglishBtn" class="lang-pill" title="Filter to English only">English</button>
         </div>
 
         <!-- Course Outline Button -->
         <button id="outlineToggleBtn" class="btn-action highlight" aria-label="Open Course Outline">
-          📋 Course Outline
+          Course Outline
         </button>
 
         <!-- Theme Toggle Button -->
         <button id="themeToggleBtn" class="btn-action" aria-label="Toggle theme">
-          🌙 Dark
+          Dark
         </button>
       </div>
     </header>
 
-    <!-- Main Navigation Tabs: Words vs. Ayahs -->
+    <!-- Main Navigation Tabs: Words, Ayahs & Slices, Rules -->
     <nav class="main-tabs" role="tablist" aria-label="Main study views">
       <button id="tabWordsBtn" class="main-tab-btn active" role="tab" aria-selected="true" aria-controls="viewWords">
-        <span class="tab-icon">📖</span>
-        <span class="tab-text">Words • <span class="font-urdu">الفاظ</span></span>
+        <span class="tab-text">Words</span>
       </button>
       <button id="tabAyahsBtn" class="main-tab-btn" role="tab" aria-selected="false" aria-controls="viewAyahs">
-        <span class="tab-icon">📜</span>
-        <span class="tab-text">Ayahs • <span class="font-urdu">آیات</span></span>
+        <span class="tab-text">Ayahs & Slices</span>
+      </button>
+      <button id="tabRulesBtn" class="main-tab-btn" role="tab" aria-selected="false" aria-controls="viewRules">
+        <span class="tab-text">Rules</span>
       </button>
     </nav>
 
-    <!-- Tab View 1: Words Dictionary (407 Base Words) -->
+    <!-- Tab View 1: Words Dictionary & Universal Search -->
     <div id="viewWords" class="tab-view active" role="tabpanel" aria-labelledby="tabWordsBtn">
       <!-- Sticky Search & Alphabet Controls -->
       <section class="search-controls">
         <!-- Search Input Box prioritizing Arabic & Transliteration -->
         <div class="search-box-wrapper">
-          <span class="search-icon">🔍</span>
+          <span class="search-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          </span>
           <input 
             type="text" 
             id="searchInput" 
             class="search-input" 
-            placeholder="Search Arabic (مُتَّقُونَ) or transliteration (taqwa, allah)... [/]"
+            placeholder="Search without diacritics / اعراب (e.g. متقون or taqwa)... [/]"
             autocomplete="off"
             autocorrect="off"
             spellcheck="false"
@@ -81,21 +85,15 @@
           <button id="clearSearchBtn" class="clear-btn" aria-label="Clear search">✕</button>
         </div>
 
+        <!-- Search communication hint -->
+        <div class="search-hint-bar">
+          <span class="search-hint">Search without harakat (متقون, الله), by transliteration (taqwa, lillah), or by meaning.</span>
+        </div>
+
         <!-- Horizontal Alphabet Jump Bar -->
         <nav id="alphabetBar" class="alphabet-bar" aria-label="Alphabetical navigation">
           <!-- Rendered dynamically by app.js -->
         </nav>
-
-        <!-- Category Filters -->
-        <div class="status-bar">
-          <div class="category-filters">
-            <button class="cat-filter-btn active" data-cat="ALL">All</button>
-            <button class="cat-filter-btn" data-cat="اسْم">Noun • <span class="font-urdu">اسم</span></button>
-            <button class="cat-filter-btn" data-cat="حَرْف">Particle • <span class="font-urdu">حرف</span></button>
-            <button class="cat-filter-btn" data-cat="عَلَم">Proper Name • <span class="font-urdu">اسمِ علم</span></button>
-            <button class="cat-filter-btn" data-cat="فِعْل">Verb • <span class="font-urdu">فعل</span></button>
-          </div>
-        </div>
       </section>
 
       <!-- Word List Display -->
@@ -104,7 +102,7 @@
       </main>
     </div>
 
-    <!-- Tab View 2: Quranic Ayahs Practice (115 Verses) -->
+    <!-- Tab View 2: Quranic Ayahs & Slices Practice -->
     <div id="viewAyahs" class="tab-view" role="tabpanel" aria-labelledby="tabAyahsBtn" style="display: none;">
       <!-- Sticky Unit & Lesson Selector -->
       <section class="search-controls">
@@ -126,16 +124,24 @@
             </select>
           </div>
         </div>
-
-        <!-- Subtle Helper Hint -->
-        <div class="ayah-hint-bar">
-          <span class="ayah-hint-text">💡 Tap or hover over any word to highlight matching translations.</span>
-        </div>
       </section>
 
-      <!-- Ayahs List Display -->
+      <!-- Ayahs & Slices List Display -->
       <main id="ayahsList" class="ayahs-list" aria-live="polite">
-        <!-- Ayah cards rendered dynamically by app.js -->
+        <!-- Ayah & Slice cards rendered dynamically by app.js -->
+      </main>
+    </div>
+
+    <!-- Tab View 3: Grammar Rules Reference (Listed all in one place, no lesson labels) -->
+    <div id="viewRules" class="tab-view" role="tabpanel" aria-labelledby="tabRulesBtn" style="display: none;">
+      <div class="rules-header">
+        <h2 class="rules-title">Quranic Grammar Rules & Syntactic Operators</h2>
+        <p class="rules-desc">A unified reference of grammatical operators, syntactic formulas, and case effects (I'rab) across the curriculum.</p>
+      </div>
+
+      <!-- Rules List Display -->
+      <main id="rulesList" class="rules-list" aria-live="polite">
+        <!-- Rule cards rendered dynamically by app.js -->
       </main>
     </div>
 
@@ -154,7 +160,7 @@
 
       <!-- Weekly Roadmap (Weeks 1 to 8 only) -->
       <div class="outline-section">
-        <h3 class="outline-section-title">🗓️ Weekly Academic Roadmap (Part I)</h3>
+        <h3 class="outline-section-title">Weekly Academic Roadmap (Part I)</h3>
 
         <div class="week-list">
           <div class="week-item">
@@ -208,8 +214,14 @@
     </div>
   </div>
 
+  <!-- Floating Back to Top Button -->
+  <button id="backToTopBtn" class="back-to-top-btn" aria-label="Back to top" title="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
   <!-- Embedded Data & App Logic -->
   <script src="data.js"></script>
+  <script src="rules_data.js"></script>
   <script src="ayahs_data.js"></script>
   <script src="app.js"></script>
 </body>

@@ -5,7 +5,7 @@
         "ar":  "إِبْرَاهِيمُ",
         "tr":  "Ibrāhīm",
         "cleanTr":  "ibrahim",
-        "cleanAr":  "ابراهيم",
+        "cleanAr":  "Ø§براهيم",
         "letter":  "أ",
         "cat":  "عَلَمٌ",
         "func":  "Proper Name (Prophet) / عَلَم",
@@ -19,7 +19,7 @@
         "ar":  "إِبِلٌ",
         "tr":  "Ibil",
         "cleanTr":  "ibil",
-        "cleanAr":  "ابل",
+        "cleanAr":  "Ø§بل",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Noun (Species) / اسْمُ جِنْس",
@@ -33,7 +33,7 @@
         "ar":  "إِبْلِيسُ",
         "tr":  "Iblīs",
         "cleanTr":  "iblis",
-        "cleanAr":  "ابليس",
+        "cleanAr":  "Ø§بليس",
         "letter":  "أ",
         "cat":  "عَلَمٌ",
         "func":  "Proper Name / عَلَم",
@@ -47,7 +47,7 @@
         "ar":  "آتِيَةٌ",
         "tr":  "Ātiyah",
         "cleanTr":  "atiyah",
-        "cleanAr":  "اتيه",
+        "cleanAr":  "Ø§تيه",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Active Participle / اسْمُ فَاعِل",
@@ -61,7 +61,7 @@
         "ar":  "إِثْمٌ",
         "tr":  "Ithm",
         "cleanTr":  "ithm",
-        "cleanAr":  "اثم",
+        "cleanAr":  "Ø§ثم",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
@@ -75,7 +75,7 @@
         "ar":  "أَجْرٌ",
         "tr":  "Ajr",
         "cleanTr":  "ajr",
-        "cleanAr":  "اجر",
+        "cleanAr":  "Ø§جر",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
@@ -89,7 +89,7 @@
         "ar":  "أَجَلٌ",
         "tr":  "Ajal",
         "cleanTr":  "ajal",
-        "cleanAr":  "اجل",
+        "cleanAr":  "Ø§جل",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Noun (Time) / اسْمُ زَمَان",
@@ -103,7 +103,7 @@
         "ar":  "أَحَدٌ",
         "tr":  "Aḥad",
         "cleanTr":  "ahad",
-        "cleanAr":  "احد",
+        "cleanAr":  "Ø§حد",
         "letter":  "أ",
         "cat":  "ضَمِيرٌ",
         "func":  "Noun / Pronoun / اسْمٌ",
@@ -117,7 +117,7 @@
         "ar":  "إِحْسَانٌ",
         "tr":  "Iḥsān",
         "cleanTr":  "ihsan",
-        "cleanAr":  "احسان",
+        "cleanAr":  "Ø§حسان",
         "letter":  "أ",
         "cat":  "فِعْلٌ",
         "func":  "Verbal Noun / مَصْدَر",
@@ -131,7 +131,7 @@
         "ar":  "آخِرَةٌ",
         "tr":  "Ākhirah",
         "cleanTr":  "akhirah",
-        "cleanAr":  "اخره",
+        "cleanAr":  "Ø§خره",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
@@ -145,7 +145,7 @@
         "ar":  "آدَمُ",
         "tr":  "Ādam",
         "cleanTr":  "adam",
-        "cleanAr":  "ادم",
+        "cleanAr":  "Ø§دم",
         "letter":  "أ",
         "cat":  "عَلَمٌ",
         "func":  "Proper Name (Prophet) / عَلَم",
@@ -159,7 +159,7 @@
         "ar":  "أَذْقَانٌ (ذَقَنٌ)",
         "tr":  "Adhqān (Dhaqan)",
         "cleanTr":  "adhqan (dhaqan)",
-        "cleanAr":  "اذقان (ذقن)",
+        "cleanAr":  "Ø§ذقان (ذقن)",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Plural Noun / جَمْع",
@@ -173,7 +173,7 @@
         "ar":  "أُذُنٌ",
         "tr":  "Udhun",
         "cleanTr":  "udhun",
-        "cleanAr":  "اذن",
+        "cleanAr":  "Ø§ذن",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
@@ -187,7 +187,7 @@
         "ar":  "أَرْضٌ",
         "tr":  "Arḍ",
         "cleanTr":  "ard",
-        "cleanAr":  "ارض",
+        "cleanAr":  "Ø§رض",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Noun (Place) / اسْمٌ",
@@ -201,7 +201,7 @@
         "ar":  "أَسْبَاطٌ",
         "tr":  "Asbāṭ",
         "cleanTr":  "asbat",
-        "cleanAr":  "اسباط",
+        "cleanAr":  "Ø§سباط",
         "letter":  "أ",
         "cat":  "عَلَمٌ",
         "func":  "Proper Tribe / عَلَم",
@@ -215,7 +215,7 @@
         "ar":  "إِسْحَاقُ",
         "tr":  "Is-ḥāq",
         "cleanTr":  "ishaq",
-        "cleanAr":  "اسحاق",
+        "cleanAr":  "Ø§سحاق",
         "letter":  "أ",
         "cat":  "عَلَمٌ",
         "func":  "Proper Name (Prophet) / عَلَم",
@@ -229,7 +229,7 @@
         "ar":  "إِسْلَامٌ",
         "tr":  "Islām",
         "cleanTr":  "islam",
-        "cleanAr":  "اسلام",
+        "cleanAr":  "Ø§سلام",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
@@ -243,7 +243,7 @@
         "ar":  "إِسْمَاعِيلُ",
         "tr":  "Ismā‘īl",
         "cleanTr":  "ismail",
-        "cleanAr":  "اسماعيل",
+        "cleanAr":  "Ø§سماعيل",
         "letter":  "أ",
         "cat":  "عَلَمٌ",
         "func":  "Proper Name (Prophet) / عَلَم",
@@ -257,7 +257,7 @@
         "ar":  "أَشْقَىٰ",
         "tr":  "Ashqā",
         "cleanTr":  "ashqa",
-        "cleanAr":  "اشقي",
+        "cleanAr":  "Ø§شقي",
         "letter":  "أ",
         "cat":  "صِفَةٌ",
         "func":  "Superlative Adjective / اسْمُ تَفْضِيل",
@@ -271,7 +271,7 @@
         "ar":  "إِصْلَاحٌ",
         "tr":  "Iṣlāḥ",
         "cleanTr":  "islah",
-        "cleanAr":  "اصلاح",
+        "cleanAr":  "Ø§صلاح",
         "letter":  "أ",
         "cat":  "فِعْلٌ",
         "func":  "Verbal Noun / مَصْدَر",
@@ -285,7 +285,7 @@
         "ar":  "أَعْرَجُ",
         "tr":  "A‘raj",
         "cleanTr":  "araj",
-        "cleanAr":  "اعرج",
+        "cleanAr":  "Ø§عرج",
         "letter":  "أ",
         "cat":  "صِفَةٌ",
         "func":  "Adjective (Disability) / صِفَة",
@@ -299,7 +299,7 @@
         "ar":  "أَعْمَىٰ",
         "tr":  "A‘mā",
         "cleanTr":  "ama",
-        "cleanAr":  "اعمي",
+        "cleanAr":  "Ø§عمي",
         "letter":  "أ",
         "cat":  "صِفَةٌ",
         "func":  "Adjective (Disability) / صِفَة",
@@ -313,7 +313,7 @@
         "ar":  "إِفْكٌ",
         "tr":  "Ifk",
         "cleanTr":  "ifk",
-        "cleanAr":  "افك",
+        "cleanAr":  "Ø§فك",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
@@ -327,7 +327,7 @@
         "ar":  "أَفْئِدَةٌ (فُؤَادٌ)",
         "tr":  "Af’idah (Fu’ād)",
         "cleanTr":  "afidah (fuad)",
-        "cleanAr":  "افئده (فؤاد)",
+        "cleanAr":  "Ø§فئده (فؤاد)",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Plural Noun / جَمْع",
@@ -341,7 +341,7 @@
         "ar":  "إِكْرَاهٌ",
         "tr":  "Ikrāh",
         "cleanTr":  "ikrah",
-        "cleanAr":  "اكراه",
+        "cleanAr":  "Ø§كراه",
         "letter":  "أ",
         "cat":  "فِعْلٌ",
         "func":  "Verbal Noun / مَصْدَر",
@@ -355,7 +355,7 @@
         "ar":  "إِلَّا",
         "tr":  "Illā",
         "cleanTr":  "illa",
-        "cleanAr":  "الا",
+        "cleanAr":  "Ø§لا",
         "letter":  "أ",
         "cat":  "حَرْفٌ",
         "func":  "Exceptive Particle / حَرْفُ اِسْتِثْنَاء و حَصْر",
@@ -369,13 +369,13 @@
         "ar":  "إِلٰهٌ",
         "tr":  "Ilāh",
         "cleanTr":  "ilah",
-        "cleanAr":  "اله",
+        "cleanAr":  "Ø§له",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "معبود، بندگی کے لائق ہستی",
-        "en":  "Deity, God",
-        "cleanEn":  "deity god"
+        "en":  "Deity, God worthy of worship",
+        "cleanEn":  "deity god worthy of worship"
     },
     {
         "idx":  28,
@@ -383,7 +383,7 @@
         "ar":  "إِلَىٰ",
         "tr":  "Ilā",
         "cleanTr":  "ila",
-        "cleanAr":  "الي",
+        "cleanAr":  "Ø§لي",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Preposition (To / Towards) / حَرْفُ جَرّ (اِنْتِهَاء)",
@@ -397,7 +397,7 @@
         "ar":  "إِلْ يَاسِينَ",
         "tr":  "Il-Yāsīn",
         "cleanTr":  "ilyasin",
-        "cleanAr":  "ال ياسين",
+        "cleanAr":  "Ø§ل ياسين",
         "letter":  "أ",
         "cat":  "عَلَمٌ",
         "func":  "Proper (Prophet Elias) / عَلَم",
@@ -411,7 +411,7 @@
         "ar":  "أُمَّةٌ",
         "tr":  "Ummah",
         "cleanTr":  "ummah",
-        "cleanAr":  "امه",
+        "cleanAr":  "Ø§مه",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
@@ -425,7 +425,7 @@
         "ar":  "أَمْرٌ",
         "tr":  "Amr",
         "cleanTr":  "amr",
-        "cleanAr":  "امر",
+        "cleanAr":  "Ø§مر",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
@@ -439,7 +439,7 @@
         "ar":  "أَمْوَالٌ (مَالٌ)",
         "tr":  "Amwāl (Māl)",
         "cleanTr":  "amwal (mal)",
-        "cleanAr":  "اموال (مال)",
+        "cleanAr":  "Ø§موال (مال)",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Plural Noun / جَمْع",
@@ -453,7 +453,7 @@
         "ar":  "أَنَّ",
         "tr":  "Anna",
         "cleanTr":  "anna",
-        "cleanAr":  "ان",
+        "cleanAr":  "Ø§ن",
         "letter":  "أ",
         "cat":  "حَرْفٌ",
         "func":  "Subordinating Particle / حَرْفُ تَوْكِيد و مَصْدَرِيَّة",
@@ -467,7 +467,7 @@
         "ar":  "إِنَّ",
         "tr":  "Inna",
         "cleanTr":  "inna",
-        "cleanAr":  "ان",
+        "cleanAr":  "Ø§ن",
         "letter":  "أ",
         "cat":  "حَرْفٌ",
         "func":  "Particle of Emphasis / حرفِ تاکید",
@@ -481,7 +481,7 @@
         "ar":  "أَنَا",
         "tr":  "Anā",
         "cleanTr":  "ana",
-        "cleanAr":  "انا",
+        "cleanAr":  "Ø§نا",
         "letter":  "أ",
         "cat":  "ضَمِيرٌ",
         "func":  "Personal Pronoun (1st Sing.) / ضَمِير",
@@ -495,7 +495,7 @@
         "ar":  "أَنْتَ",
         "tr":  "Anta",
         "cleanTr":  "anta",
-        "cleanAr":  "انت",
+        "cleanAr":  "Ø§نت",
         "letter":  "أ",
         "cat":  "ضَمِيرٌ",
         "func":  "Personal Pronoun (2nd Sing.) / ضَمِير",
@@ -509,7 +509,7 @@
         "ar":  "أُنْثَىٰ",
         "tr":  "Unthā",
         "cleanTr":  "untha",
-        "cleanAr":  "انثي",
+        "cleanAr":  "Ø§نثي",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Noun (Gender) / اسْمٌ",
@@ -523,13 +523,13 @@
         "ar":  "إِنْجِيلٌ",
         "tr":  "Injīl",
         "cleanTr":  "injil",
-        "cleanAr":  "انجيل",
+        "cleanAr":  "Ø§نجيل",
         "letter":  "أ",
         "cat":  "عَلَمٌ",
         "func":  "Proper Scripture / الْكِتَابُ الْمُنَزَّل",
         "ur":  "انجیل (حضرت عیسیٰؑ پر نازل شدہ کتاب)",
-        "en":  "Gospel",
-        "cleanEn":  "gospel"
+        "en":  "Gospel (revealed to Jesus)",
+        "cleanEn":  "gospel revealed to jesus"
     },
     {
         "idx":  39,
@@ -537,7 +537,7 @@
         "ar":  "إِنْسٌ",
         "tr":  "Ins",
         "cleanTr":  "ins",
-        "cleanAr":  "انس",
+        "cleanAr":  "Ø§نس",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
@@ -551,7 +551,7 @@
         "ar":  "إِنْسَانٌ",
         "tr":  "Insān",
         "cleanTr":  "insan",
-        "cleanAr":  "انسان",
+        "cleanAr":  "Ø§نسان",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Noun (Species) / اسْمُ جِنْس",
@@ -565,7 +565,7 @@
         "ar":  "أَنْعَامٌ",
         "tr":  "An‘ām",
         "cleanTr":  "anam",
-        "cleanAr":  "انعام",
+        "cleanAr":  "Ø§نعام",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Plural Noun / جَمْع",
@@ -579,7 +579,7 @@
         "ar":  "أَنْفٌ",
         "tr":  "Anf",
         "cleanTr":  "anf",
-        "cleanAr":  "انف",
+        "cleanAr":  "Ø§نف",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
@@ -593,7 +593,7 @@
         "ar":  "أَنْفَالٌ",
         "tr":  "Anfāl",
         "cleanTr":  "anfal",
-        "cleanAr":  "انفال",
+        "cleanAr":  "Ø§نفال",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Plural Noun / جَمْع",
@@ -607,7 +607,7 @@
         "ar":  "أُولَىٰ",
         "tr":  "Ūlā",
         "cleanTr":  "ula",
-        "cleanAr":  "اولي",
+        "cleanAr":  "Ø§ولي",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Feminine Superlative / اسْمٌ",
@@ -621,7 +621,7 @@
         "ar":  "آيَةٌ (آيَاتٌ)",
         "tr":  "Āyah (Āyāt)",
         "cleanTr":  "ayah (ayat)",
-        "cleanAr":  "ايه (ايات)",
+        "cleanAr":  "Ø§يه (Ø§يات)",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
@@ -635,13 +635,13 @@
         "ar":  "إِيمَانٌ",
         "tr":  "Īmān",
         "cleanTr":  "iman",
-        "cleanAr":  "ايمان",
+        "cleanAr":  "Ø§يمان",
         "letter":  "أ",
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "ایمان، تصدیق، دلی یقین",
-        "en":  "Faith, Belief",
-        "cleanEn":  "faith belief"
+        "en":  "Faith, Belief, Conviction",
+        "cleanEn":  "faith belief conviction"
     },
     {
         "idx":  47,
@@ -649,7 +649,7 @@
         "ar":  "أَيُّوبُ",
         "tr":  "Ayyūb",
         "cleanTr":  "ayyub",
-        "cleanAr":  "ايوب",
+        "cleanAr":  "Ø§يوب",
         "letter":  "أ",
         "cat":  "عَلَمٌ",
         "func":  "Proper Name (Prophet) / عَلَم",
@@ -683,7 +683,7 @@
         "func":  "Proper Place / شَعَائِرُ اللَّه",
         "ur":  "مروہ (مکہ مکرمہ کی متبرک پہاڑی)",
         "en":  "Al-Marwah (sacred hill in Makkah)",
-        "cleanEn":  "almarwah sacred hill in makkah"
+        "cleanEn":  "al marwah sacred hill in makkah"
     },
     {
         "idx":  50,
@@ -705,13 +705,13 @@
         "ar":  "بَأْسَاءُ",
         "tr":  "Ba’sā’",
         "cleanTr":  "basa",
-        "cleanAr":  "باساا",
+        "cleanAr":  "بØ§ساØ§",
         "letter":  "ب",
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "شدید تنگی، فقر، جنگ و خوف",
-        "en":  "Hearts",
-        "cleanEn":  "hearts"
+        "en":  "Extreme hardship, Adversity, Poverty",
+        "cleanEn":  "extreme hardship adversity poverty"
     },
     {
         "idx":  52,
@@ -738,8 +738,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun (Place) / اسْمٌ",
         "ur":  "سمندر، بحر، دریا",
-        "en":  "Archangel Gabriel",
-        "cleanEn":  "archangel gabriel"
+        "en":  "Sea, Ocean, Large river",
+        "cleanEn":  "sea ocean large river"
     },
     {
         "idx":  54,
@@ -752,8 +752,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun (Place) / اسْمٌ",
         "ur":  "خشکی، زمین، میدانی علاقہ",
-        "en":  "Mary, mother of Jesus",
-        "cleanEn":  "mary mother of jesus"
+        "en":  "Land, Dry ground",
+        "cleanEn":  "land dry ground"
     },
     {
         "idx":  55,
@@ -766,8 +766,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "ٹھنڈک، خنکی، سردی",
-        "en":  "The Cloaked One (Al-Muddaththir)",
-        "cleanEn":  "the cloaked one almuddaththir"
+        "en":  "Coolness, Cold",
+        "cleanEn":  "coolness cold"
     },
     {
         "idx":  56,
@@ -780,8 +780,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "روشن اور قاطع دلیل، اٹل ثبوت",
-        "en":  "Proof, Evidence, Argument",
-        "cleanEn":  "proof evidence argument"
+        "en":  "Clear proof, Manifest evidence",
+        "cleanEn":  "clear proof manifest evidence"
     },
     {
         "idx":  57,
@@ -789,13 +789,13 @@
         "ar":  "بَرِيءٌ",
         "tr":  "Barī’",
         "cleanTr":  "bari",
-        "cleanAr":  "بريا",
+        "cleanAr":  "بريØ§",
         "letter":  "ب",
         "cat":  "صِفَةٌ",
         "func":  "Adjective / صِفَة",
         "ur":  "بیزار، بری الذمہ، الگ",
-        "en":  "Power, Absolute capability",
-        "cleanEn":  "power absolute capability"
+        "en":  "Free of, Innocent, Disassociated",
+        "cleanEn":  "free of innocent disassociated"
     },
     {
         "idx":  58,
@@ -808,8 +808,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "بشر، انسان، خاکی آدمی",
-        "en":  "Envy, Jealousy",
-        "cleanEn":  "envy jealousy"
+        "en":  "Human, Mortal, Human being",
+        "cleanEn":  "human mortal human being"
     },
     {
         "idx":  59,
@@ -836,8 +836,8 @@
         "cat":  "اسْمٌ",
         "func":  "Plural Noun / جَمْع",
         "ur":  "بصیرتیں، سوجھ بوجھ، دلوں کی روشن دلیلیں",
-        "en":  "The Patient, The Steadfast",
-        "cleanEn":  "the patient the steadfast"
+        "en":  "Insights, Clear proofs, Discernment",
+        "cleanEn":  "insights clear proofs discernment"
     },
     {
         "idx":  61,
@@ -850,8 +850,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "دیکھنا، نگاہ، آنکھ، بصارت، بینائی",
-        "en":  "Sight, Vision, Eye",
-        "cleanEn":  "sight vision eye"
+        "en":  "Sight, Vision, Eyesight",
+        "cleanEn":  "sight vision eyesight"
     },
     {
         "idx":  62,
@@ -864,8 +864,8 @@
         "cat":  "اسْمٌ",
         "func":  "Divine Attribute / صِفَة",
         "ur":  "سب کچھ خوب دیکھنے والا",
-        "en":  "All-Seeing",
-        "cleanEn":  "allseeing"
+        "en":  "All-Seeing (Divine Attribute)",
+        "cleanEn":  "all seeing divine attribute"
     },
     {
         "idx":  63,
@@ -878,8 +878,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "روشن بصیرت، دلی سوجھ بوجھ",
-        "en":  "Prophet Solomon",
-        "cleanEn":  "prophet solomon"
+        "en":  "Clear insight, Sure knowledge",
+        "cleanEn":  "clear insight sure knowledge"
     },
     {
         "idx":  64,
@@ -892,8 +892,8 @@
         "cat":  "اسْمٌ",
         "func":  "Plural Noun / جَمْع",
         "ur":  "پیٹ، شکم",
-        "en":  "Poet",
-        "cleanEn":  "poet"
+        "en":  "Bellies, Abdomens",
+        "cleanEn":  "bellies abdomens"
     },
     {
         "idx":  65,
@@ -906,8 +906,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "پیغام پہنچانا، تبلیغ، زادِ راہ",
-        "en":  "The God-fearing, The Pious",
-        "cleanEn":  "the godfearing the pious"
+        "en":  "Clear message, Conveyance, Proclamation",
+        "cleanEn":  "clear message conveyance proclamation"
     },
     {
         "idx":  66,
@@ -920,8 +920,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun (Place) / اسْمُ مَكَان",
         "ur":  "شہر، بستی، وطن، علاقہ",
-        "en":  "Corrupt, Ruined",
-        "cleanEn":  "corrupt ruined"
+        "en":  "City, Town, Land",
+        "cleanEn":  "city town land"
     },
     {
         "idx":  67,
@@ -934,8 +934,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "واضح بیان، حقیقت کو کھول کر سمجھانا",
-        "en":  "Doers of good, The Righteous",
-        "cleanEn":  "doers of good the righteous"
+        "en":  "Clear declaration, Lucid explanation",
+        "cleanEn":  "clear declaration lucid explanation"
     },
     {
         "idx":  68,
@@ -948,8 +948,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun of Place / اسْمُ مَكَان",
         "ur":  "گھر، مکان، کعبۃ اللہ",
-        "en":  "House, Sacred Dwelling",
-        "cleanEn":  "house sacred dwelling"
+        "en":  "House, Sacred House (Kaaba)",
+        "cleanEn":  "house sacred house kaaba"
     },
     {
         "idx":  69,
@@ -962,8 +962,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "روشن نشانی، واضح دلیل",
-        "en":  "Clear Evidence, Manifest Proof",
-        "cleanEn":  "clear evidence manifest proof"
+        "en":  "Clear proof, Evident sign",
+        "cleanEn":  "clear proof evident sign"
     },
     {
         "idx":  70,
@@ -976,8 +976,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "صندوق، لکڑی کا بکس، تابوتِ سکینہ",
-        "en":  "Prophet David",
-        "cleanEn":  "prophet david"
+        "en":  "Ark, Chest, Box of tranquility",
+        "cleanEn":  "ark chest box of tranquility"
     },
     {
         "idx":  71,
@@ -990,8 +990,8 @@
         "cat":  "فِعْلٌ",
         "func":  "Verbal Noun / مَصْدَر",
         "ur":  "بدلنا، تبدیلی، رد و بدل",
-        "en":  "Change, Alteration",
-        "cleanEn":  "change alteration"
+        "en":  "Change, Alteration, Substitution",
+        "cleanEn":  "change alteration substitution"
     },
     {
         "idx":  72,
@@ -1018,8 +1018,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "نصیحت، یاد دہانی، پند",
-        "en":  "Reminder, Admonition",
-        "cleanEn":  "reminder admonition"
+        "en":  "Reminder, Admonition, Lesson",
+        "cleanEn":  "reminder admonition lesson"
     },
     {
         "idx":  74,
@@ -1032,8 +1032,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "خشک مٹی، خاک",
-        "en":  "Prophet John the Baptist (Yahya)",
-        "cleanEn":  "prophet john the baptist yahya"
+        "en":  "Dust, Earth, Soil",
+        "cleanEn":  "dust earth soil"
     },
     {
         "idx":  75,
@@ -1046,8 +1046,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "تقویٰ، پرہیزگاری، اللہ کا خوف، گناہوں سے بچنا",
-        "en":  "Worldly life, The Present world",
-        "cleanEn":  "worldly life the present world"
+        "en":  "God-consciousness, Piety, Righteousness",
+        "cleanEn":  "god consciousness piety righteousness"
     },
     {
         "idx":  76,
@@ -1060,8 +1060,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "ہلاکت، بربادی، تباہی",
-        "en":  "Apostle, Messenger",
-        "cleanEn":  "apostle messenger"
+        "en":  "Destruction, Ruin",
+        "cleanEn":  "destruction ruin"
     },
     {
         "idx":  77,
@@ -1074,8 +1074,8 @@
         "cat":  "اسْمٌ",
         "func":  "Divine Attribute / صِفَةُ مُبَالَغَة",
         "ur":  "توبہ قبول فرمانے والا، رجوع کرنے والا",
-        "en":  "Dominion, Kingdom",
-        "cleanEn":  "dominion kingdom"
+        "en":  "Oft-Returning, Accepter of repentance",
+        "cleanEn":  "oft returning accepter of repentance"
     },
     {
         "idx":  78,
@@ -1088,8 +1088,8 @@
         "cat":  "عَلَمٌ",
         "func":  "Proper Scripture / الْكِتَابُ الْمُنَزَّل",
         "ur":  "تورات (حضرت موسیٰؑ پر نازل شدہ کتاب)",
-        "en":  "Psalms",
-        "cleanEn":  "psalms"
+        "en":  "Torah (revealed to Moses)",
+        "cleanEn":  "torah revealed to moses"
     },
     {
         "idx":  79,
@@ -1102,8 +1102,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "انجیر، متبرک پھل",
-        "en":  "The Day, Daylight",
-        "cleanEn":  "the day daylight"
+        "en":  "Fig (sacred fruit)",
+        "cleanEn":  "fig sacred fruit"
     },
     {
         "idx":  80,
@@ -1116,8 +1116,8 @@
         "cat":  "اسْمٌ",
         "func":  "Plural Noun / جَمْع",
         "ur":  "پھل، میوے، نتائج",
-        "en":  "Fruits, Produce",
-        "cleanEn":  "fruits produce"
+        "en":  "Fruits, Produce, Yields",
+        "cleanEn":  "fruits produce yields"
     },
     {
         "idx":  81,
@@ -1130,8 +1130,8 @@
         "cat":  "عَلَمٌ",
         "func":  "Proper Name (Tribe) / عَلَم",
         "ur":  "قومِ ثمود (حضرت صالحؑ کی قوم)",
-        "en":  "Thamud tribe",
-        "cleanEn":  "thamud tribe"
+        "en":  "Thamud (tribe of Prophet Salih)",
+        "cleanEn":  "thamud tribe of prophet salih"
     },
     {
         "idx":  82,
@@ -1144,8 +1144,8 @@
         "cat":  "عَلَمٌ",
         "func":  "Proper Name / عَلَم",
         "ur":  "جالوت (طاقتور سرکش ظالم بادشاہ)",
-        "en":  "Doubt, Skepticism",
-        "cleanEn":  "doubt skepticism"
+        "en":  "Goliath (tyrannical king)",
+        "cleanEn":  "goliath tyrannical king"
     },
     {
         "idx":  83,
@@ -1158,8 +1158,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "پہاڑ، کوہ",
-        "en":  "Clear, Evident, Manifest",
-        "cleanEn":  "clear evident manifest"
+        "en":  "Mountain",
+        "cleanEn":  "mountain"
     },
     {
         "idx":  84,
@@ -1172,8 +1172,8 @@
         "cat":  "عَلَمٌ",
         "func":  "Proper (Hellfire) / اسْمٌ",
         "ur":  "دہکتی ہوئی شدید آگ، جہنم",
-        "en":  "House, Sacred House (Kaaba)",
-        "cleanEn":  "house sacred house kaaba"
+        "en":  "Blazing fire, Hellfire",
+        "cleanEn":  "blazing fire hellfire"
     },
     {
         "idx":  85,
@@ -1186,8 +1186,8 @@
         "cat":  "فِعْلٌ",
         "func":  "Verbal Noun / مَصْدَر",
         "ur":  "بحث و تکرار، جھگڑا، مناظرہ",
-        "en":  "Dispute, Argument, Quarrel",
-        "cleanEn":  "dispute argument quarrel"
+        "en":  "Dispute, Argument, Contention",
+        "cleanEn":  "dispute argument contention"
     },
     {
         "idx":  86,
@@ -1200,8 +1200,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "شک، جھوٹ (لَا جَرَمَ: بے شک)",
-        "en":  "Doubt, Offense (No doubt)",
-        "cleanEn":  "doubt offense no doubt"
+        "en":  "Doubt (Undoubtedly, Truly)",
+        "cleanEn":  "doubt undoubtedly truly"
     },
     {
         "idx":  87,
@@ -1214,8 +1214,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "جسم، بدن، تن",
-        "en":  "Eyes",
-        "cleanEn":  "eyes"
+        "en":  "Body, Physical frame",
+        "cleanEn":  "body physical frame"
     },
     {
         "idx":  88,
@@ -1228,8 +1228,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun (Species) / اسْمُ جِنْس",
         "ur":  "جن، نادیدہ ناری مخلوق",
-        "en":  "Jinn (spiritual beings)",
-        "cleanEn":  "jinn spiritual beings"
+        "en":  "Jinn (unseen beings created of fire)",
+        "cleanEn":  "jinn unseen beings created of fire"
     },
     {
         "idx":  89,
@@ -1242,8 +1242,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "گناہ، مؤاخذہ، حرج، الزام",
-        "en":  "Blame, Sin, Fault",
-        "cleanEn":  "blame sin fault"
+        "en":  "Sin, Blame, Fault, Transgression",
+        "cleanEn":  "sin blame fault transgression"
     },
     {
         "idx":  90,
@@ -1256,8 +1256,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "جنت، باغ، سرسبز ٹھکانہ",
-        "en":  "Night",
-        "cleanEn":  "night"
+        "en":  "Paradise, Garden of bliss",
+        "cleanEn":  "paradise garden of bliss"
     },
     {
         "idx":  91,
@@ -1270,8 +1270,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "نادانی، جہالت، بے عقلی",
-        "en":  "Prophet Ishmael",
-        "cleanEn":  "prophet ishmael"
+        "en":  "Ignorance, Foolishness",
+        "cleanEn":  "ignorance foolishness"
     },
     {
         "idx":  92,
@@ -1284,8 +1284,8 @@
         "cat":  "عَلَمٌ",
         "func":  "Proper Name (Hell) / عَلَم",
         "ur":  "دوزخ، جہنم، بھڑکتی ہوئی آگ کا گڑھا",
-        "en":  "Hell, Hellfire",
-        "cleanEn":  "hell hellfire"
+        "en":  "Hell, Jahannam, Pit of fire",
+        "cleanEn":  "hell jahannam pit of fire"
     },
     {
         "idx":  93,
@@ -1312,8 +1312,8 @@
         "cat":  "اسْمٌ",
         "func":  "Plural Noun / جَمْع",
         "ur":  "راستے، پرشکوہ لہریں، کہکشائیں",
-        "en":  "The Dawn, Ten nights",
-        "cleanEn":  "the dawn ten nights"
+        "en":  "Tracks, Pathways, Ornate orbits",
+        "cleanEn":  "tracks pathways ornate orbits"
     },
     {
         "idx":  95,
@@ -1326,8 +1326,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "رسی، مضبوط سہارا، عہد",
-        "en":  "Mortal, Human being",
-        "cleanEn":  "mortal human being"
+        "en":  "Rope, Strong cord, Covenant",
+        "cleanEn":  "rope strong cord covenant"
     },
     {
         "idx":  96,
@@ -1340,8 +1340,8 @@
         "cat":  "اسْمٌ",
         "func":  "Religious Rite / اسْمٌ",
         "ur":  "حج، بیت اللہ کا مخصوص ایام میں فریضہ",
-        "en":  "Prophet Shu\u0027ayb",
-        "cleanEn":  "prophet shuayb"
+        "en":  "Hajj, Pilgrimage to the Kaaba",
+        "cleanEn":  "hajj pilgrimage to the kaaba"
     },
     {
         "idx":  97,
@@ -1354,8 +1354,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "روشن دلیل، قاطع ثبوت، حجت",
-        "en":  "The Corrupt, Transgressors",
-        "cleanEn":  "the corrupt transgressors"
+        "en":  "Conclusive proof, Argument, Evidence",
+        "cleanEn":  "conclusive proof argument evidence"
     },
     {
         "idx":  98,
@@ -1368,8 +1368,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "بات، گفتگو، کلام، نئی خبر",
-        "en":  "Defiantly Disobedient, Transgressors",
-        "cleanEn":  "defiantly disobedient transgressors"
+        "en":  "Speech, Discourse, Story, Account",
+        "cleanEn":  "speech discourse story account"
     },
     {
         "idx":  99,
@@ -1396,8 +1396,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "جنگ، معرکہ، لڑائی",
-        "en":  "Striving, Effort",
-        "cleanEn":  "striving effort"
+        "en":  "War, Warfare, Battle",
+        "cleanEn":  "war warfare battle"
     },
     {
         "idx":  101,
@@ -1410,8 +1410,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "کھیتی باڑی، فصل، زراعت",
-        "en":  "Crops, Harvest, Tilth",
-        "cleanEn":  "crops harvest tilth"
+        "en":  "Crops, Harvest, Tilth, Cultivation",
+        "cleanEn":  "crops harvest tilth cultivation"
     },
     {
         "idx":  102,
@@ -1424,8 +1424,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "تنگی، بوجھ، گناہ، رکاوٹ",
-        "en":  "Excellence, Good deeds",
-        "cleanEn":  "excellence good deeds"
+        "en":  "Hardship, Blame, Restriction, Difficulty",
+        "cleanEn":  "hardship blame restriction difficulty"
     },
     {
         "idx":  103,
@@ -1452,8 +1452,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "نیکی، بھلائی، حسنِ سلوک",
-        "en":  "Life, Soul, Person",
-        "cleanEn":  "life soul person"
+        "en":  "Good deed, Goodness, Favor",
+        "cleanEn":  "good deed goodness favor"
     },
     {
         "idx":  105,
@@ -1466,8 +1466,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / Superlative / اسْمُ تَفْضِيل",
         "ur":  "بہترین صفت، نیکی، جنت، اچھا انجام",
-        "en":  "Fasting, Fast",
-        "cleanEn":  "fasting fast"
+        "en":  "Best, Ultimate good, Paradise",
+        "cleanEn":  "best ultimate good paradise"
     },
     {
         "idx":  106,
@@ -1480,8 +1480,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "حق، سچ، اٹل حقیقت",
-        "en":  "Truth, Reality, Right",
-        "cleanEn":  "truth reality right"
+        "en":  "Truth, Right, Reality",
+        "cleanEn":  "truth right reality"
     },
     {
         "idx":  107,
@@ -1494,8 +1494,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "فیصلہ، حکم، حاکمیت، اختیار",
-        "en":  "Injustice, Oppression, Wrongdoing",
-        "cleanEn":  "injustice oppression wrongdoing"
+        "en":  "Judgment, Command, Authority",
+        "cleanEn":  "judgment command authority"
     },
     {
         "idx":  108,
@@ -1508,8 +1508,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "حکمت، دانائی، سنت و فہم",
-        "en":  "Wisdom",
-        "cleanEn":  "wisdom"
+        "en":  "Wisdom, Discernment",
+        "cleanEn":  "wisdom discernment"
     },
     {
         "idx":  109,
@@ -1522,8 +1522,8 @@
         "cat":  "اسْمٌ",
         "func":  "Divine Attribute / صِفَة",
         "ur":  "حکمت والا، دانا",
-        "en":  "All-Wise",
-        "cleanEn":  "allwise"
+        "en":  "All-Wise (Divine Attribute)",
+        "cleanEn":  "all wise divine attribute"
     },
     {
         "idx":  110,
@@ -1536,8 +1536,8 @@
         "cat":  "اسْمٌ",
         "func":  "Divine Attribute / صِفَة",
         "ur":  "بردبار، نرم خو، تحمل والا",
-        "en":  "Forbearing, Clement",
-        "cleanEn":  "forbearing clement"
+        "en":  "Forbearing, Clement, Gentle",
+        "cleanEn":  "forbearing clement gentle"
     },
     {
         "idx":  111,
@@ -1550,8 +1550,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "تعریف، شکر، کامل و اکمل ثنا",
-        "en":  "Tremendous, Supreme, Great",
-        "cleanEn":  "tremendous supreme great"
+        "en":  "All Praise, Complete gratitude",
+        "cleanEn":  "all praise complete gratitude"
     },
     {
         "idx":  112,
@@ -1564,8 +1564,8 @@
         "cat":  "اسْمٌ",
         "func":  "Divine Attribute / صِفَة",
         "ur":  "تعریف کیا گیا، لائقِ ستائش",
-        "en":  "Praiseworthy",
-        "cleanEn":  "praiseworthy"
+        "en":  "Praiseworthy (Divine Attribute)",
+        "cleanEn":  "praiseworthy divine attribute"
     },
     {
         "idx":  113,
@@ -1578,8 +1578,8 @@
         "cat":  "صِفَةٌ",
         "func":  "Adjective / صِفَة",
         "ur":  "یکسو، باطل سے کٹ کر خالص اللہ کی طرف متوجہ",
-        "en":  "Prophet",
-        "cleanEn":  "prophet"
+        "en":  "Upright monotheist, Pure in faith",
+        "cleanEn":  "upright monotheist pure in faith"
     },
     {
         "idx":  114,
@@ -1592,8 +1592,8 @@
         "cat":  "اسْمٌ",
         "func":  "Divine Attribute / صِفَة",
         "ur":  "زندہ، ہمیشہ قائم رہنے والی ذات",
-        "en":  "The Ever-Living",
-        "cleanEn":  "the everliving"
+        "en":  "The Ever-Living (Divine Attribute)",
+        "cleanEn":  "the ever living divine attribute"
     },
     {
         "idx":  115,
@@ -1606,8 +1606,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "زندگی، حیات، زیست",
-        "en":  "Sky, Heaven",
-        "cleanEn":  "sky heaven"
+        "en":  "Life, Existence",
+        "cleanEn":  "life existence"
     },
     {
         "idx":  116,
@@ -1620,8 +1620,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun (Time) / اسْمُ زَمَان",
         "ur":  "وقت، مدت، زمانہ",
-        "en":  "Covenant, Mutual agreement",
-        "cleanEn":  "covenant mutual agreement"
+        "en":  "Time, Period, While",
+        "cleanEn":  "time period while"
     },
     {
         "idx":  117,
@@ -1634,8 +1634,8 @@
         "cat":  "اسْمٌ",
         "func":  "Active Participle / اسْمُ فَاعِل",
         "ur":  "ہمیشہ رہنے والا، ابدی",
-        "en":  "Wisdom",
-        "cleanEn":  "wisdom"
+        "en":  "Abiding eternally, Everlasting",
+        "cleanEn":  "abiding eternally everlasting"
     },
     {
         "idx":  118,
@@ -1649,7 +1649,7 @@
         "func":  "Divine Attribute / صِفَة",
         "ur":  "پوری طرح باخبر، آگاہ",
         "en":  "All-Aware, Fully Acquainted",
-        "cleanEn":  "allaware fully acquainted"
+        "cleanEn":  "all aware fully acquainted"
     },
     {
         "idx":  119,
@@ -1662,8 +1662,8 @@
         "cat":  "صِفَةٌ",
         "func":  "Adjective (Intensive) / صِفَةُ مُبَالَغَة",
         "ur":  "عین وقت پر دغا دینے والا، تنہا چھوڑنے والا",
-        "en":  "All-Powerful, Omnipotent",
-        "cleanEn":  "allpowerful omnipotent"
+        "en":  "Deserter, Treacherous abandoner",
+        "cleanEn":  "deserter treacherous abandoner"
     },
     {
         "idx":  120,
@@ -1676,8 +1676,8 @@
         "cat":  "فِعْلٌ",
         "func":  "Verbal Noun / مَصْدَر",
         "ur":  "نکلنا، باہر آنا، ظہور",
-        "en":  "Paradise, Heavenly garden",
-        "cleanEn":  "paradise heavenly garden"
+        "en":  "Coming out, Departure, Resurrection",
+        "cleanEn":  "coming out departure resurrection"
     },
     {
         "idx":  121,
@@ -1704,8 +1704,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "خسارہ، نقصان، بربادی",
-        "en":  "Noon, Midday",
-        "cleanEn":  "noon midday"
+        "en":  "Loss, Ruin, Deprivation",
+        "cleanEn":  "loss ruin deprivation"
     },
     {
         "idx":  123,
@@ -1718,8 +1718,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "اخلاق، خصلت، عادت، کردار",
-        "en":  "Character, Moral conduct",
-        "cleanEn":  "character moral conduct"
+        "en":  "Character, Moral conduct, Nature",
+        "cleanEn":  "character moral conduct nature"
     },
     {
         "idx":  124,
@@ -1732,8 +1732,8 @@
         "cat":  "فِعْلٌ",
         "func":  "Verbal Noun / مَصْدَر",
         "ur":  "پیدائش، تخلیق، بناوٹ، مخلوق",
-        "en":  "Prophet Jonah",
-        "cleanEn":  "prophet jonah"
+        "en":  "Creation, Creating, Creatures",
+        "cleanEn":  "creation creating creatures"
     },
     {
         "idx":  125,
@@ -1746,8 +1746,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "شراب، نشہ آور مشروب",
-        "en":  "King, Sovereign / Angel Malik",
-        "cleanEn":  "king sovereign angel malik"
+        "en":  "Intoxicants, Wine",
+        "cleanEn":  "intoxicants wine"
     },
     {
         "idx":  126,
@@ -1760,8 +1760,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "خوف، ڈر، اندیشہ",
-        "en":  "Fear, Dread",
-        "cleanEn":  "fear dread"
+        "en":  "Fear, Dread, Apprehension",
+        "cleanEn":  "fear dread apprehension"
     },
     {
         "idx":  127,
@@ -1774,8 +1774,8 @@
         "cat":  "صِفَةٌ",
         "func":  "Noun / Adjective / اسْمٌ / خَيْر",
         "ur":  "بھلائی، نیکی، خیر، بہتر",
-        "en":  "All Praise, Gratitude",
-        "cleanEn":  "all praise gratitude"
+        "en":  "Good, Better, Best, Benefit",
+        "cleanEn":  "good better best benefit"
     },
     {
         "idx":  128,
@@ -1788,8 +1788,8 @@
         "cat":  "اسْمٌ",
         "func":  "Plural Noun / جَمْع",
         "ur":  "بھلائیاں، نیک اعمال، خیرات",
-        "en":  "Throne of God",
-        "cleanEn":  "throne of god"
+        "en":  "Good deeds, Virtues, Best things",
+        "cleanEn":  "good deeds virtues best things"
     },
     {
         "idx":  129,
@@ -1802,8 +1802,8 @@
         "cat":  "اسْمٌ",
         "func":  "Active Participle / اسْمُ فَاعِل",
         "ur":  "بلانے والا، پکارنے والا، داعی",
-        "en":  "Illumination, Radiant light",
-        "cleanEn":  "illumination radiant light"
+        "en":  "Caller, Inviter (to truth)",
+        "cleanEn":  "caller inviter to truth"
     },
     {
         "idx":  130,
@@ -1825,13 +1825,13 @@
         "ar":  "دُعَاءٌ",
         "tr":  "Du‘ā’",
         "cleanTr":  "dua",
-        "cleanAr":  "دعاا",
+        "cleanAr":  "دعاØ§",
         "letter":  "د",
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "دعا، پکار، التجا",
-        "en":  "Remembrance, Mention, Quran",
-        "cleanEn":  "remembrance mention quran"
+        "en":  "Supplication, Prayer, Call",
+        "cleanEn":  "supplication prayer call"
     },
     {
         "idx":  132,
@@ -1844,8 +1844,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "دنیا، قریب تر زندگی، فانی عالم",
-        "en":  "Hardship, Restriction, Difficulty",
-        "cleanEn":  "hardship restriction difficulty"
+        "en":  "World, Worldly life, Present world",
+        "cleanEn":  "world worldly life present world"
     },
     {
         "idx":  133,
@@ -1858,8 +1858,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun (Time) / اسْمُ زَمَان",
         "ur":  "زمانہ، طویل وقت، گردشِ ایام",
-        "en":  "Sorcery, Magic",
-        "cleanEn":  "sorcery magic"
+        "en":  "Time, Epoch, Course of time",
+        "cleanEn":  "time epoch course of time"
     },
     {
         "idx":  134,
@@ -1872,8 +1872,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "دین، شریعت، جزا و سزا کا نظام",
-        "en":  "All-Strong, Powerful",
-        "cleanEn":  "allstrong powerful"
+        "en":  "Religion, Way of life, Day of Recompense",
+        "cleanEn":  "religion way of life day of recompense"
     },
     {
         "idx":  135,
@@ -1886,8 +1886,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun (Currency) / اسْمٌ",
         "ur":  "دینار، سونے کا سکہ",
-        "en":  "Punishment, Torment",
-        "cleanEn":  "punishment torment"
+        "en":  "Dinar (gold coin)",
+        "cleanEn":  "dinar gold coin"
     },
     {
         "idx":  136,
@@ -1900,8 +1900,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun (Gender) / اسْمٌ",
         "ur":  "مرد، نر، مذکر",
-        "en":  "Human, Mortals, Mankind",
-        "cleanEn":  "human mortals mankind"
+        "en":  "Male",
+        "cleanEn":  "male"
     },
     {
         "idx":  137,
@@ -1914,8 +1914,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "یاد، ذکر، نصیحت، قرآن",
-        "en":  "Fitnah, Tribulation, Persecution",
-        "cleanEn":  "fitnah tribulation persecution"
+        "en":  "Remembrance, Reminder, Mention, Quran",
+        "cleanEn":  "remembrance reminder mention quran"
     },
     {
         "idx":  138,
@@ -1928,8 +1928,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "یاد دہانی، نصیحت",
-        "en":  "Clear proof, Evident sign",
-        "cleanEn":  "clear proof evident sign"
+        "en":  "Reminder, Admonition",
+        "cleanEn":  "reminder admonition"
     },
     {
         "idx":  139,
@@ -1942,8 +1942,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "عاجزی، فروتنی، ذلت",
-        "en":  "Shade, Shadow",
-        "cleanEn":  "shade shadow"
+        "en":  "Humility, Lowliness, Submissiveness",
+        "cleanEn":  "humility lowliness submissiveness"
     },
     {
         "idx":  140,
@@ -1979,13 +1979,13 @@
         "ar":  "رَءُوفٌ",
         "tr":  "Ra’ūf",
         "cleanTr":  "rauf",
-        "cleanAr":  "راوف",
+        "cleanAr":  "رØ§وف",
         "letter":  "ر",
         "cat":  "اسْمٌ",
         "func":  "Divine Attribute / صِفَة",
         "ur":  "نہایت شفیق، بے پایاں شفقت والا",
-        "en":  "Seeing, All-Seeing",
-        "cleanEn":  "seeing allseeing"
+        "en":  "Most Kind, Full of pity, Compassionate",
+        "cleanEn":  "most kind full of pity compassionate"
     },
     {
         "idx":  143,
@@ -1998,8 +1998,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "مرد، آدمی، انسان",
-        "en":  "Punishment, Torment",
-        "cleanEn":  "punishment torment"
+        "en":  "Man",
+        "cleanEn":  "man"
     },
     {
         "idx":  144,
@@ -2012,8 +2012,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "رحمت، مہربانی، کرم",
-        "en":  "Authority, Warrant, Mandate",
-        "cleanEn":  "authority warrant mandate"
+        "en":  "Mercy, Compassion, Grace",
+        "cleanEn":  "mercy compassion grace"
     },
     {
         "idx":  145,
@@ -2026,8 +2026,8 @@
         "cat":  "اسْمٌ",
         "func":  "Divine Name / اسْمُ الْجَلَالَة",
         "ur":  "بہت زیادہ رحم فرمانے والا، رحمان",
-        "en":  "Declaration, Clear explanation",
-        "cleanEn":  "declaration clear explanation"
+        "en":  "The Entirely Merciful, Ar-Rahman",
+        "cleanEn":  "the entirely merciful ar rahman"
     },
     {
         "idx":  146,
@@ -2040,8 +2040,8 @@
         "cat":  "اسْمٌ",
         "func":  "Divine Attribute / صِفَة",
         "ur":  "نہایت مہربان، مسلسل رحم فرمانے والا",
-        "en":  "Especially Merciful",
-        "cleanEn":  "especially merciful"
+        "en":  "Especially Merciful (Divine Attribute)",
+        "cleanEn":  "especially merciful divine attribute"
     },
     {
         "idx":  147,
@@ -2054,8 +2054,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "روزی، عطا، خوراک، وسائلِ زندگی",
-        "en":  "Prophet Noah",
-        "cleanEn":  "prophet noah"
+        "en":  "Provision, Sustenance, Means of living",
+        "cleanEn":  "provision sustenance means of living"
     },
     {
         "idx":  148,
@@ -2068,8 +2068,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "رسول، پیغام رساں، اللہ کا پیغمبر",
-        "en":  "Moon",
-        "cleanEn":  "moon"
+        "en":  "Messenger, Apostle of God",
+        "cleanEn":  "messenger apostle of god"
     },
     {
         "idx":  149,
@@ -2082,8 +2082,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "سیدھی راہ، ہدایت، سوجھ بوجھ",
-        "en":  "Day of Judgment, Day of Resurrection",
-        "cleanEn":  "day of judgment day of resurrection"
+        "en":  "Right guidance, Sound judgment, Rectitude",
+        "cleanEn":  "right guidance sound judgment rectitude"
     },
     {
         "idx":  150,
@@ -2096,8 +2096,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "فحش کلامی، شہوانی گفتگو یا عمل",
-        "en":  "Equal, Likeness, Peer",
-        "cleanEn":  "equal likeness peer"
+        "en":  "Lewd speech, Obscenity, Sexual relations",
+        "cleanEn":  "lewd speech obscenity sexual relations"
     },
     {
         "idx":  151,
@@ -2110,8 +2110,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "باریک جھلی، کھلا ہوا چمڑا",
-        "en":  "The Stars, The Star",
-        "cleanEn":  "the stars the star"
+        "en":  "Parchment, Fine unrolled scroll",
+        "cleanEn":  "parchment fine unrolled scroll"
     },
     {
         "idx":  152,
@@ -2124,8 +2124,8 @@
         "cat":  "اسْمٌ",
         "func":  "Plural Noun / جَمْع",
         "ur":  "مضبوط لنگر انداز پہاڑ",
-        "en":  "Justice, Equity",
-        "cleanEn":  "justice equity"
+        "en":  "Firm mountains, Stabilizing anchors",
+        "cleanEn":  "firm mountains stabilizing anchors"
     },
     {
         "idx":  153,
@@ -2138,8 +2138,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "روح، جان، حضرت جبرائیل علیہ السلام، وحی",
-        "en":  "The Especially Merciful",
-        "cleanEn":  "the especially merciful"
+        "en":  "Spirit, Soul, Angel Gabriel, Revelation",
+        "cleanEn":  "spirit soul angel gabriel revelation"
     },
     {
         "idx":  154,
@@ -2152,8 +2152,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "شک، شبہ، تردد",
-        "en":  "Forenoon, Morning brightness",
-        "cleanEn":  "forenoon morning brightness"
+        "en":  "Doubt, Suspicion, Uncertainty",
+        "cleanEn":  "doubt suspicion uncertainty"
     },
     {
         "idx":  155,
@@ -2166,8 +2166,8 @@
         "cat":  "اسْمٌ",
         "func":  "Plural Noun / جَمْع",
         "ur":  "صحیفے، آسمانی کتابیں",
-        "en":  "Misguidance, Straying",
-        "cleanEn":  "misguidance straying"
+        "en":  "Scriptures, Books, Heavenly writings",
+        "cleanEn":  "scriptures books heavenly writings"
     },
     {
         "idx":  156,
@@ -2180,8 +2180,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "زکوٰۃ، مال کی پاکیزگی، طہارت و بڑھوتری",
-        "en":  "Religion, Way of life",
-        "cleanEn":  "religion way of life"
+        "en":  "Zakah, Obligatory charity, Purification",
+        "cleanEn":  "zakah obligatory charity purification"
     },
     {
         "idx":  157,
@@ -2208,8 +2208,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "زیتون، مبارک درخت اور اس کا پھل",
-        "en":  "The Night",
-        "cleanEn":  "the night"
+        "en":  "Olive (tree and fruit)",
+        "cleanEn":  "olive tree and fruit"
     },
     {
         "idx":  159,
@@ -2236,8 +2236,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "قیامت، معین وقت، گھڑی، لمحہ",
-        "en":  "The Hour, Day of Judgment",
-        "cleanEn":  "the hour day of judgment"
+        "en":  "The Hour, Day of Judgment, Fixed time",
+        "cleanEn":  "the hour day of judgment fixed time"
     },
     {
         "idx":  161,
@@ -2250,8 +2250,8 @@
         "cat":  "عَلَمٌ",
         "func":  "Proper Name / عَلَم",
         "ur":  "سامری (بچھڑے کا فتنہ برپا کرنے والا)",
-        "en":  "Prophet Jesus",
-        "cleanEn":  "prophet jesus"
+        "en":  "The Samiri (instigator of golden calf)",
+        "cleanEn":  "the samiri instigator of golden calf"
     },
     {
         "idx":  162,
@@ -2264,8 +2264,8 @@
         "cat":  "اسْمٌ",
         "func":  "Active Participle / اسْمُ فَاعِل",
         "ur":  "مانگنے والا، سوالی، حاجت مند",
-        "en":  "Wealth, Property, Goods",
-        "cleanEn":  "wealth property goods"
+        "en":  "Petitioner, Beggar, The one who asks",
+        "cleanEn":  "petitioner beggar the one who asks"
     },
     {
         "idx":  163,
@@ -2278,8 +2278,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun of Place / اسْمُ مَكَان",
         "ur":  "قید خانہ، جیل",
-        "en":  "Prophet Job",
-        "cleanEn":  "prophet job"
+        "en":  "Prison, Jail",
+        "cleanEn":  "prison jail"
     },
     {
         "idx":  164,
@@ -2292,8 +2292,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "حرام مال، ناجائز کمائی، رشوت",
-        "en":  "Messenger, Apostle",
-        "cleanEn":  "messenger apostle"
+        "en":  "Illicit wealth, Forbidden gain, Bribery",
+        "cleanEn":  "illicit wealth forbidden gain bribery"
     },
     {
         "idx":  165,
@@ -2306,8 +2306,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "جادو، سحر، فریبِ نظر",
-        "en":  "Ever-Unjust, Wrongdoer",
-        "cleanEn":  "everunjust wrongdoer"
+        "en":  "Magic, Sorcery",
+        "cleanEn":  "magic sorcery"
     },
     {
         "idx":  166,
@@ -2315,13 +2315,13 @@
         "ar":  "سَرَّاءُ",
         "tr":  "Sarrā’",
         "cleanTr":  "sarra",
-        "cleanAr":  "سراا",
+        "cleanAr":  "سراØ§",
         "letter":  "س",
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "خوش حالی، راحت، فراخیِ رزق",
-        "en":  "Tongues, Languages",
-        "cleanEn":  "tongues languages"
+        "en":  "Ease, Prosperity, Affluence",
+        "cleanEn":  "ease prosperity affluence"
     },
     {
         "idx":  167,
@@ -2334,8 +2334,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "بھڑکتی ہوئی آگ، شعلہ زن دوزخ",
-        "en":  "Torah",
-        "cleanEn":  "torah"
+        "en":  "Blazing fire, Scorching flames of Hell",
+        "cleanEn":  "blazing fire scorching flames of hell"
     },
     {
         "idx":  168,
@@ -2362,8 +2362,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "کشتی، بحری جہاز",
-        "en":  "Prophet Solomon",
-        "cleanEn":  "prophet solomon"
+        "en":  "Ship, Vessel, Ark",
+        "cleanEn":  "ship vessel ark"
     },
     {
         "idx":  170,
@@ -2376,8 +2376,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "چھت، بلندی (آسمان)",
-        "en":  "The Sun",
-        "cleanEn":  "the sun"
+        "en":  "Canopy, Roof, Ceiling",
+        "cleanEn":  "canopy roof ceiling"
     },
     {
         "idx":  171,
@@ -2390,7 +2390,7 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "سلامتی، امن، سلام",
-        "en":  "Peace, Greeting of Safety",
+        "en":  "Peace, Greeting of safety",
         "cleanEn":  "peace greeting of safety"
     },
     {
@@ -2404,8 +2404,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "روشن دلیل، قاطع غلبہ، اقتدار",
-        "en":  "Mad, Possessed",
-        "cleanEn":  "mad possessed"
+        "en":  "Clear authority, Conclusive warrant, Power",
+        "cleanEn":  "clear authority conclusive warrant power"
     },
     {
         "idx":  173,
@@ -2418,8 +2418,8 @@
         "cat":  "عَلَمٌ",
         "func":  "Proper Name (Prophet) / عَلَم",
         "ur":  "حضرت سلیمان علیہ السلام",
-        "en":  "Prophet Aaron",
-        "cleanEn":  "prophet aaron"
+        "en":  "Prophet Solomon",
+        "cleanEn":  "prophet solomon"
     },
     {
         "idx":  174,
@@ -2427,13 +2427,13 @@
         "ar":  "سَمَاءٌ",
         "tr":  "Samā’",
         "cleanTr":  "sama",
-        "cleanAr":  "سماا",
+        "cleanAr":  "سماØ§",
         "letter":  "س",
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "آسمان، فلک، بلندی",
-        "en":  "Scrolls, Scriptures",
-        "cleanEn":  "scrolls scriptures"
+        "en":  "Sky, Heaven, Firmament",
+        "cleanEn":  "sky heaven firmament"
     },
     {
         "idx":  175,
@@ -2446,8 +2446,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "سننا، سماعت، کان",
-        "en":  "Hearing, Ear",
-        "cleanEn":  "hearing ear"
+        "en":  "Hearing, Ear, Sense of hearing",
+        "cleanEn":  "hearing ear sense of hearing"
     },
     {
         "idx":  176,
@@ -2460,8 +2460,8 @@
         "cat":  "اسْمٌ",
         "func":  "Divine Attribute / صِفَة",
         "ur":  "سب کچھ خوب سننے والا",
-        "en":  "All-Hearing",
-        "cleanEn":  "allhearing"
+        "en":  "All-Hearing (Divine Attribute)",
+        "cleanEn":  "all hearing divine attribute"
     },
     {
         "idx":  177,
@@ -2474,8 +2474,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "دانت، عمر",
-        "en":  "Tooth",
-        "cleanEn":  "tooth"
+        "en":  "Tooth, Age",
+        "cleanEn":  "tooth age"
     },
     {
         "idx":  178,
@@ -2483,13 +2483,13 @@
         "ar":  "سُوءٌ",
         "tr":  "Sū’",
         "cleanTr":  "su",
-        "cleanAr":  "سوا",
+        "cleanAr":  "سوØ§",
         "letter":  "س",
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "برائی، تکلیف، خرابی",
-        "en":  "Prayer",
-        "cleanEn":  "prayer"
+        "en":  "Evil, Harm, Misfortune",
+        "cleanEn":  "evil harm misfortune"
     },
     {
         "idx":  179,
@@ -2502,8 +2502,8 @@
         "cat":  "اسْمٌ",
         "func":  "Plural Noun / جَمْع",
         "ur":  "برائیاں، گناہ، خطائیں",
-        "en":  "Evil deeds, Sins",
-        "cleanEn":  "evil deeds sins"
+        "en":  "Evil deeds, Sins, Misdeeds",
+        "cleanEn":  "evil deeds sins misdeeds"
     },
     {
         "idx":  180,
@@ -2516,8 +2516,8 @@
         "cat":  "اسْمٌ",
         "func":  "Active Participle / اسْمُ فَاعِل",
         "ur":  "شاعر، منظوم کلام کہنے والا",
-        "en":  "Humiliating, Degrading",
-        "cleanEn":  "humiliating degrading"
+        "en":  "Poet",
+        "cleanEn":  "poet"
     },
     {
         "idx":  181,
@@ -2530,8 +2530,8 @@
         "cat":  "اسْمٌ",
         "func":  "Divine Attribute / صِفَة",
         "ur":  "شکر گزار، قدر کرنے والا",
-        "en":  "Grateful, Thankful",
-        "cleanEn":  "grateful thankful"
+        "en":  "Grateful, Appreciative (Divine Attribute)",
+        "cleanEn":  "grateful appreciative divine attribute"
     },
     {
         "idx":  182,
@@ -2544,8 +2544,8 @@
         "cat":  "اسْمٌ",
         "func":  "Active Participle / اسْمُ فَاعِل",
         "ur":  "گواہ، گواہی دینے والا، حاضر",
-        "en":  "The Odd (Single)",
-        "cleanEn":  "the odd single"
+        "en":  "Witness, Present observer",
+        "cleanEn":  "witness present observer"
     },
     {
         "idx":  183,
@@ -2586,8 +2586,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "شریعت، الٰہی قانون، واضح راہ",
-        "en":  "Divine Law, Clear Way (Shariah)",
-        "cleanEn":  "divine law clear way shariah"
+        "en":  "Divine Law, Clear Way (Shari\u0027ah)",
+        "cleanEn":  "divine law clear way shari ah"
     },
     {
         "idx":  186,
@@ -2600,8 +2600,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "ساجھی، شریک، حصہ دار",
-        "en":  "Partner, Associate",
-        "cleanEn":  "partner associate"
+        "en":  "Partner, Associate, Equal",
+        "cleanEn":  "partner associate equal"
     },
     {
         "idx":  187,
@@ -2614,8 +2614,8 @@
         "cat":  "عَلَمٌ",
         "func":  "Proper Name (Prophet) / عَلَم",
         "ur":  "حضرت شعیب علیہ السلام",
-        "en":  "Prophet Adam",
-        "cleanEn":  "prophet adam"
+        "en":  "Prophet Shu\u0027ayb",
+        "cleanEn":  "prophet shu ayb"
     },
     {
         "idx":  188,
@@ -2628,8 +2628,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "سفارش، شفاعت، بخشش کی التجا",
-        "en":  "The Losers",
-        "cleanEn":  "the losers"
+        "en":  "Intercession, Advocacy",
+        "cleanEn":  "intercession advocacy"
     },
     {
         "idx":  189,
@@ -2642,8 +2642,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "جفت، جوڑا (مخلوقات کی جفت فطرت)",
-        "en":  "Mount Sinai",
-        "cleanEn":  "mount sinai"
+        "en":  "The Even (number), The Pair",
+        "cleanEn":  "the even number the pair"
     },
     {
         "idx":  190,
@@ -2656,8 +2656,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "مخالفت، پھوٹ، جھگڑا، ضد",
-        "en":  "Dawn, Daybreak",
-        "cleanEn":  "dawn daybreak"
+        "en":  "Schism, Dissension, Discord, Defiance",
+        "cleanEn":  "schism dissension discord defiance"
     },
     {
         "idx":  191,
@@ -2670,8 +2670,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "شک، شبہ، بے یقینی",
-        "en":  "Nightfall, Night prayer",
-        "cleanEn":  "nightfall night prayer"
+        "en":  "Doubt, Uncertainty, Skepticism",
+        "cleanEn":  "doubt uncertainty skepticism"
     },
     {
         "idx":  192,
@@ -2684,8 +2684,8 @@
         "cat":  "اسْمٌ",
         "func":  "Divine Attribute / صِفَة",
         "ur":  "قدر دان، قدر دانی فرمانے والا",
-        "en":  "Appreciative, Most Rewarding",
-        "cleanEn":  "appreciative most rewarding"
+        "en":  "Most Appreciative, Most Rewarding",
+        "cleanEn":  "most appreciative most rewarding"
     },
     {
         "idx":  193,
@@ -2698,8 +2698,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun (Direction) / اسْمٌ",
         "ur":  "بایاں ہاتھ، بائیں سمت",
-        "en":  "Left, Left side",
-        "cleanEn":  "left left side"
+        "en":  "Left hand, Left side",
+        "cleanEn":  "left hand left side"
     },
     {
         "idx":  194,
@@ -2712,8 +2712,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "سورج، آفتاب",
-        "en":  "Petitioner, Beggar, The one who asks",
-        "cleanEn":  "petitioner beggar the one who asks"
+        "en":  "Sun",
+        "cleanEn":  "sun"
     },
     {
         "idx":  195,
@@ -2726,8 +2726,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "گواہی، شہادت، حاضر کائنات (غیب کے مقابلے میں)",
-        "en":  "Sovereignty, Kingdom, Dominion",
-        "cleanEn":  "sovereignty kingdom dominion"
+        "en":  "Testimony, Witness, The Seen realm",
+        "cleanEn":  "testimony witness the seen realm"
     },
     {
         "idx":  196,
@@ -2735,13 +2735,13 @@
         "ar":  "شَيْءٌ",
         "tr":  "Shay’",
         "cleanTr":  "shay",
-        "cleanAr":  "شيا",
+        "cleanAr":  "شيØ§",
         "letter":  "ش",
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "چیز، شے، وجود",
-        "en":  "Error, Straying, Deviation",
-        "cleanEn":  "error straying deviation"
+        "en":  "Thing, Entity, Matter",
+        "cleanEn":  "thing entity matter"
     },
     {
         "idx":  197,
@@ -2754,8 +2754,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "شیطان، سرکش، خیر سے دور کرنے والا ازلی دشمن",
-        "en":  "Satan, Devil",
-        "cleanEn":  "satan devil"
+        "en":  "Satan, Devil, Evil instigator",
+        "cleanEn":  "satan devil evil instigator"
     },
     {
         "idx":  198,
@@ -2768,8 +2768,8 @@
         "cat":  "اسْمٌ",
         "func":  "Plural Noun / جَمْع",
         "ur":  "نیک اعمال، نیکیاں",
-        "en":  "Righteous deeds",
-        "cleanEn":  "righteous deeds"
+        "en":  "Righteous deeds, Virtues",
+        "cleanEn":  "righteous deeds virtues"
     },
     {
         "idx":  199,
@@ -2782,8 +2782,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun (Time) / اسْمُ زَمَان",
         "ur":  "صبح، سویرا",
-        "en":  "Morning brightness, Forenoon",
-        "cleanEn":  "morning brightness forenoon"
+        "en":  "Morning, Dawn, Daybreak",
+        "cleanEn":  "morning dawn daybreak"
     },
     {
         "idx":  200,
@@ -2796,8 +2796,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "صبر، برداشت، ثابت قدمی",
-        "en":  "Sin, Transgression",
-        "cleanEn":  "sin transgression"
+        "en":  "Patience, Perseverance, Steadfastness",
+        "cleanEn":  "patience perseverance steadfastness"
     },
     {
         "idx":  201,
@@ -2810,8 +2810,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "رنگ، فطرت، اللہ کا رنگ",
-        "en":  "Blood, Shed blood",
-        "cleanEn":  "blood shed blood"
+        "en":  "Color, Hue, Religion, Nature of Allah",
+        "cleanEn":  "color hue religion nature of allah"
     },
     {
         "idx":  202,
@@ -2824,8 +2824,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "سچائی، راستی، صداقت",
-        "en":  "Permission, Command, Leave",
-        "cleanEn":  "permission command leave"
+        "en":  "Truthfulness, Sincerity, Righteousness",
+        "cleanEn":  "truthfulness sincerity righteousness"
     },
     {
         "idx":  203,
@@ -2838,8 +2838,8 @@
         "cat":  "اسْمٌ",
         "func":  "Plural Noun / جَمْع",
         "ur":  "سینے، دلوں کے باطن",
-        "en":  "Children, Offspring",
-        "cleanEn":  "children offspring"
+        "en":  "Breasts, Chests, Inmost hearts",
+        "cleanEn":  "breasts chests inmost hearts"
     },
     {
         "idx":  204,
@@ -2852,8 +2852,8 @@
         "cat":  "صِفَةٌ",
         "func":  "Adjective (Intensive) / صِفَةُ مُبَالَغَة",
         "ur":  "نہایت سچا، تصدیق کرنے والا",
-        "en":  "Hasty, Impatient",
-        "cleanEn":  "hasty impatient"
+        "en":  "Eminently truthful, Devout believer",
+        "cleanEn":  "eminently truthful devout believer"
     },
     {
         "idx":  205,
@@ -2866,8 +2866,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "راستہ، کشادہ شاہراہ",
-        "en":  "Night",
-        "cleanEn":  "night"
+        "en":  "Straight Path, Way",
+        "cleanEn":  "straight path way"
     },
     {
         "idx":  206,
@@ -2881,7 +2881,7 @@
         "func":  "Proper Place / شَعَائِرُ اللَّه",
         "ur":  "صفا (مکہ مکرمہ کی متبرک پہاڑی)",
         "en":  "Al-Safa (sacred hill in Makkah)",
-        "cleanEn":  "alsafa sacred hill in makkah"
+        "cleanEn":  "al safa sacred hill in makkah"
     },
     {
         "idx":  207,
@@ -2894,8 +2894,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "نماز، دعا، درود، رحمت",
-        "en":  "Prayer, Worship",
-        "cleanEn":  "prayer worship"
+        "en":  "Prayer, Formal worship, Blessing",
+        "cleanEn":  "prayer formal worship blessing"
     },
     {
         "idx":  208,
@@ -2908,8 +2908,8 @@
         "cat":  "اسْمٌ",
         "func":  "Plural Noun / جَمْع",
         "ur":  "نمازیں، دعائیں، برکتیں",
-        "en":  "Prayers, Blessings",
-        "cleanEn":  "prayers blessings"
+        "en":  "Prayers, Blessings, Invocations",
+        "cleanEn":  "prayers blessings invocations"
     },
     {
         "idx":  209,
@@ -2922,8 +2922,8 @@
         "cat":  "فِعْلٌ",
         "func":  "Verbal Noun / مَصْدَر",
         "ur":  "روزہ، خاموشی، نفس کو روکنا",
-        "en":  "Another, Latter, Other",
-        "cleanEn":  "another latter other"
+        "en":  "Fast, Fasting, Abstinence",
+        "cleanEn":  "fast fasting abstinence"
     },
     {
         "idx":  210,
@@ -2936,8 +2936,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "موسلا دھار بارش، برکھا",
-        "en":  "Clay, Potter\u0027s clay",
-        "cleanEn":  "clay potters clay"
+        "en":  "Rainstorm, Heavy downpour",
+        "cleanEn":  "rainstorm heavy downpour"
     },
     {
         "idx":  211,
@@ -2945,13 +2945,13 @@
         "ar":  "ضَرَّاءُ",
         "tr":  "Ḍarrā’",
         "cleanTr":  "darra",
-        "cleanAr":  "ضراا",
+        "cleanAr":  "ضراØ§",
         "letter":  "ض",
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "جسمانی تکلیف، بیماری، دکھ",
-        "en":  "Breasts, Chests",
-        "cleanEn":  "breasts chests"
+        "en":  "Adversity, Hardship, Suffering, Affliction",
+        "cleanEn":  "adversity hardship suffering affliction"
     },
     {
         "idx":  212,
@@ -2964,8 +2964,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "سوکھا زہریلا کانٹا، دوزخیوں کا کڑوا کھانا",
-        "en":  "Madness, Insanity",
-        "cleanEn":  "madness insanity"
+        "en":  "Dhari\u0027 (dry, bitter, thorny plant in Hell)",
+        "cleanEn":  "dhari dry bitter thorny plant in hell"
     },
     {
         "idx":  213,
@@ -2978,8 +2978,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / مَصْدَر",
         "ur":  "گمراہی، راہِ راست سے بھٹک جانا",
-        "en":  "Day, Daytime",
-        "cleanEn":  "day daytime"
+        "en":  "Misguidance, Straying from truth, Error",
+        "cleanEn":  "misguidance straying from truth error"
     },
     {
         "idx":  214,
@@ -2992,8 +2992,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "سرکش، باطل معبود، شیطان",
-        "en":  "Right path, Straight course",
-        "cleanEn":  "right path straight course"
+        "en":  "Taghut, False deities, Tyrant",
+        "cleanEn":  "taghut false deities tyrant"
     },
     {
         "idx":  215,
@@ -3006,8 +3006,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "طاقت، برداشت، سکت",
-        "en":  "Capacity, Power, Strength",
-        "cleanEn":  "capacity power strength"
+        "en":  "Capacity, Power, Strength, Endurance",
+        "cleanEn":  "capacity power strength endurance"
     },
     {
         "idx":  216,
@@ -3020,8 +3020,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "گروہ، جماعت، ٹولی",
-        "en":  "Earth, Expanses of land",
-        "cleanEn":  "earth expanses of land"
+        "en":  "Party, Group, Faction",
+        "cleanEn":  "party group faction"
     },
     {
         "idx":  217,
@@ -3034,8 +3034,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "راستہ، سڑک، روش",
-        "en":  "Mercy, Compassion",
-        "cleanEn":  "mercy compassion"
+        "en":  "Way, Road, Path",
+        "cleanEn":  "way road path"
     },
     {
         "idx":  218,
@@ -3048,8 +3048,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "طریقہ، ڈگر، راست روش",
-        "en":  "Path, Way, Method",
-        "cleanEn":  "path way method"
+        "en":  "Path, Course, Method, Way of life",
+        "cleanEn":  "path course method way of life"
     },
     {
         "idx":  219,
@@ -3062,8 +3062,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "کھانا، خوراک، غذا",
-        "en":  "Food, Feeding",
-        "cleanEn":  "food feeding"
+        "en":  "Food, Sustenance, Feeding",
+        "cleanEn":  "food sustenance feeding"
     },
     {
         "idx":  220,
@@ -3076,8 +3076,8 @@
         "cat":  "عَلَمٌ",
         "func":  "Proper Mountain / عَلَم",
         "ur":  "طور (وہ پہاڑ جہاں حضرت موسیٰؑ پر تجلی ہوئی)",
-        "en":  "The Fig",
-        "cleanEn":  "the fig"
+        "en":  "Mount Sinai, Mount Tur",
+        "cleanEn":  "mount sinai mount tur"
     },
     {
         "idx":  221,
@@ -3090,8 +3090,8 @@
         "cat":  "اسْمٌ",
         "func":  "Plural Noun / جَمْع",
         "ur":  "پاکیزہ چیزیں، حلال رزق",
-        "en":  "Pure, Good things",
-        "cleanEn":  "pure good things"
+        "en":  "Pure things, Wholesome provisions",
+        "cleanEn":  "pure things wholesome provisions"
     },
     {
         "idx":  222,
@@ -3104,8 +3104,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "گیلی گوندھی مٹی، گارا",
-        "en":  "Clay, Mud",
-        "cleanEn":  "clay mud"
+        "en":  "Clay, Potter\u0027s clay, Mud",
+        "cleanEn":  "clay potter s clay mud"
     },
     {
         "idx":  223,
@@ -3118,8 +3118,8 @@
         "cat":  "اسْمٌ",
         "func":  "Plural Noun / جَمْع",
         "ur":  "اندھیرے، تاریکیاں، گمراہی کے پردے",
-        "en":  "Keeper of Paradise (Ridwan)",
-        "cleanEn":  "keeper of paradise ridwan"
+        "en":  "Darknesses, Layers of darkness",
+        "cleanEn":  "darknesses layers of darkness"
     },
     {
         "idx":  224,
@@ -3132,8 +3132,8 @@
         "cat":  "صِفَةٌ",
         "func":  "Adjective (Intensive) / صِفَةُ مُبَالَغَة",
         "ur":  "بہت ظالم، سخت ناانصاف",
-        "en":  "Abode, Refuge, Haven",
-        "cleanEn":  "abode refuge haven"
+        "en":  "Very unjust, Extreme wrongdoer",
+        "cleanEn":  "very unjust extreme wrongdoer"
     },
     {
         "idx":  225,
@@ -3146,8 +3146,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "گمان، خیال، اٹکل، یقین",
-        "en":  "Assumption, Thought, Doubt / Certainty",
-        "cleanEn":  "assumption thought doubt certainty"
+        "en":  "Assumption, Conjecture, Thought / Certainty",
+        "cleanEn":  "assumption conjecture thought certainty"
     },
     {
         "idx":  226,
@@ -3160,8 +3160,8 @@
         "cat":  "اسْمٌ",
         "func":  "Active Participle / اسْمُ فَاعِل",
         "ur":  "بچانے والا، پناہ دینے والا، محافظ",
-        "en":  "Protector, Savior",
-        "cleanEn":  "protector savior"
+        "en":  "Protector, Savior, Defender",
+        "cleanEn":  "protector savior defender"
     },
     {
         "idx":  227,
@@ -3188,8 +3188,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "غلام، بندگی کرنے والا انسان",
-        "en":  "Slave, Servant",
-        "cleanEn":  "slave servant"
+        "en":  "Servant, Slave (of Allah), Human",
+        "cleanEn":  "servant slave of allah human"
     },
     {
         "idx":  229,
@@ -3202,8 +3202,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "عبرت، سبق، نصیحت",
-        "en":  "The Witnessed realm, Testimony",
-        "cleanEn":  "the witnessed realm testimony"
+        "en":  "Lesson, Warning, Moral admonition",
+        "cleanEn":  "lesson warning moral admonition"
     },
     {
         "idx":  230,
@@ -3216,8 +3216,8 @@
         "cat":  "صِفَةٌ",
         "func":  "Adjective (Intensive) / صِفَةُ مُبَالَغَة",
         "ur":  "نہایت جلد باز، شتاب کار",
-        "en":  "Ever-Pardoning",
-        "cleanEn":  "everpardoning"
+        "en":  "Hasty, Impatient",
+        "cleanEn":  "hasty impatient"
     },
     {
         "idx":  231,
@@ -3230,8 +3230,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "عدل، انصاف، برابری",
-        "en":  "The Pen",
-        "cleanEn":  "the pen"
+        "en":  "Justice, Equity, Fair balance",
+        "cleanEn":  "justice equity fair balance"
     },
     {
         "idx":  232,
@@ -3244,8 +3244,8 @@
         "cat":  "صِفَةٌ",
         "func":  "Noun / Adjective / صِفَة",
         "ur":  "دشمن، مخالف، بدخواہ",
-        "en":  "Enemy, Foe",
-        "cleanEn":  "enemy foe"
+        "en":  "Enemy, Foe, Adversary",
+        "cleanEn":  "enemy foe adversary"
     },
     {
         "idx":  233,
@@ -3258,8 +3258,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "زیادتی، ظلم، حد سے بڑھنا، تعدی، دشمنی",
-        "en":  "Transgression, Enmity, Hostility",
-        "cleanEn":  "transgression enmity hostility"
+        "en":  "Transgression, Injustice, Hostility",
+        "cleanEn":  "transgression injustice hostility"
     },
     {
         "idx":  234,
@@ -3272,8 +3272,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "عذاب، سزا، تکلیف دہ گرفت",
-        "en":  "Dry, Dry ground",
-        "cleanEn":  "dry dry ground"
+        "en":  "Punishment, Torment, Chastisement",
+        "cleanEn":  "punishment torment chastisement"
     },
     {
         "idx":  235,
@@ -3300,8 +3300,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "عزت، غلبہ، دبدبہ، طاقت، اقتدار",
-        "en":  "Honor, Might, Glory, Power",
-        "cleanEn":  "honor might glory power"
+        "en":  "Honor, Might, Glory, Sovereign power",
+        "cleanEn":  "honor might glory sovereign power"
     },
     {
         "idx":  237,
@@ -3314,8 +3314,8 @@
         "cat":  "اسْمٌ",
         "func":  "Divine Attribute / صِفَة",
         "ur":  "زبردست، غالب، باوقار",
-        "en":  "All-Mighty, Prevailing",
-        "cleanEn":  "allmighty prevailing"
+        "en":  "All-Mighty, Prevailing (Divine Attribute)",
+        "cleanEn":  "all mighty prevailing divine attribute"
     },
     {
         "idx":  238,
@@ -3328,8 +3328,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "تنگی، دشواری، بدبختی و عذاب کی راہ",
-        "en":  "Sun",
-        "cleanEn":  "sun"
+        "en":  "Hardship, Difficulty, Path of misery",
+        "cleanEn":  "hardship difficulty path of misery"
     },
     {
         "idx":  239,
@@ -3356,8 +3356,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun (Time) / اسْمُ زَمَان",
         "ur":  "زمانہ، عصر کا وقت، وقت کی گردش",
-        "en":  "The Olive",
-        "cleanEn":  "the olive"
+        "en":  "Time, The Declining day, Era, Epoch",
+        "cleanEn":  "time the declining day era epoch"
     },
     {
         "idx":  241,
@@ -3370,8 +3370,8 @@
         "cat":  "صِفَةٌ",
         "func":  "Adjective / صِفَة",
         "ur":  "سخت نافرمان، سرکش",
-        "en":  "All-Appreciative, Rewarder of gratitude",
-        "cleanEn":  "allappreciative rewarder of gratitude"
+        "en":  "Rebellious, Defiant, Disobedient",
+        "cleanEn":  "rebellious defiant disobedient"
     },
     {
         "idx":  242,
@@ -3384,8 +3384,8 @@
         "cat":  "اسْمٌ",
         "func":  "Plural Noun / جَمْع",
         "ur":  "ہڈیاں، ڈھانچہ",
-        "en":  "Heaven, Sky",
-        "cleanEn":  "heaven sky"
+        "en":  "Bones, Skeletal remains",
+        "cleanEn":  "bones skeletal remains"
     },
     {
         "idx":  243,
@@ -3398,8 +3398,8 @@
         "cat":  "اسْمٌ",
         "func":  "Divine Attribute / صِفَة",
         "ur":  "بہت بڑا، عظمت والا، جلیل القدر",
-        "en":  "Most Great, Magnificent",
-        "cleanEn":  "most great magnificent"
+        "en":  "Most Great, Magnificent, Tremendous",
+        "cleanEn":  "most great magnificent tremendous"
     },
     {
         "idx":  244,
@@ -3412,8 +3412,8 @@
         "cat":  "اسْمٌ",
         "func":  "Divine Attribute / صِفَة",
         "ur":  "بہت معاف فرمانے والا، درگزر کرنے والا",
-        "en":  "Religion, Faith, Judgment",
-        "cleanEn":  "religion faith judgment"
+        "en":  "Ever-Pardoning, All-Forgiving",
+        "cleanEn":  "ever pardoning all forgiving"
     },
     {
         "idx":  245,
@@ -3426,8 +3426,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "علم، آگاہی، سچی معلومات",
-        "en":  "Firm mountains, Stabilizers",
-        "cleanEn":  "firm mountains stabilizers"
+        "en":  "Knowledge, True learning",
+        "cleanEn":  "knowledge true learning"
     },
     {
         "idx":  246,
@@ -3454,8 +3454,8 @@
         "cat":  "اسْمٌ",
         "func":  "Divine Attribute / صِفَة",
         "ur":  "بلند مرتبہ، اعلیٰ و ارفع",
-        "en":  "All-Aware, Acquainted",
-        "cleanEn":  "allaware acquainted"
+        "en":  "Most High, Exalted (Divine Attribute)",
+        "cleanEn":  "most high exalted divine attribute"
     },
     {
         "idx":  248,
@@ -3468,8 +3468,8 @@
         "cat":  "اسْمٌ",
         "func":  "Divine Attribute / صِفَة",
         "ur":  "سب کچھ جاننے والا، باخبر",
-        "en":  "All-Knowing",
-        "cleanEn":  "allknowing"
+        "en":  "All-Knowing, Omniscient",
+        "cleanEn":  "all knowing omniscient"
     },
     {
         "idx":  249,
@@ -3482,8 +3482,8 @@
         "cat":  "اسْمٌ",
         "func":  "Religious Rite / شَعِيرَة",
         "ur":  "عمرہ، بیت اللہ کی نفلی زیارت",
-        "en":  "The Most Gracious",
-        "cleanEn":  "the most gracious"
+        "en":  "Umrah (lesser pilgrimage to Makkah)",
+        "cleanEn":  "umrah lesser pilgrimage to makkah"
     },
     {
         "idx":  250,
@@ -3510,8 +3510,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "عہد، وعدہ، میثاق، پیمان، ذمہ داری",
-        "en":  "Covenant, Pledge, Promise",
-        "cleanEn":  "covenant pledge promise"
+        "en":  "Covenant, Pledge, Promise, Contract",
+        "cleanEn":  "covenant pledge promise contract"
     },
     {
         "idx":  252,
@@ -3538,8 +3538,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "آنکھ، چشمہ، نقد مال، ذات",
-        "en":  "Eye",
-        "cleanEn":  "eye"
+        "en":  "Eye, Spring, Fountain, Entity",
+        "cleanEn":  "eye spring fountain entity"
     },
     {
         "idx":  254,
@@ -3552,8 +3552,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun of Place / اسْمُ مَكَان",
         "ur":  "غار، پہاڑ کا کھوکھلا گڑھا",
-        "en":  "Archangel Michael",
-        "cleanEn":  "archangel michael"
+        "en":  "Cave",
+        "cleanEn":  "cave"
     },
     {
         "idx":  255,
@@ -3580,8 +3580,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun (Time) / اسْمُ زَمَان",
         "ur":  "صبح کا وقت، دن کا آغاز",
-        "en":  "Morning, Early dawn",
-        "cleanEn":  "morning early dawn"
+        "en":  "Early morning, Dawn",
+        "cleanEn":  "early morning dawn"
     },
     {
         "idx":  257,
@@ -3594,8 +3594,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "دھوکہ، فریب، غرور",
-        "en":  "Clear, Manifest",
-        "cleanEn":  "clear manifest"
+        "en":  "Delusion, Deception, Illusion",
+        "cleanEn":  "delusion deception illusion"
     },
     {
         "idx":  258,
@@ -3608,8 +3608,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "غصہ، غضب، عتاب",
-        "en":  "Anger, Wrath",
-        "cleanEn":  "anger wrath"
+        "en":  "Anger, Wrath, Indignation",
+        "cleanEn":  "anger wrath indignation"
     },
     {
         "idx":  259,
@@ -3622,8 +3622,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "غفلت، بے خبری، لاپرواہی",
-        "en":  "Colors",
-        "cleanEn":  "colors"
+        "en":  "Heedlessness, Negligence, Inattention",
+        "cleanEn":  "heedlessness negligence inattention"
     },
     {
         "idx":  260,
@@ -3636,8 +3636,8 @@
         "cat":  "اسْمٌ",
         "func":  "Divine Attribute / صِفَة",
         "ur":  "بہت بخشنے والا، درگزر فرمانے والا",
-        "en":  "All-Forgiving",
-        "cleanEn":  "allforgiving"
+        "en":  "All-Forgiving, Oft-Forgiving",
+        "cleanEn":  "all forgiving oft forgiving"
     },
     {
         "idx":  261,
@@ -3650,8 +3650,8 @@
         "cat":  "اسْمٌ",
         "func":  "Divine Attribute / صِفَة",
         "ur":  "بے نیاز، خود کفیل، غنی",
-        "en":  "Self-Sufficient, Free of need",
-        "cleanEn":  "selfsufficient free of need"
+        "en":  "Self-Sufficient, Free of all need",
+        "cleanEn":  "self sufficient free of all need"
     },
     {
         "idx":  262,
@@ -3664,8 +3664,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "غیب، پوشیدہ حقیقت، چھپی ہوئی بات",
-        "en":  "Noble, Generous, Gracious",
-        "cleanEn":  "noble generous gracious"
+        "en":  "The Unseen, Hidden realm",
+        "cleanEn":  "the unseen hidden realm"
     },
     {
         "idx":  263,
@@ -3678,8 +3678,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "شدید غصہ، کھولتا ہوا طیش",
-        "en":  "Rage, Boiling wrath",
-        "cleanEn":  "rage boiling wrath"
+        "en":  "Rage, Boiling wrath, Fury",
+        "cleanEn":  "rage boiling wrath fury"
     },
     {
         "idx":  264,
@@ -3692,8 +3692,8 @@
         "cat":  "اسْمٌ",
         "func":  "Active Participle / اسْمُ فَاعِل",
         "ur":  "نافرمان، گناہ گار، حد شریعت توڑنے والا",
-        "en":  "Weak",
-        "cleanEn":  "weak"
+        "en":  "Defiantly disobedient, Transgressor, Sinner",
+        "cleanEn":  "defiantly disobedient transgressor sinner"
     },
     {
         "idx":  265,
@@ -3706,8 +3706,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "فتح، کامیابی، کشادگی",
-        "en":  "Righteousness, Piety",
-        "cleanEn":  "righteousness piety"
+        "en":  "Victory, Conquest, Opening, Triumph",
+        "cleanEn":  "victory conquest opening triumph"
     },
     {
         "idx":  266,
@@ -3720,8 +3720,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "آزمائش، امتحان، فساد، کفر کا غلبہ",
-        "en":  "Sea, Ocean, Great river",
-        "cleanEn":  "sea ocean great river"
+        "en":  "Trial, Tribulation, Persecution, Discord",
+        "cleanEn":  "trial tribulation persecution discord"
     },
     {
         "idx":  267,
@@ -3734,8 +3734,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun (Time) / اسْمُ زَمَان",
         "ur":  "صبحِ صادق، پو پھٹنے کا وقت",
-        "en":  "Dawn, Daybreak",
-        "cleanEn":  "dawn daybreak"
+        "en":  "Dawn, Daybreak, Day\u0027s start",
+        "cleanEn":  "dawn daybreak day s start"
     },
     {
         "idx":  268,
@@ -3743,13 +3743,13 @@
         "ar":  "فَحْشَاءُ",
         "tr":  "Faḥshā’",
         "cleanTr":  "fahsha",
-        "cleanAr":  "فحشاا",
+        "cleanAr":  "فحشاØ§",
         "letter":  "ف",
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "کھلی بے حیائی، بدکاری، گناہِ قبیح",
-        "en":  "The Unseen, Hidden realm",
-        "cleanEn":  "the unseen hidden realm"
+        "en":  "Gross indecency, Immorality, Lewdness",
+        "cleanEn":  "gross indecency immorality lewdness"
     },
     {
         "idx":  269,
@@ -3762,8 +3762,8 @@
         "cat":  "فِعْلٌ",
         "func":  "Verbal Noun / مَصْدَر",
         "ur":  "بھاگنا، فرار ہونا",
-        "en":  "Bringer of good tidings",
-        "cleanEn":  "bringer of good tidings"
+        "en":  "Fleeing, Flight, Running away",
+        "cleanEn":  "fleeing flight running away"
     },
     {
         "idx":  270,
@@ -3776,8 +3776,8 @@
         "cat":  "عَلَمٌ",
         "func":  "Proper Name / عَلَم",
         "ur":  "فرعون (مصر کا سرکش بادشاہ)",
-        "en":  "Pharaoh",
-        "cleanEn":  "pharaoh"
+        "en":  "Pharaoh (tyrannical king of Egypt)",
+        "cleanEn":  "pharaoh tyrannical king of egypt"
     },
     {
         "idx":  271,
@@ -3790,8 +3790,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "حق و باطل میں فرق کرنے والی کسوٹی، قرآنِ مجید",
-        "en":  "Criterion (between truth and falsehood)",
-        "cleanEn":  "criterion between truth and falsehood"
+        "en":  "Criterion (between truth and falsehood), Quran",
+        "cleanEn":  "criterion between truth and falsehood quran"
     },
     {
         "idx":  272,
@@ -3804,8 +3804,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "گروہ، فریق، جماعت",
-        "en":  "Conclusive argument, Proof",
-        "cleanEn":  "conclusive argument proof"
+        "en":  "Party, Group, Faction, Band",
+        "cleanEn":  "party group faction band"
     },
     {
         "idx":  273,
@@ -3818,8 +3818,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "نافرمانی، گناہ، حد سے نکلنا",
-        "en":  "Defiance, Wickedness, Sin",
-        "cleanEn":  "defiance wickedness sin"
+        "en":  "Defiance, Wickedness, Sinfulness",
+        "cleanEn":  "defiance wickedness sinfulness"
     },
     {
         "idx":  274,
@@ -3846,8 +3846,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "احسان، مہربانی، عنایت، بخشش، زیادتیِ خیر",
-        "en":  "Bounty, Grace, Favor",
-        "cleanEn":  "bounty grace favor"
+        "en":  "Bounty, Grace, Favor, Divine bounty",
+        "cleanEn":  "bounty grace favor divine bounty"
     },
     {
         "idx":  276,
@@ -3860,8 +3860,8 @@
         "cat":  "صِفَةٌ",
         "func":  "Noun / Adjective / صِفَة",
         "ur":  "محتاج، ضرورت مند، غریب",
-        "en":  "Truthful, Person of integrity",
-        "cleanEn":  "truthful person of integrity"
+        "en":  "Poor, Needy, Indigent",
+        "cleanEn":  "poor needy indigent"
     },
     {
         "idx":  277,
@@ -3874,8 +3874,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "کشتی، بحری جہاز",
-        "en":  "Ship, Ark, Vessel",
-        "cleanEn":  "ship ark vessel"
+        "en":  "Ship, Vessel, Ark",
+        "cleanEn":  "ship vessel ark"
     },
     {
         "idx":  278,
@@ -3888,8 +3888,8 @@
         "cat":  "اسْمٌ",
         "func":  "Preposition (In / Inside) / حَرْفُ جَرّ (ظَرْفِيَّة)",
         "ur":  "میں، اندر، کے بیچ میں",
-        "en":  "In, Within, Inside",
-        "cleanEn":  "in within inside"
+        "en":  "In, Within, Inside, Among",
+        "cleanEn":  "in within inside among"
     },
     {
         "idx":  279,
@@ -3902,8 +3902,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "جماعت، لشکر، گروہ",
-        "en":  "Hell, Jahannam",
-        "cleanEn":  "hell jahannam"
+        "en":  "Group, Party, Troop, Company",
+        "cleanEn":  "group party troop company"
     },
     {
         "idx":  280,
@@ -3916,8 +3916,8 @@
         "cat":  "اسْمٌ",
         "func":  "Divine Attribute / صِفَة",
         "ur":  "قدرت رکھنے والا، بااختیار",
-        "en":  "All-Capable, Omnipotent",
-        "cleanEn":  "allcapable omnipotent"
+        "en":  "All-Capable, Able, Omnipotent",
+        "cleanEn":  "all capable able omnipotent"
     },
     {
         "idx":  281,
@@ -3930,8 +3930,8 @@
         "cat":  "عَلَمٌ",
         "func":  "Proper Name / عَلَم",
         "ur":  "قارون (بنی اسرائیل کا مغرور دولت مند)",
-        "en":  "Korah",
-        "cleanEn":  "korah"
+        "en":  "Korah (arrogant wealthy man)",
+        "cleanEn":  "korah arrogant wealthy man"
     },
     {
         "idx":  282,
@@ -3944,8 +3944,8 @@
         "cat":  "اسْمٌ",
         "func":  "Plural Noun / جَمْع",
         "ur":  "قبریں، لحدیں (مفرد: قَبْر)",
-        "en":  "Footstool, Seat of Power",
-        "cleanEn":  "footstool seat of power"
+        "en":  "Graves, Tombs",
+        "cleanEn":  "graves tombs"
     },
     {
         "idx":  283,
@@ -3958,8 +3958,8 @@
         "cat":  "فِعْلٌ",
         "func":  "Verbal Noun / مَصْدَر",
         "ur":  "جنگ کرنا، قتال، خونریز معرکہ",
-        "en":  "The Most Gracious, Entirely Merciful",
-        "cleanEn":  "the most gracious entirely merciful"
+        "en":  "Fighting, Warfare, Combat",
+        "cleanEn":  "fighting warfare combat"
     },
     {
         "idx":  284,
@@ -3972,8 +3972,8 @@
         "cat":  "فِعْلٌ",
         "func":  "Verbal Noun / مَصْدَر",
         "ur":  "قتل کرنا، جان سے مار دینا",
-        "en":  "Prophet Jesus",
-        "cleanEn":  "prophet jesus"
+        "en":  "Killing, Slaying, Murder",
+        "cleanEn":  "killing slaying murder"
     },
     {
         "idx":  285,
@@ -3986,8 +3986,8 @@
         "cat":  "صِفَةٌ",
         "func":  "Adjective (Intensive) / صِفَةُ مُبَالَغَة",
         "ur":  "سخت کنجوس، بخیل، تنگی کرنے والا",
-        "en":  "All-Knowing",
-        "cleanEn":  "allknowing"
+        "en":  "Miserly, Stingy, Grasping",
+        "cleanEn":  "miserly stingy grasping"
     },
     {
         "idx":  286,
@@ -4000,8 +4000,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "اندازہ، تقدیر، مقررہ پیمانہ",
-        "en":  "Like, Similar to",
-        "cleanEn":  "like similar to"
+        "en":  "Measure, Divine decree, Appointed destiny",
+        "cleanEn":  "measure divine decree appointed destiny"
     },
     {
         "idx":  287,
@@ -4014,8 +4014,8 @@
         "cat":  "اسْمٌ",
         "func":  "Divine Attribute / صِفَة",
         "ur":  "مطلق قدرت والا، ہر چیز پر غالب",
-        "en":  "All-Seeing",
-        "cleanEn":  "allseeing"
+        "en":  "Omnipotent, All-Powerful (Divine Attribute)",
+        "cleanEn":  "omnipotent all powerful divine attribute"
     },
     {
         "idx":  288,
@@ -4023,13 +4023,13 @@
         "ar":  "قُرْآنٌ",
         "tr":  "Qur’ān",
         "cleanTr":  "quran",
-        "cleanAr":  "قران",
+        "cleanAr":  "قرØ§ن",
         "letter":  "ق",
         "cat":  "عَلَمٌ",
         "func":  "Proper Scripture / الْكِتَابُ الْمُنَزَّل",
         "ur":  "قرآن، بار بار پڑھی جانے والی کتابِ الٰہی",
-        "en":  "Heavens, Skies",
-        "cleanEn":  "heavens skies"
+        "en":  "The Quran (Recitation, Divine Scripture)",
+        "cleanEn":  "the quran recitation divine scripture"
     },
     {
         "idx":  289,
@@ -4042,8 +4042,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun of Place / اسْمُ مَكَان",
         "ur":  "بستی، بستی کے باشندے، گاؤں",
-        "en":  "Trees",
-        "cleanEn":  "trees"
+        "en":  "Town, Village, City, Inhabitants",
+        "cleanEn":  "town village city inhabitants"
     },
     {
         "idx":  290,
@@ -4056,8 +4056,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "انصاف، عدل، حق کی پاسداری",
-        "en":  "Guidance",
-        "cleanEn":  "guidance"
+        "en":  "Justice, Equity, Fairness",
+        "cleanEn":  "justice equity fairness"
     },
     {
         "idx":  291,
@@ -4070,8 +4070,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "قسم، حلف، سوگند",
-        "en":  "Knowledge",
-        "cleanEn":  "knowledge"
+        "en":  "Oath, Swearing",
+        "cleanEn":  "oath swearing"
     },
     {
         "idx":  292,
@@ -4084,8 +4084,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "قلم، لکھنے کا آلہ",
-        "en":  "Name",
-        "cleanEn":  "name"
+        "en":  "Pen, Writing instrument",
+        "cleanEn":  "pen writing instrument"
     },
     {
         "idx":  293,
@@ -4098,8 +4098,8 @@
         "cat":  "صِفَةٌ",
         "func":  "Adjective / صِفَة",
         "ur":  "تھوڑا، مختصر، کم",
-        "en":  "Delusion, Deception",
-        "cleanEn":  "delusion deception"
+        "en":  "Little, Few, Small in quantity",
+        "cleanEn":  "little few small in quantity"
     },
     {
         "idx":  294,
@@ -4112,8 +4112,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "چاند، مہتاب",
-        "en":  "Deprived, Needy",
-        "cleanEn":  "deprived needy"
+        "en":  "Moon",
+        "cleanEn":  "moon"
     },
     {
         "idx":  295,
@@ -4126,8 +4126,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "طاقت، قوت، زور",
-        "en":  "Justice, Balance, Equity",
-        "cleanEn":  "justice balance equity"
+        "en":  "Strength, Power, Might",
+        "cleanEn":  "strength power might"
     },
     {
         "idx":  296,
@@ -4140,8 +4140,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "بات، کلام، قول، بات کہنا",
-        "en":  "Sunset, Evening",
-        "cleanEn":  "sunset evening"
+        "en":  "Saying, Word, Speech, Utterance",
+        "cleanEn":  "saying word speech utterance"
     },
     {
         "idx":  297,
@@ -4154,8 +4154,8 @@
         "cat":  "اسْمٌ",
         "func":  "Collective Noun / اسْمُ جَمْع",
         "ur":  "قوم، گروہ، جماعت، لوگ، برادری",
-        "en":  "People, Nation, Tribe",
-        "cleanEn":  "people nation tribe"
+        "en":  "People, Nation, Tribe, Community",
+        "cleanEn":  "people nation tribe community"
     },
     {
         "idx":  298,
@@ -4168,8 +4168,8 @@
         "cat":  "اسْمٌ",
         "func":  "Divine Attribute / صِفَة",
         "ur":  "طاقتور، قوی، زبردست قوت والا",
-        "en":  "Soul, Self, Person",
-        "cleanEn":  "soul self person"
+        "en":  "All-Strong, Possessor of supreme strength",
+        "cleanEn":  "all strong possessor of supreme strength"
     },
     {
         "idx":  299,
@@ -4182,8 +4182,8 @@
         "cat":  "اسْمٌ",
         "func":  "Active Participle / اسْمُ فَاعِل",
         "ur":  "کافر، منکر، ناشکرا",
-        "en":  "Messenger",
-        "cleanEn":  "messenger"
+        "en":  "Disbeliever, Denier of truth, Ungrateful",
+        "cleanEn":  "disbeliever denier of truth ungrateful"
     },
     {
         "idx":  300,
@@ -4196,8 +4196,8 @@
         "cat":  "فِعْلٌ",
         "func":  "Incomplete Verb (Past/Eternal) / فِعْلٌ نَاقِص",
         "ur":  "تھا (ماضی میں)، ہمیشہ سے ہے اور رہے گا (اللہ کی صفات کے ساتھ)",
-        "en":  "Was, Has always been, Is eternally",
-        "cleanEn":  "was has always been is eternally"
+        "en":  "Was (past) / Has always been and is eternally (Divine)",
+        "cleanEn":  "was past has always been and is eternally divine"
     },
     {
         "idx":  301,
@@ -4210,8 +4210,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "بڑھاپا، ضعیفی، عمر کی پختگی",
-        "en":  "Old age, Seniority",
-        "cleanEn":  "old age seniority"
+        "en":  "Old age, Seniority, Advanced years",
+        "cleanEn":  "old age seniority advanced years"
     },
     {
         "idx":  302,
@@ -4224,8 +4224,8 @@
         "cat":  "اسْمٌ",
         "func":  "Divine Attribute / صِفَة",
         "ur":  "بہت بڑا، کبریا کا مالک",
-        "en":  "All-Hearing",
-        "cleanEn":  "allhearing"
+        "en":  "Most Great, Grand (Divine Attribute)",
+        "cleanEn":  "most great grand divine attribute"
     },
     {
         "idx":  303,
@@ -4238,8 +4238,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "کتاب، نوشتہ، لکھا ہوا حکم، فرض کردہ بات",
-        "en":  "Book, Scripture, Decree",
-        "cleanEn":  "book scripture decree"
+        "en":  "Book, Scripture, Written decree",
+        "cleanEn":  "book scripture written decree"
     },
     {
         "idx":  304,
@@ -4252,8 +4252,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "جھوٹ، کذب، من گھڑت بات",
-        "en":  "Fire, Hellfire",
-        "cleanEn":  "fire hellfire"
+        "en":  "Lie, Falsehood, Fabrication",
+        "cleanEn":  "lie falsehood fabrication"
     },
     {
         "idx":  305,
@@ -4266,8 +4266,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "کفر، حق کا انکار، ناشکری",
-        "en":  "War, Warfare",
-        "cleanEn":  "war warfare"
+        "en":  "Disbelief, Rejection of truth, Ingratitude",
+        "cleanEn":  "disbelief rejection of truth ingratitude"
     },
     {
         "idx":  306,
@@ -4280,8 +4280,8 @@
         "cat":  "فِعْلٌ",
         "func":  "Verbal Noun / مَصْدَر",
         "ur":  "ناشکری، احسان فراموشی",
-        "en":  "Enmity, Hostility",
-        "cleanEn":  "enmity hostility"
+        "en":  "Ingratitude, Rejection, Denial of favors",
+        "cleanEn":  "ingratitude rejection denial of favors"
     },
     {
         "idx":  307,
@@ -4294,8 +4294,8 @@
         "cat":  "صِفَةٌ",
         "func":  "Adjective (Intensive) / صِفَةُ مُبَالَغَة",
         "ur":  "سخت ناشکرا، حق فراموش",
-        "en":  "Ungrateful, Denier",
-        "cleanEn":  "ungrateful denier"
+        "en":  "Persistent denier, Deeply ungrateful",
+        "cleanEn":  "persistent denier deeply ungrateful"
     },
     {
         "idx":  308,
@@ -4308,8 +4308,8 @@
         "cat":  "حَرْفٌ",
         "func":  "Reproach Particle / حَرْفُ رَدْع",
         "ur":  "ہرگز نہیں، ہرگز ایسا نہیں",
-        "en":  "The Moon",
-        "cleanEn":  "the moon"
+        "en":  "Nay!, Never!, By no means!",
+        "cleanEn":  "nay never by no means"
     },
     {
         "idx":  309,
@@ -4322,8 +4322,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "بات، کلمہ، فرمان، فیصلہ",
-        "en":  "Repentance, Turning to God",
-        "cleanEn":  "repentance turning to god"
+        "en":  "Word, Decree, Commandment",
+        "cleanEn":  "word decree commandment"
     },
     {
         "idx":  310,
@@ -4336,8 +4336,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun of Place / اسْمُ مَكَان",
         "ur":  "پہاڑ کا کشادہ غار، کہف",
-        "en":  "Prophet Moses",
-        "cleanEn":  "prophet moses"
+        "en":  "Cave (Al-Kahf)",
+        "cleanEn":  "cave al kahf"
     },
     {
         "idx":  311,
@@ -4350,8 +4350,8 @@
         "cat":  "اسْمٌ",
         "func":  "Absolute Negation / حَرْفُ نَفْيِ الْجِنْس",
         "ur":  "بالکل نہیں، ہرگز کوئی نہیں، قطعا نفی",
-        "en":  "No, Not any, Absolutely no",
-        "cleanEn":  "no not any absolutely no"
+        "en":  "No, Not any, Absolute categorical negation",
+        "cleanEn":  "no not any absolute categorical negation"
     },
     {
         "idx":  312,
@@ -4364,8 +4364,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "کھیل، تماشا، دل لگی",
-        "en":  "Play, Amusement",
-        "cleanEn":  "play amusement"
+        "en":  "Play, Amusement, Game",
+        "cleanEn":  "play amusement game"
     },
     {
         "idx":  313,
@@ -4378,8 +4378,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "فضول بات، بیہودہ کلام",
-        "en":  "Patience, Steadfast perseverance",
-        "cleanEn":  "patience steadfast perseverance"
+        "en":  "Vain talk, Idle speech, Futility",
+        "cleanEn":  "vain talk idle speech futility"
     },
     {
         "idx":  314,
@@ -4392,8 +4392,8 @@
         "cat":  "اسْمٌ",
         "func":  "Preposition (For / Truly) / حَرْفُ جَرّ / تَأْكِيد",
         "ur":  "لِـ: کے لیے، کی خاطر، کی ملکیت، لَـ: البتہ، یقیناً، ضرور",
-        "en":  "For, To, Belonging to / Truly, Indeed",
-        "cleanEn":  "for to belonging to truly indeed"
+        "en":  "For, Belonging to, To / Truly, Surely",
+        "cleanEn":  "for belonging to to truly surely"
     },
     {
         "idx":  315,
@@ -4420,8 +4420,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "تختی، لوح، صحیفہ",
-        "en":  "Time, Era, Afternoon",
-        "cleanEn":  "time era afternoon"
+        "en":  "Tablet, Inscribed slate (Lawh)",
+        "cleanEn":  "tablet inscribed slate lawh"
     },
     {
         "idx":  317,
@@ -4434,8 +4434,8 @@
         "cat":  "عَلَمٌ",
         "func":  "Proper Name (Prophet) / عَلَم",
         "ur":  "حضرت لوط علیہ السلام",
-        "en":  "Prophet Moses",
-        "cleanEn":  "prophet moses"
+        "en":  "Prophet Lot",
+        "cleanEn":  "prophet lot"
     },
     {
         "idx":  318,
@@ -4448,8 +4448,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun (Time) / اسْمُ زَمَان",
         "ur":  "رات، شب، تاریکی کا وقت",
-        "en":  "Prophet Lot",
-        "cleanEn":  "prophet lot"
+        "en":  "Night, Darkness of night",
+        "cleanEn":  "night darkness of night"
     },
     {
         "idx":  319,
@@ -4462,8 +4462,8 @@
         "cat":  "حَرْفٌ",
         "func":  "Particle of Negation / What / حَرْفُ نَفْي / اسْمُ اِسْتِفْهَام",
         "ur":  "نہیں (نافیہ)، کیا؟ (سوالیہ)، جو کچھ (موصولہ)",
-        "en":  "Liar",
-        "cleanEn":  "liar"
+        "en":  "Not (negation), What? (question), That which (relative)",
+        "cleanEn":  "not negation what question that which relative"
     },
     {
         "idx":  320,
@@ -4471,7 +4471,7 @@
         "ar":  "مَأْجُوجُ",
         "tr":  "Ma’jūj",
         "cleanTr":  "majuj",
-        "cleanAr":  "ماجوج",
+        "cleanAr":  "مØ§جوج",
         "letter":  "م",
         "cat":  "عَلَمٌ",
         "func":  "Proper Name / عَلَم",
@@ -4490,8 +4490,8 @@
         "cat":  "عَلَمٌ",
         "func":  "Proper Angel / عَلَم",
         "ur":  "مالک (دوزخ کے داروغہ فرشتے کا نام)",
-        "en":  "Prophet Noah",
-        "cleanEn":  "prophet noah"
+        "en":  "Malik (Keeper of Hellfire)",
+        "cleanEn":  "malik keeper of hellfire"
     },
     {
         "idx":  322,
@@ -4504,8 +4504,8 @@
         "cat":  "اسْمٌ",
         "func":  "Active Participle / اسْمُ فَاعِل",
         "ur":  "بدلنے والا، رد و بدل کرنے والا",
-        "en":  "Deity, God worthy of worship",
-        "cleanEn":  "deity god worthy of worship"
+        "en":  "Changer, One who alters",
+        "cleanEn":  "changer one who alters"
     },
     {
         "idx":  323,
@@ -4518,8 +4518,8 @@
         "cat":  "اسْمٌ",
         "func":  "Active Participle / اسْمُ فَاعِل",
         "ur":  "کھلا، واضح، صاف صاف بیان کرنے والا",
-        "en":  "Resurrection after death",
-        "cleanEn":  "resurrection after death"
+        "en":  "Clear, Manifest, Evident, Lucid",
+        "cleanEn":  "clear manifest evident lucid"
     },
     {
         "idx":  324,
@@ -4532,8 +4532,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "برتنے کا سامان، فانی پونجی",
-        "en":  "Vanity, Diversion",
-        "cleanEn":  "vanity diversion"
+        "en":  "Worldly enjoyment, Passing provision",
+        "cleanEn":  "worldly enjoyment passing provision"
     },
     {
         "idx":  325,
@@ -4546,8 +4546,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "مثال، شان، صفت، کہاوت",
-        "en":  "The Truthful",
-        "cleanEn":  "the truthful"
+        "en":  "Similitude, Example, Parable, Comparison",
+        "cleanEn":  "similitude example parable comparison"
     },
     {
         "idx":  326,
@@ -4560,8 +4560,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun of Place / اسْمُ مَكَان",
         "ur":  "عبادت گاہ، خلوت کدہ، مسجد کا اگلا حصہ",
-        "en":  "Prophet Moses",
-        "cleanEn":  "prophet moses"
+        "en":  "Sanctuary, Prayer chamber, Mihrab",
+        "cleanEn":  "sanctuary prayer chamber mihrab"
     },
     {
         "idx":  327,
@@ -4574,8 +4574,8 @@
         "cat":  "اسْمٌ",
         "func":  "Passive Participle / اسْمُ مَفْعُول",
         "ur":  "محروم، خوددار ضرورت مند جو سوال نہ کرے",
-        "en":  "The Resurrection, Day of Rising",
-        "cleanEn":  "the resurrection day of rising"
+        "en":  "Deprived, Needy person who refrains from begging",
+        "cleanEn":  "deprived needy person who refrains from begging"
     },
     {
         "idx":  328,
@@ -4602,8 +4602,8 @@
         "cat":  "اسْمٌ",
         "func":  "Active Participle / اسْمُ فَاعِل",
         "ur":  "نکالنے والا، عیاں اور ظاہر کرنے والا",
-        "en":  "Bringer forth, Revealer",
-        "cleanEn":  "bringer forth revealer"
+        "en":  "Bringer forth, Revealer, Discloser",
+        "cleanEn":  "bringer forth revealer discloser"
     },
     {
         "idx":  330,
@@ -4616,8 +4616,8 @@
         "cat":  "اسْمٌ",
         "func":  "Prophetic Title / لَقَبُ النَّبِيّ ﷺ",
         "ur":  "چادر اوڑھنے والے، اٹھ کر تبلیغ کرنے والے آقا ﷺ",
-        "en":  "Prophet, The Holy Prophet",
-        "cleanEn":  "prophet the holy prophet"
+        "en":  "The Enfolded One, The Cloaked Messenger (peace be upon him)",
+        "cleanEn":  "the enfolded one the cloaked messenger peace be upon him"
     },
     {
         "idx":  331,
@@ -4630,8 +4630,8 @@
         "cat":  "عَلَمٌ",
         "func":  "Proper (Place / Tribe) / عَلَم",
         "ur":  "مدین (حضرت شعیبؑ کا شہر)",
-        "en":  "Mountains",
-        "cleanEn":  "mountains"
+        "en":  "Madyan (Midian, city of Shu\u0027ayb)",
+        "cleanEn":  "madyan midian city of shu ayb"
     },
     {
         "idx":  332,
@@ -4644,8 +4644,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun of Place / اسْمُ مَكَان",
         "ur":  "شہر، بستی",
-        "en":  "Prophet Aaron",
-        "cleanEn":  "prophet aaron"
+        "en":  "City, Town",
+        "cleanEn":  "city town"
     },
     {
         "idx":  333,
@@ -4658,8 +4658,8 @@
         "cat":  "اسْمٌ",
         "func":  "Passive Participle / اسْمُ مَفْعُول",
         "ur":  "بھیجا گیا پیغمبر، رسول",
-        "en":  "Hearing, All-Hearing",
-        "cleanEn":  "hearing allhearing"
+        "en":  "Messenger, Sent Apostle",
+        "cleanEn":  "messenger sent apostle"
     },
     {
         "idx":  334,
@@ -4672,8 +4672,8 @@
         "cat":  "اسْمٌ",
         "func":  "Passive Participle / اسْمُ مَفْعُول",
         "ur":  "بلند کیا گیا، اونچا",
-        "en":  "The Pen",
-        "cleanEn":  "the pen"
+        "en":  "Raised high, Exalted, Elevated",
+        "cleanEn":  "raised high exalted elevated"
     },
     {
         "idx":  335,
@@ -4686,8 +4686,8 @@
         "cat":  "صِفَةٌ",
         "func":  "Adjective / صِفَة",
         "ur":  "بیمار، علیل، مریض",
-        "en":  "Sick, Ill, Patient",
-        "cleanEn":  "sick ill patient"
+        "en":  "Sick person, Ill, Patient",
+        "cleanEn":  "sick person ill patient"
     },
     {
         "idx":  336,
@@ -4700,8 +4700,8 @@
         "cat":  "عَلَمٌ",
         "func":  "Proper Name / عَلَم",
         "ur":  "حضرت مریم علیہا السلام",
-        "en":  "Mary (Maryam)",
-        "cleanEn":  "mary maryam"
+        "en":  "Mary (mother of Jesus)",
+        "cleanEn":  "mary mother of jesus"
     },
     {
         "idx":  337,
@@ -4714,8 +4714,8 @@
         "cat":  "اسْمٌ",
         "func":  "Active Participle / اسْمُ فَاعِل",
         "ur":  "ہٹانے والا، دور کرنے والا",
-        "en":  "Dust, Soil",
-        "cleanEn":  "dust soil"
+        "en":  "One who removes, delivers, rescues from danger",
+        "cleanEn":  "one who removes delivers rescues from danger"
     },
     {
         "idx":  338,
@@ -4728,8 +4728,8 @@
         "cat":  "اسْمٌ",
         "func":  "Prophetic Title / لَقَبُ النَّبِيّ ﷺ",
         "ur":  "کمبل میں لپٹنے والے رسول ﷺ",
-        "en":  "Prophet David",
-        "cleanEn":  "prophet david"
+        "en":  "The Enwrapped One (peace be upon him)",
+        "cleanEn":  "the enwrapped one peace be upon him"
     },
     {
         "idx":  339,
@@ -4742,8 +4742,8 @@
         "cat":  "اسْمٌ",
         "func":  "Plural Noun / جَمْع",
         "ur":  "مسجدیں، سجدہ گاہیں",
-        "en":  "Souls, Selves",
-        "cleanEn":  "souls selves"
+        "en":  "Mosques, Places of prostration",
+        "cleanEn":  "mosques places of prostration"
     },
     {
         "idx":  340,
@@ -4756,8 +4756,8 @@
         "cat":  "اسْمٌ",
         "func":  "Active Participle / اسْمُ فَاعِل",
         "ur":  "سیدھا، درست، قائم",
-        "en":  "Straight, Upright",
-        "cleanEn":  "straight upright"
+        "en":  "Straight, Upright, Rightly directed",
+        "cleanEn":  "straight upright rightly directed"
     },
     {
         "idx":  341,
@@ -4770,8 +4770,8 @@
         "cat":  "اسْمٌ",
         "func":  "Passive Participle / اسْمُ مَفْعُول",
         "ur":  "بھڑکایا ہوا، ابلتا ہوا سمندر",
-        "en":  "The Book",
-        "cleanEn":  "the book"
+        "en":  "Filled, Swelling, Overflowing (sea)",
+        "cleanEn":  "filled swelling overflowing sea"
     },
     {
         "idx":  342,
@@ -4784,8 +4784,8 @@
         "cat":  "اسْمٌ",
         "func":  "Passive Participle / اسْمُ مَفْعُول",
         "ur":  "لکھا ہوا، سطر بند تحریر شدہ",
-        "en":  "Especially Merciful",
-        "cleanEn":  "especially merciful"
+        "en":  "Inscribed, Written in lines",
+        "cleanEn":  "inscribed written in lines"
     },
     {
         "idx":  343,
@@ -4798,8 +4798,8 @@
         "cat":  "اسْمٌ",
         "func":  "Active Participle / مُسْلِم",
         "ur":  "مسلمان، فرماں بردار، مطیع",
-        "en":  "Protector, Guardian",
-        "cleanEn":  "protector guardian"
+        "en":  "Muslim, Submissive to Allah",
+        "cleanEn":  "muslim submissive to allah"
     },
     {
         "idx":  344,
@@ -4812,8 +4812,8 @@
         "cat":  "اسْمٌ",
         "func":  "Passive Participle / اسْمُ مَفْعُول",
         "ur":  "جس سے بازپرس کی جائے، قابلِ مؤاخذہ",
-        "en":  "All-Forgiving",
-        "cleanEn":  "allforgiving"
+        "en":  "Questioned, Held accountable",
+        "cleanEn":  "questioned held accountable"
     },
     {
         "idx":  345,
@@ -4826,8 +4826,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun of Place / اسْمُ مَكَان",
         "ur":  "مشرق، سورج طلوع ہونے کی سمت",
-        "en":  "The Wrongdoers, Oppressors",
-        "cleanEn":  "the wrongdoers oppressors"
+        "en":  "East, Place of sunrise",
+        "cleanEn":  "east place of sunrise"
     },
     {
         "idx":  346,
@@ -4840,8 +4840,8 @@
         "cat":  "صِفَةٌ",
         "func":  "Noun / Adjective / مُشْرِك",
         "ur":  "مشرک مرد، شرک کرنے والا",
-        "en":  "Killing, Slaying",
-        "cleanEn":  "killing slaying"
+        "en":  "Polytheist (male), Associator of partners with God",
+        "cleanEn":  "polytheist male associator of partners with god"
     },
     {
         "idx":  347,
@@ -4854,8 +4854,8 @@
         "cat":  "صِفَةٌ",
         "func":  "Feminine Adjective / مُشْرِكَة",
         "ur":  "مشرکہ عورت، شرک کرنے والی",
-        "en":  "Water, Rain",
-        "cleanEn":  "water rain"
+        "en":  "Polytheist (female)",
+        "cleanEn":  "polytheist female"
     },
     {
         "idx":  348,
@@ -4868,8 +4868,8 @@
         "cat":  "اسْمٌ",
         "func":  "Passive Participle / اسْمُ مَفْعُول",
         "ur":  "بھلائی، نیکی، شریعت پسندیدہ کام",
-        "en":  "Truth, Justice, Reality",
-        "cleanEn":  "truth justice reality"
+        "en":  "Good, Recognized virtue, Righteous conduct",
+        "cleanEn":  "good recognized virtue righteous conduct"
     },
     {
         "idx":  349,
@@ -4882,8 +4882,8 @@
         "cat":  "اسْمٌ",
         "func":  "Passive Participle / اسْمُ مَفْعُول",
         "ur":  "آباد، فرشتوں سے معمور (بیت المعمور)",
-        "en":  "The Earth",
-        "cleanEn":  "the earth"
+        "en":  "Frequented, Inhabited (Al-Bayt Al-Ma\u0027mur)",
+        "cleanEn":  "frequented inhabited al bayt al ma mur"
     },
     {
         "idx":  350,
@@ -4896,8 +4896,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun of Place / اسْمُ مَكَان",
         "ur":  "مغرب، سورج غروب ہونے کی سمت",
-        "en":  "The Successful, Triumphant",
-        "cleanEn":  "the successful triumphant"
+        "en":  "West, Place of sunset",
+        "cleanEn":  "west place of sunset"
     },
     {
         "idx":  351,
@@ -4910,8 +4910,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "بخشش، مغفرت، پردہ پوشی",
-        "en":  "Return, Ultimate destination",
-        "cleanEn":  "return ultimate destination"
+        "en":  "Forgiveness, Pardon",
+        "cleanEn":  "forgiveness pardon"
     },
     {
         "idx":  352,
@@ -4924,8 +4924,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "خفیہ تدبیر، چال، سازش",
-        "en":  "The Blazing Hellfire",
-        "cleanEn":  "the blazing hellfire"
+        "en":  "Plot, Scheme, Secret plan",
+        "cleanEn":  "plot scheme secret plan"
     },
     {
         "idx":  353,
@@ -4938,8 +4938,8 @@
         "cat":  "اسْمٌ",
         "func":  "Plural Noun / جَمْع",
         "ur":  "فرشتے (مفرد: مَلَك)",
-        "en":  "Angels",
-        "cleanEn":  "angels"
+        "en":  "Angels (singular: Malak)",
+        "cleanEn":  "angels singular malak"
     },
     {
         "idx":  354,
@@ -4952,8 +4952,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "طریقہ، دین، مسلک، شریعت",
-        "en":  "Prophet Salih",
-        "cleanEn":  "prophet salih"
+        "en":  "Religion, Creed, Community of faith",
+        "cleanEn":  "religion creed community of faith"
     },
     {
         "idx":  355,
@@ -4966,8 +4966,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "بادشاہت، حکومت، اقتدار، تسلط",
-        "en":  "Disbelievers, Deniers",
-        "cleanEn":  "disbelievers deniers"
+        "en":  "Dominion, Sovereignty, Kingdom",
+        "cleanEn":  "dominion sovereignty kingdom"
     },
     {
         "idx":  356,
@@ -4980,8 +4980,8 @@
         "cat":  "اسْمٌ",
         "func":  "Preposition (From / Of) / حَرْفُ جَرّ (اِبْتِدَاء و تَبْعِيض)",
         "ur":  "سے، کی طرف سے، میں سے، کی وجہ سے",
-        "en":  "From, Out of, Belonging to, Due to",
-        "cleanEn":  "from out of belonging to due to"
+        "en":  "From, Of, Out of, By reason of",
+        "cleanEn":  "from of out of by reason of"
     },
     {
         "idx":  357,
@@ -4994,8 +4994,8 @@
         "cat":  "اسْمٌ",
         "func":  "Passive Participle / اسْمُ مَفْعُول",
         "ur":  "کھلا ہوا، پھیلا ہوا صحیفہ",
-        "en":  "The Sky, Heaven",
-        "cleanEn":  "the sky heaven"
+        "en":  "Spread out, Unrolled (scroll)",
+        "cleanEn":  "spread out unrolled scroll"
     },
     {
         "idx":  358,
@@ -5022,8 +5022,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "موت، وفات، بے جان ہونا، زندگی کا خاتمہ",
-        "en":  "Death",
-        "cleanEn":  "death"
+        "en":  "Death, Lifelessness",
+        "cleanEn":  "death lifelessness"
     },
     {
         "idx":  360,
@@ -5050,8 +5050,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "مددگار، کارساز، آقا، سرپرست",
-        "en":  "Protector, Guardian, Patron",
-        "cleanEn":  "protector guardian patron"
+        "en":  "Protector, Guardian, Patron, Master",
+        "cleanEn":  "protector guardian patron master"
     },
     {
         "idx":  362,
@@ -5064,8 +5064,8 @@
         "cat":  "صِفَةٌ",
         "func":  "Noun / Adjective / مُؤْمِن",
         "ur":  "ایمان والا، مومن، اللہ کا باوفا بندہ",
-        "en":  "Servants, Slaves (of Allah)",
-        "cleanEn":  "servants slaves of allah"
+        "en":  "Believer, Faithful person",
+        "cleanEn":  "believer faithful person"
     },
     {
         "idx":  363,
@@ -5092,8 +5092,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun of Instrument / اسْمُ آلَة",
         "ur":  "ترازو، وزن کا آلہ، عدل کا پیمانہ",
-        "en":  "Prophet Zechariah",
-        "cleanEn":  "prophet zechariah"
+        "en":  "Balance, Scales of justice, Measure",
+        "cleanEn":  "balance scales of justice measure"
     },
     {
         "idx":  365,
@@ -5106,8 +5106,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "جوا، قمار بازی",
-        "en":  "Ears",
-        "cleanEn":  "ears"
+        "en":  "Gambling, Games of chance",
+        "cleanEn":  "gambling games of chance"
     },
     {
         "idx":  366,
@@ -5120,8 +5120,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "آگ، شعلہ، آتش",
-        "en":  "Pictures, Surahs, Forms",
-        "cleanEn":  "pictures surahs forms"
+        "en":  "Fire, Hellfire",
+        "cleanEn":  "fire hellfire"
     },
     {
         "idx":  367,
@@ -5134,8 +5134,8 @@
         "cat":  "اسْمٌ",
         "func":  "Collective Noun / اسْمُ جَمْع",
         "ur":  "لوگ، انسان، خلقِ خدا",
-        "en":  "All the Worlds, All creation",
-        "cleanEn":  "all the worlds all creation"
+        "en":  "People, Mankind",
+        "cleanEn":  "people mankind"
     },
     {
         "idx":  368,
@@ -5162,8 +5162,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "نبی، اللہ کا پیغام پہنچانے والا پیغمبر",
-        "en":  "Mankind, People",
-        "cleanEn":  "mankind people"
+        "en":  "Prophet",
+        "cleanEn":  "prophet"
     },
     {
         "idx":  370,
@@ -5176,8 +5176,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "نجات، چھٹکارا، فلاح",
-        "en":  "Darkness, Multiple darks",
-        "cleanEn":  "darkness multiple darks"
+        "en":  "Salvation, Deliverance, Escape",
+        "cleanEn":  "salvation deliverance escape"
     },
     {
         "idx":  371,
@@ -5190,8 +5190,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "ستارہ، تارا",
-        "en":  "Time, Declining day, Era",
-        "cleanEn":  "time declining day era"
+        "en":  "Star",
+        "cleanEn":  "star"
     },
     {
         "idx":  372,
@@ -5204,8 +5204,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "شہد کی مکھی",
-        "en":  "Prophet Abraham",
-        "cleanEn":  "prophet abraham"
+        "en":  "Bees",
+        "cleanEn":  "bees"
     },
     {
         "idx":  373,
@@ -5218,8 +5218,8 @@
         "cat":  "صِفَةٌ",
         "func":  "Adjective / صِفَة",
         "ur":  "ڈرانے والا، متنبہ کرنے والا پیغمبر",
-        "en":  "He, It (third person singular)",
-        "cleanEn":  "he it third person singular"
+        "en":  "Warner, Admonisher",
+        "cleanEn":  "warner admonisher"
     },
     {
         "idx":  374,
@@ -5246,8 +5246,8 @@
         "cat":  "عَلَمٌ",
         "func":  "Proper Religion / عَلَم",
         "ur":  "عیسائی، نصرانی",
-        "en":  "Immense, Supreme",
-        "cleanEn":  "immense supreme"
+        "en":  "Christian",
+        "cleanEn":  "christian"
     },
     {
         "idx":  376,
@@ -5260,8 +5260,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "نعمت، احسان، بخشش",
-        "en":  "Forgiveness, Pardon",
-        "cleanEn":  "forgiveness pardon"
+        "en":  "Favor, Blessing, Bounty, Grace",
+        "cleanEn":  "favor blessing bounty grace"
     },
     {
         "idx":  377,
@@ -5274,8 +5274,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "نعمت، پرتعیش آسودگی",
-        "en":  "The Unseen, Hidden realm",
-        "cleanEn":  "the unseen hidden realm"
+        "en":  "Delight, Bliss, Abundant blessings",
+        "cleanEn":  "delight bliss abundant blessings"
     },
     {
         "idx":  378,
@@ -5288,8 +5288,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "منافقت، دو رخی، کھوٹ",
-        "en":  "Hypocrisy",
-        "cleanEn":  "hypocrisy"
+        "en":  "Hypocrisy, Deceit",
+        "cleanEn":  "hypocrisy deceit"
     },
     {
         "idx":  379,
@@ -5302,8 +5302,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "جان، روح، ذات، خود انسان",
-        "en":  "The Guidance",
-        "cleanEn":  "the guidance"
+        "en":  "Soul, Self, Life, Person",
+        "cleanEn":  "soul self life person"
     },
     {
         "idx":  380,
@@ -5316,8 +5316,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun (Species) / اسْمُ جِنْس",
         "ur":  "چیونٹی (جمع: چیونٹیاں)",
-        "en":  "The Enfolded One (Al-Muzzammil)",
-        "cleanEn":  "the enfolded one almuzzammil"
+        "en":  "Ant, Ants",
+        "cleanEn":  "ant ants"
     },
     {
         "idx":  381,
@@ -5330,8 +5330,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun (Time) / اسْمُ زَمَان",
         "ur":  "دن، روز، روشنی کا وقت",
-        "en":  "Prophet Hud",
-        "cleanEn":  "prophet hud"
+        "en":  "Day, Daylight",
+        "cleanEn":  "day daylight"
     },
     {
         "idx":  382,
@@ -5358,8 +5358,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "روشنی، نورِ ایمان، اجالا",
-        "en":  "Light, Illumination",
-        "cleanEn":  "light illumination"
+        "en":  "Light, Illumination, Divine light",
+        "cleanEn":  "light illumination divine light"
     },
     {
         "idx":  384,
@@ -5386,8 +5386,8 @@
         "cat":  "عَلَمٌ",
         "func":  "Proper Name / عَلَم",
         "ur":  "ہامان (فرعون کا وزیر)",
-        "en":  "Haman",
-        "cleanEn":  "haman"
+        "en":  "Haman (Pharaoh\u0027s minister)",
+        "cleanEn":  "haman pharaoh s minister"
     },
     {
         "idx":  386,
@@ -5400,8 +5400,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "ہدایت، سیدھا راستہ، رہنمائی، راہِ راست",
-        "en":  "Guidance",
-        "cleanEn":  "guidance"
+        "en":  "Guidance, Straight path",
+        "cleanEn":  "guidance straight path"
     },
     {
         "idx":  387,
@@ -5428,8 +5428,8 @@
         "cat":  "ضَمِيرٌ",
         "func":  "Personal Pronoun (3rd Sing.) / ضَمِير",
         "ur":  "وہ، وہی",
-        "en":  "Warning, Reminder",
-        "cleanEn":  "warning reminder"
+        "en":  "He, It (third person masculine singular pronoun)",
+        "cleanEn":  "he it third person masculine singular pronoun"
     },
     {
         "idx":  389,
@@ -5442,8 +5442,8 @@
         "cat":  "عَلَمٌ",
         "func":  "Proper Name (Prophet) / عَلَم",
         "ur":  "حضرت ہود علیہ السلام",
-        "en":  "Prophet Abraham",
-        "cleanEn":  "prophet abraham"
+        "en":  "Prophet Hud",
+        "cleanEn":  "prophet hud"
     },
     {
         "idx":  390,
@@ -5470,8 +5470,8 @@
         "cat":  "اسْمٌ",
         "func":  "Divine Attribute / صِفَة",
         "ur":  "کشادہ رحمت والا، وسعت رکھنے والا",
-        "en":  "All-Encompassing, Boundless",
-        "cleanEn":  "allencompassing boundless"
+        "en":  "All-Encompassing, Boundless, Vast",
+        "cleanEn":  "all encompassing boundless vast"
     },
     {
         "idx":  392,
@@ -5484,8 +5484,8 @@
         "cat":  "اسْمٌ",
         "func":  "Active Participle / اسْمُ فَاعِل",
         "ur":  "واقع ہونے والا، ہو کر رہنے والا، اٹل",
-        "en":  "Ever-Pardoning, Effacer of sins",
-        "cleanEn":  "everpardoning effacer of sins"
+        "en":  "Inevitable, Bound to occur, Befalling",
+        "cleanEn":  "inevitable bound to occur befalling"
     },
     {
         "idx":  393,
@@ -5498,8 +5498,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "باپ، جنم دینے والا والد",
-        "en":  "The Even (Pair)",
-        "cleanEn":  "the even pair"
+        "en":  "Father, Parent",
+        "cleanEn":  "father parent"
     },
     {
         "idx":  394,
@@ -5512,8 +5512,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "طاق، اکیلا (اللہ تعالیٰ کی یکتائی)",
-        "en":  "This city (Makkah)",
-        "cleanEn":  "this city makkah"
+        "en":  "The Odd (number), The Single",
+        "cleanEn":  "the odd number the single"
     },
     {
         "idx":  395,
@@ -5526,8 +5526,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "وحی، الٰہی پیغام، اشارہ",
-        "en":  "Warner",
-        "cleanEn":  "warner"
+        "en":  "Revelation, Divine inspiration",
+        "cleanEn":  "revelation divine inspiration"
     },
     {
         "idx":  396,
@@ -5540,8 +5540,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "وعدہ، سچا قول",
-        "en":  "Wise, All-Wise",
-        "cleanEn":  "wise allwise"
+        "en":  "Promise, Divine pledge",
+        "cleanEn":  "promise divine pledge"
     },
     {
         "idx":  397,
@@ -5554,8 +5554,8 @@
         "cat":  "حَرْفٌ",
         "func":  "Oath Particle / وَاوُ الْقَسَم",
         "ur":  "قسم ہے ... کی (حرفِ قسم)",
-        "en":  "By, Oath of (I swear by)",
-        "cleanEn":  "by oath of i swear by"
+        "en":  "By, Oath of (Oath particle)",
+        "cleanEn":  "by oath of oath particle"
     },
     {
         "idx":  398,
@@ -5563,7 +5563,7 @@
         "ar":  "يَا / أَيُّهَا",
         "tr":  "Yā / Ayyuhā",
         "cleanTr":  "ya / ayyuha",
-        "cleanAr":  "يا / ايها",
+        "cleanAr":  "يا / Ø§يها",
         "letter":  "ي",
         "cat":  "حَرْفٌ",
         "func":  "Vocative Particle / حُرُوفُ النِّدَاء",
@@ -5577,13 +5577,13 @@
         "ar":  "يَأْجُوجُ",
         "tr":  "Ya’jūj",
         "cleanTr":  "yajuj",
-        "cleanAr":  "ياجوج",
+        "cleanAr":  "يØ§جوج",
         "letter":  "ي",
         "cat":  "عَلَمٌ",
         "func":  "Proper Name / عَلَم",
         "ur":  "یاجوج (ایک سرکش فسادی قوم)",
-        "en":  "Gog",
-        "cleanEn":  "gog"
+        "en":  "Gog (corrupt tribe)",
+        "cleanEn":  "gog corrupt tribe"
     },
     {
         "idx":  400,
@@ -5596,8 +5596,8 @@
         "cat":  "عَلَمٌ",
         "func":  "Proper Name (Prophet) / عَلَم",
         "ur":  "حضرت یحییٰ علیہ السلام",
-        "en":  "God-consciousness, Taqwa",
-        "cleanEn":  "godconsciousness taqwa"
+        "en":  "Prophet John the Baptist (Yahya)",
+        "cleanEn":  "prophet john the baptist yahya"
     },
     {
         "idx":  401,
@@ -5610,8 +5610,8 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "آسانی، راحت، فلاح و آسودگی کا راستہ",
-        "en":  "Obligatory Charity, Alms (Zakat)",
-        "cleanEn":  "obligatory charity alms zakat"
+        "en":  "Ease, Comfort, Way of prosperity",
+        "cleanEn":  "ease comfort way of prosperity"
     },
     {
         "idx":  402,
@@ -5652,8 +5652,8 @@
         "cat":  "عَلَمٌ",
         "func":  "Proper Religion / عَلَم",
         "ur":  "یہودی، دینِ یہود کا پیروکار",
-        "en":  "Subtle, Kind, Courteous",
-        "cleanEn":  "subtle kind courteous"
+        "en":  "Jew, Jewish",
+        "cleanEn":  "jew jewish"
     },
     {
         "idx":  405,

@@ -247,7 +247,22 @@ body {
   transform: translateY(-50%);
   color: var(--text-muted);
   pointer-events: none;
-  font-size: 1.05rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-hint-bar {
+  margin-top: -0.35rem;
+  margin-bottom: 0.65rem;
+  padding: 0 0.25rem;
+}
+
+.search-hint {
+  font-size: 0.77rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+  font-weight: 500;
 }
 
 .search-input {
@@ -371,35 +386,6 @@ body {
   color: var(--accent);
 }
 
-.category-filters {
-  display: flex;
-  gap: 0.35rem;
-  flex-wrap: wrap;
-}
-
-.cat-filter-btn {
-  background: none;
-  border: 1px solid var(--border-color);
-  color: var(--text-secondary);
-  font-size: 0.76rem;
-  padding: 0.22rem 0.65rem;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: all 0.15s;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-}
-
-.cat-filter-btn:hover {
-  background: var(--bg-muted);
-}
-
-.cat-filter-btn.active {
-  background: var(--text-primary);
-  color: var(--bg-surface);
-  border-color: var(--text-primary);
-}
 
 /* Dictionary List */
 .dictionary-list {
@@ -683,17 +669,6 @@ body {
   box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.15);
 }
 
-.ayah-hint-bar {
-  padding: 0.35rem 0 0.15rem 0;
-  text-align: center;
-}
-
-.ayah-hint-text {
-  font-size: 0.78rem;
-  color: var(--text-muted);
-  font-weight: 500;
-  display: inline-block;
-}
 
 /* ==========================================================================
    Quranic Ayah Cards (Clean, Tag-Free)
@@ -763,84 +738,58 @@ body {
 }
 
 /* ==========================================================================
-   Word-to-Translation Color Coded Chunks
+   Slice Cards (Visual Separation from Ayah Cards)
    ========================================================================== */
-.chunk-seg {
-  display: inline;
-  padding: 0.12rem 0.32rem;
-  margin: 0 0.1rem;
-  border-radius: 4px;
-  transition: all 0.15s ease-in-out;
-  cursor: pointer;
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
+.ayah-card.slice-card {
+  border-left: 4.5px solid var(--accent);
+  background: var(--bg-surface);
+  position: relative;
 }
 
-/* Light Theme Color Chunks (High contrast, vibrant tones) */
-.chunk-0 {
-  color: #0284c7; /* Sky 600 */
-  background-color: rgba(2, 132, 199, 0.08);
-}
-.chunk-1 {
-  color: #059669; /* Emerald 600 */
-  background-color: rgba(5, 150, 105, 0.08);
-}
-.chunk-2 {
-  color: #d97706; /* Amber 600 */
-  background-color: rgba(217, 119, 6, 0.10);
-}
-.chunk-3 {
-  color: #7c3aed; /* Violet 600 */
-  background-color: rgba(124, 58, 237, 0.08);
-}
-.chunk-4 {
-  color: #e11d48; /* Rose 600 */
-  background-color: rgba(225, 29, 72, 0.08);
-}
-.chunk-5 {
-  color: #4f46e5; /* Indigo 600 */
-  background-color: rgba(79, 70, 229, 0.08);
+.slice-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
-/* Dark Theme Color Chunks (Luminescent, high legibility pastels) */
-[data-theme="dark"] .chunk-0 {
-  color: #38bdf8; /* Sky 400 */
-  background-color: rgba(56, 189, 248, 0.14);
-}
-[data-theme="dark"] .chunk-1 {
-  color: #34d399; /* Emerald 400 */
-  background-color: rgba(52, 211, 153, 0.14);
-}
-[data-theme="dark"] .chunk-2 {
-  color: #fbbf24; /* Amber 400 */
-  background-color: rgba(251, 191, 36, 0.14);
-}
-[data-theme="dark"] .chunk-3 {
-  color: #c084fc; /* Purple 400 */
-  background-color: rgba(192, 132, 252, 0.14);
-}
-[data-theme="dark"] .chunk-4 {
-  color: #fb7185; /* Rose 400 */
-  background-color: rgba(251, 113, 133, 0.14);
-}
-[data-theme="dark"] .chunk-5 {
-  color: #818cf8; /* Indigo 400 */
-  background-color: rgba(129, 140, 248, 0.14);
-}
-
-/* Synchronized Hover Highlight Across Arabic, Urdu & English */
-.chunk-seg.chunk-hover {
-  outline: 2px solid currentColor;
-  outline-offset: 1px;
-  filter: brightness(0.92);
-  box-shadow: 0 0 6px currentColor;
+.slice-badge {
+  font-size: 0.72rem;
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  background: var(--accent-light);
+  color: var(--accent);
+  padding: 0.18rem 0.55rem;
+  border-radius: 4px;
 }
 
-[data-theme="dark"] .chunk-seg.chunk-hover {
-  filter: brightness(1.25);
-  box-shadow: 0 0 8px currentColor;
+[data-theme="dark"] .slice-badge {
+  background: var(--accent-light);
+  color: var(--accent-dark);
 }
+
+.slice-num {
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.slice-divider {
+  display: inline-block;
+  margin: 0 0.5rem;
+  color: var(--text-muted);
+  font-weight: 700;
+  font-size: 1.2rem;
+  opacity: 0.65;
+  user-select: none;
+}
+
+.ayah-meanings .slice-divider {
+  font-size: 0.95rem;
+}
+
+
 
 /* ==========================================================================
    Course Outline Modal (UOHQ-1: Weeks 01 to 08)
@@ -949,6 +898,395 @@ body {
   margin-top: 0.2rem;
   font-size: 0.82rem;
   line-height: 1.45;
+}
+
+/* ==========================================================================
+   Universal Search Section Dividers
+   ========================================================================== */
+.search-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.25rem;
+  margin-bottom: 0.65rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1.5px solid var(--border-color);
+}
+
+.search-section-title {
+  font-size: 0.84rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+.search-section-count {
+  font-size: 0.74rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+/* ==========================================================================
+   Rules View & Cards
+   ========================================================================== */
+.rules-header {
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.rules-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.rules-desc {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.rules-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 0.75rem;
+}
+
+.rule-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 1.35rem 1.5rem;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.rule-card:hover {
+  border-color: var(--border-focus);
+  box-shadow: var(--shadow-md);
+}
+
+.rule-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+  border-bottom: 1px dashed var(--border-color);
+  padding-bottom: 0.75rem;
+}
+
+.rule-operator-box {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+}
+
+.rule-operator {
+  font-family: 'Amiri', 'Traditional Arabic', serif;
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1.2;
+}
+
+.rule-operator-tr {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.rule-meta-badges {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.rule-title-badge {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.rule-effect-badge {
+  font-size: 0.74rem;
+  font-weight: 700;
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  background: var(--accent-light);
+  color: var(--accent);
+}
+
+[data-theme="dark"] .rule-effect-badge {
+  background: var(--accent-light);
+  color: var(--accent-dark);
+}
+
+.rule-formula-box {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.55rem 0.95rem;
+  background: var(--bg-card-inner);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  width: fit-content;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.rule-formula-label {
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+.rule-formula-text {
+  font-family: 'Amiri', 'Traditional Arabic', 'Inter', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  direction: rtl;
+}
+
+.rule-meaning-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 0.75rem 1rem;
+  background: var(--bg-card-inner);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-color);
+}
+
+.rule-meaning-ur {
+  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
+  font-size: 1.18rem;
+  line-height: 1.85;
+  color: var(--text-primary);
+  direction: rtl;
+  text-align: right;
+  font-weight: 600;
+}
+
+.rule-meaning-en {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.45;
+  direction: ltr;
+  text-align: left;
+}
+
+.rule-explanation-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.rule-exp-ur {
+  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
+  font-size: 1.08rem;
+  color: var(--text-primary);
+  line-height: 2;
+  direction: rtl;
+  text-align: right;
+}
+
+.rule-exp-en {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  direction: ltr;
+  text-align: left;
+}
+
+/* Sub-rules Section & Cards */
+.rule-subrules-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  margin-top: 0.25rem;
+}
+
+.rule-section-title {
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.rule-subrules-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.rule-subrule-card {
+  padding: 0.75rem 0.95rem;
+  background: var(--bg-card-inner);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.subrule-title-ur {
+  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: var(--accent);
+  direction: rtl;
+  text-align: right;
+  line-height: 1.7;
+}
+
+.subrule-text-ur {
+  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
+  font-size: 0.98rem;
+  color: var(--text-primary);
+  direction: rtl;
+  text-align: right;
+  line-height: 1.85;
+}
+
+.subrule-divider {
+  border-top: 1px dashed var(--border-color);
+  margin: 0.2rem 0;
+}
+
+.subrule-title-en {
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--accent);
+  direction: ltr;
+  text-align: left;
+}
+
+.subrule-text-en {
+  font-size: 0.83rem;
+  color: var(--text-secondary);
+  direction: ltr;
+  text-align: left;
+  line-height: 1.5;
+}
+
+/* Quranic Examples Section */
+.rule-examples-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  background: var(--bg-card-inner);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-color);
+  padding: 0.85rem 1rem;
+}
+
+.rule-examples-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+.rule-example-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 1px dashed var(--border-color);
+}
+
+.rule-example-item:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.rule-ex-ar {
+  font-family: 'Amiri', 'Traditional Arabic', serif;
+  font-size: 1.45rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-align: right;
+  direction: rtl;
+  line-height: 1.6;
+}
+
+.rule-ex-ur {
+  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
+  font-size: 1.05rem;
+  text-align: right;
+  direction: rtl;
+  color: var(--text-primary);
+  line-height: 1.9;
+}
+
+.rule-ex-en {
+  font-size: 0.84rem;
+  color: var(--text-secondary);
+  text-align: left;
+  direction: ltr;
+}
+
+/* ==========================================================================
+   Floating Back to Top Button
+   ========================================================================== */
+.back-to-top-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 99;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(12px);
+  transition: opacity 0.25s ease, transform 0.25s ease, background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.back-to-top-btn.visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.back-to-top-btn:hover {
+  background: var(--bg-muted);
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.back-to-top-btn:active {
+  transform: translateY(0);
 }
 
 /* Responsive adjustments */

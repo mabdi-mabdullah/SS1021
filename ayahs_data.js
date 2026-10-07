@@ -1,5 +1,5 @@
 ﻿// ==========================================================================
-// Quranic Arabic Dictionary - Master Ayahs Dataset with Word-to-Translation Color Chunks
+// Quranic Arabic Dictionary - Master Ayahs & Slices Dataset
 // ==========================================================================
 
 const QURANIC_AYAHS = [
@@ -306,25 +306,26 @@ const QURANIC_AYAHS = [
         "lessonFormatted":  "Lesson 02"
     },
     {
-        "arabic":  "لَا تُبْقِي وَلَا تَذَرُ • لَوَّاحَةٌ لِلْبَشَرِ",
+        "arabic":  "لَا تُبْقِي وَلَا تَذَرُ / لَوَّاحَةٌ لِلْبَشَرِ",
         "id":  "U2-L02-A06",
         "lesson":  2,
         "unit":  2,
         "chunks":  [
                        {
-                           "ur":  "نہ وہ باقی رکھے گی اور نہ چھوڑے گی،",
-                           "en":  "It leaves nothing and spares nothing,",
-                           "ar":  "لَا تُبْقِي وَلَا تَذَرُ"
+                           "ar":  "لَا تُبْقِي وَلَا تَذَرُ",
+                           "ur":  "نہ وہ باقی رکھے گی اور نہ چھوڑے گی",
+                           "en":  "It leaves nothing and spares nothing"
                        },
                        {
+                           "ar":  "لَوَّاحَةٌ لِلْبَشَرِ",
                            "ur":  "انسانوں کی کھال جھلسا دینے والی ہے۔",
-                           "en":  "scorching human flesh.",
-                           "ar":  "لَوَّاحَةٌ لِلْبَشَرِ"
+                           "en":  "scorching human flesh."
                        }
                    ],
-        "urdu":  "نہ وہ باقی رکھے گی اور نہ چھوڑے گی، انسانوں کی کھال جھلسا دینے والی ہے۔",
-        "en":  "It leaves nothing and spares nothing, scorching human flesh.",
-        "lessonFormatted":  "Lesson 02"
+        "urdu":  "نہ وہ باقی رکھے گی اور نہ چھوڑے گی / انسانوں کی کھال جھلسا دینے والی ہے۔",
+        "en":  "It leaves nothing and spares nothing / scorching human flesh.",
+        "lessonFormatted":  "Lesson 02",
+        "isSlice":  true
     },
     {
         "arabic":  "وَالَّذِينَ هُمْ لِلزَّكَاةِ فَاعِلُونَ",
@@ -1075,35 +1076,36 @@ const QURANIC_AYAHS = [
         "lessonFormatted":  "Lesson 06"
     },
     {
-        "arabic":  "أَفَلَا يَنْظُرُونَ إِلَى الْإِبِلِ كَيْفَ خُلِقَتْ • وَإِلَى السَّمَاءِ كَيْفَ رُفِعَتْ • وَإِلَى الْجِبَالِ كَيْفَ نُصِبَتْ • وَإِلَى الْأَرْضِ كَيْفَ سُطِحَتْ",
+        "arabic":  "أَفَلَا يَنْظُرُونَ إِلَى الْإِبِلِ كَيْفَ خُلِقَتْ / وَإِلَى السَّمَاءِ كَيْفَ رُفِعَتْ / وَإِلَى الْجِبَالِ كَيْفَ نُصِبَتْ / وَإِلَى الْأَرْضِ كَيْفَ سُطِحَتْ",
         "id":  "U2-L06-A07",
         "lesson":  6,
         "unit":  2,
         "chunks":  [
                        {
-                           "ur":  "کیا وہ اونٹوں کو نہیں دیکھتے کیسے پیدا کیے گئے؟",
-                           "en":  "Do they not look at the camels?",
-                           "ar":  "أَفَلَا يَنْظُرُونَ إِلَى الْإِبِلِ كَيْفَ خُلِقَتْ"
+                           "ar":  "أَفَلَا يَنْظُرُونَ إِلَى الْإِبِلِ كَيْفَ خُلِقَتْ",
+                           "ur":  "کیا وہ اونٹوں کی طرف نہیں دیکھتے کہ کیسے پیدا کیے گئے؟",
+                           "en":  "Do they not look at the camels - how they are created?"
                        },
                        {
-                           "ur":  "اور آسمان کو کیسے بلند کیا گیا؟",
-                           "en":  "And at the sky - how it is raised?",
-                           "ar":  "وَإِلَى السَّمَاءِ كَيْفَ رُفِعَتْ"
+                           "ar":  "وَإِلَى السَّمَاءِ كَيْفَ رُفِعَتْ",
+                           "ur":  "اور آسمان کی طرف کہ کیسے بلند کیا گیا؟",
+                           "en":  "And at the sky - how it is raised?"
                        },
                        {
-                           "ur":  "اور پہاڑوں کو کیسے جمائے گئے؟",
-                           "en":  "And at the mountains - how set?",
-                           "ar":  "وَإِلَى الْجِبَالِ كَيْفَ نُصِبَتْ"
+                           "ar":  "وَإِلَى الْجِبَالِ كَيْفَ نُصِبَتْ",
+                           "ur":  "اور پہاڑوں کی طرف کہ کیسے جمائے گئے؟",
+                           "en":  "And at the mountains - how they are erected?"
                        },
                        {
-                           "ur":  "اور زمین کو کیسے بچھائی گئی؟",
-                           "en":  "And at the earth - how spread out?",
-                           "ar":  "وَإِلَى الْأَرْضِ كَيْفَ سُطِحَتْ"
+                           "ar":  "وَإِلَى الْأَرْضِ كَيْفَ سُطِحَتْ",
+                           "ur":  "اور زمین کی طرف کہ کیسے بچھائی گئی؟",
+                           "en":  "And at the earth - how it is spread out?"
                        }
                    ],
-        "urdu":  "کیا وہ اونٹوں کی طرف نہیں دیکھتے کہ کیسے پیدا کیے گئے؟ اور آسمان کی طرف کہ کیسے بلند کیا گیا؟ اور پہاڑوں کی طرف کہ کیسے جمائے گئے؟ اور زمین کی طرف کہ کیسے بچھائی گئی؟",
-        "en":  "Do they not look at the camels - how they are created? And at the sky - how it is raised? And at the mountains - how they are set? And at the earth - how it is spread out?",
-        "lessonFormatted":  "Lesson 06"
+        "urdu":  "کیا وہ اونٹوں کی طرف نہیں دیکھتے کہ کیسے پیدا کیے گئے؟ / اور آسمان کی طرف کہ کیسے بلند کیا گیا؟ / اور پہاڑوں کی طرف کہ کیسے جمائے گئے؟ / اور زمین کی طرف کہ کیسے بچھائی گئی؟",
+        "en":  "Do they not look at the camels - how they are created? / And at the sky - how it is raised? / And at the mountains - how they are erected? / And at the earth - how it is spread out?",
+        "lessonFormatted":  "Lesson 06",
+        "isSlice":  true
     },
     {
         "arabic":  "وَيَا قَوْمِ مَا لِي أَدْعُوكُمْ إِلَى النَّجَاةِ وَتَدْعُونَنِي إِلَى النَّارِ",
@@ -1934,113 +1936,127 @@ const QURANIC_AYAHS = [
         "lessonFormatted":  "Lesson 10"
     },
     {
-        "arabic":  "وَالشَّمْسِ وَضُحَاهَا • وَالْقَمَرِ إِذَا تَلَاهَا • وَالنَّهَارِ إِذَا جَلَّاهَا • وَاللَّيْلِ إِذَا يَغْشَاهَا",
+        "arabic":  "وَالشَّمْسِ وَضُحَاهَا / وَالْقَمَرِ إِذَا تَلَاهَا / وَالنَّهَارِ إِذَا جَلَّاهَا / وَاللَّيْلِ إِذَا يَغْشَاهَا",
         "id":  "U2-L10-A02",
         "lesson":  10,
         "unit":  2,
         "chunks":  [
                        {
-                           "ur":  "قسم ہے سورج اور دھوپ کی،",
-                           "en":  "By sun and its brightness,",
-                           "ar":  "وَالشَّمْسِ وَضُحَاهَا"
+                           "ar":  "وَالشَّمْسِ وَضُحَاهَا",
+                           "ur":  "قسم ہے سورج کی اور اس کی دھوپ کی",
+                           "en":  "By the sun and its brightness"
                        },
                        {
-                           "ur":  "اور چاند کی جب پیچھے آئے،",
-                           "en":  "and moon when following,",
-                           "ar":  "وَالْقَمَرِ إِذَا تَلَاهَا"
+                           "ar":  "وَالْقَمَرِ إِذَا تَلَاهَا",
+                           "ur":  "اور چاند کی جب وہ اس کے پیچھے آئے",
+                           "en":  "and the moon when it follows it"
                        },
                        {
-                           "ur":  "اور دن کی جب روشن کرے،",
-                           "en":  "and day when displaying,",
-                           "ar":  "وَالنَّهَارِ إِذَا جَلَّاهَا"
+                           "ar":  "وَالنَّهَارِ إِذَا جَلَّاهَا",
+                           "ur":  "اور دن کی جب وہ اسے روشن کر دے",
+                           "en":  "and the day when it displays it"
                        },
                        {
-                           "ur":  "اور رات کی جب ڈھانپ لے۔",
-                           "en":  "and night when covering.",
-                           "ar":  "وَاللَّيْلِ إِذَا يَغْشَاهَا"
+                           "ar":  "وَاللَّيْلِ إِذَا يَغْشَاهَا",
+                           "ur":  "اور رات کی جب وہ اسے ڈھانپ لے۔",
+                           "en":  "and the night when it covers it."
                        }
                    ],
-        "urdu":  "قسم ہے سورج کی اور اس کی دھوپ کی، اور چاند کی جب وہ اس کے پیچھے آئے، اور دن کی جب وہ اسے روشن کر دے، اور رات کی جب وہ اسے ڈھانپ لے۔",
-        "en":  "By the sun and its brightness, and the moon when it follows it, and the day when it displays it, and the night when it covers it.",
-        "lessonFormatted":  "Lesson 10"
+        "urdu":  "قسم ہے سورج کی اور اس کی دھوپ کی / اور چاند کی جب وہ اس کے پیچھے آئے / اور دن کی جب وہ اسے روشن کر دے / اور رات کی جب وہ اسے ڈھانپ لے۔",
+        "en":  "By the sun and its brightness / and the moon when it follows it / and the day when it displays it / and the night when it covers it.",
+        "lessonFormatted":  "Lesson 10",
+        "isSlice":  true
     },
     {
-        "arabic":  "وَالْفَجْرِ • وَلَيَالٍ عَشْرٍ • وَالشَّفْعِ وَالْوَتْرِ",
+        "arabic":  "وَالْفَجْرِ / وَلَيَالٍ عَشْرٍ / وَالشَّفْعِ وَالْوَتْرِ",
         "id":  "U2-L10-A03",
         "lesson":  10,
         "unit":  2,
         "chunks":  [
                        {
-                           "ur":  "قسم ہے فجر کی،",
-                           "en":  "By the dawn,",
-                           "ar":  "وَالْفَجْرِ"
+                           "ar":  "وَالْفَجْرِ",
+                           "ur":  "قسم ہے فجر کی",
+                           "en":  "By the dawn"
                        },
                        {
-                           "ur":  "اور دس راتوں کی،",
-                           "en":  "and the ten nights,",
-                           "ar":  "وَلَيَالٍ عَشْرٍ"
+                           "ar":  "وَلَيَالٍ عَشْرٍ",
+                           "ur":  "اور دس راتوں کی",
+                           "en":  "and the ten nights"
                        },
                        {
+                           "ar":  "وَالشَّفْعِ وَالْوَتْرِ",
                            "ur":  "اور جفت کی اور طاق کی۔",
-                           "en":  "and even and odd.",
-                           "ar":  "وَالشَّفْعِ وَالْوَتْرِ"
+                           "en":  "and the even and the odd."
                        }
                    ],
-        "urdu":  "قسم ہے فجر کی، اور دس راتوں کی، اور جفت کی اور طاق کی۔",
-        "en":  "By the dawn, and the ten nights, and the even and the odd.",
-        "lessonFormatted":  "Lesson 10"
+        "urdu":  "قسم ہے فجر کی / اور دس راتوں کی / اور جفت کی اور طاق کی۔",
+        "en":  "By the dawn / and the ten nights / and the even and the odd.",
+        "lessonFormatted":  "Lesson 10",
+        "isSlice":  true
     },
     {
-        "arabic":  "وَالضُّحَىٰ • وَاللَّيْلِ إِذَا سَجَىٰ",
+        "arabic":  "وَالضُّحَىٰ / وَاللَّيْلِ إِذَا سَجَىٰ",
         "id":  "U2-L10-A04",
         "lesson":  10,
         "unit":  2,
         "chunks":  [
                        {
-                           "ur":  "قسم ہے چاشت کی،",
-                           "en":  "By morning brightness,",
-                           "ar":  "وَالضُّحَىٰ"
+                           "ar":  "وَالضُّحَىٰ",
+                           "ur":  "قسم ہے چاشت کے وقت کی",
+                           "en":  "By the morning brightness"
                        },
                        {
-                           "ur":  "اور رات کی جب چھا جائے۔",
-                           "en":  "and night when covering.",
-                           "ar":  "وَاللَّيْلِ إِذَا سَجَىٰ"
+                           "ar":  "وَاللَّيْلِ إِذَا سَجَىٰ",
+                           "ur":  "اور رات کی جب وہ چھا جائے۔",
+                           "en":  "and the night when it covers."
                        }
                    ],
-        "urdu":  "قسم ہے چاشت کے وقت کی، اور رات کی جب وہ چھا جائے۔",
-        "en":  "By the morning brightness, and the night when it covers with darkness.",
-        "lessonFormatted":  "Lesson 10"
+        "urdu":  "قسم ہے چاشت کے وقت کی / اور رات کی جب وہ چھا جائے۔",
+        "en":  "By the morning brightness / and the night when it covers.",
+        "lessonFormatted":  "Lesson 10",
+        "isSlice":  true
     },
     {
-        "arabic":  "وَالطُّورِ • وَكِتَابٍ مَسْطُورٍ • فِي رَقٍّ مَنْشُورٍ • وَالْبَيْتِ الْمَعْمُورِ • وَالسَّقْفِ الْمَرْفُوعِ • وَالْبَحْرِ الْمَسْجُورِ",
+        "arabic":  "وَالطُّورِ / وَكِتَابٍ مَسْطُورٍ / فِي رَقٍّ مَنْشُورٍ / وَالْبَيْتِ الْمَعْمُورِ / وَالسَّقْفِ الْمَرْفُوعِ / وَالْبَحْرِ الْمَسْجُورِ",
         "id":  "U2-L10-A05",
         "lesson":  10,
         "unit":  2,
         "chunks":  [
                        {
-                           "ur":  "قسم ہے طور کی،",
-                           "en":  "By the Mount,",
-                           "ar":  "وَالطُّورِ"
+                           "ar":  "وَالطُّورِ",
+                           "ur":  "قسم ہے طور پہاڑ کی",
+                           "en":  "By Mount Tur"
                        },
                        {
-                           "ur":  "اور لکھی کتاب کھلے ورق میں،",
-                           "en":  "and inscribed Book in parchment,",
-                           "ar":  "وَكِتَابٍ مَسْطُورٍ فِي رَقٍّ مَنْشُورٍ"
+                           "ar":  "وَكِتَابٍ مَسْطُورٍ",
+                           "ur":  "اور لکھی ہوئی کتاب کی",
+                           "en":  "and a written Book"
                        },
                        {
-                           "ur":  "اور آباد گھر کی،",
-                           "en":  "and frequented House,",
-                           "ar":  "وَالْبَيْتِ الْمَعْمُورِ"
+                           "ar":  "فِي رَقٍّ مَنْشُورٍ",
+                           "ur":  "جو کھلے ہوئے ورق میں ہے",
+                           "en":  "in unrolled parchment"
                        },
                        {
-                           "ur":  "اور اونچی چھت اور ابلتے سمندر کی۔",
-                           "en":  "and elevated roof and filled sea.",
-                           "ar":  "وَالسَّقْفِ الْمَرْفُوعِ وَالْبَحْرِ الْمَسْجُورِ"
+                           "ar":  "وَالْبَيْتِ الْمَعْمُورِ",
+                           "ur":  "اور آباد گھر (بیت المعمور) کی",
+                           "en":  "and the frequented House"
+                       },
+                       {
+                           "ar":  "وَالسَّقْفِ الْمَرْفُوعِ",
+                           "ur":  "اور اونچی چھت کی",
+                           "en":  "and the elevated roof"
+                       },
+                       {
+                           "ar":  "وَالْبَحْرِ الْمَسْجُورِ",
+                           "ur":  "اور ابلتے ہوئے سمندر کی۔",
+                           "en":  "and the overflowing sea."
                        }
                    ],
-        "urdu":  "قسم ہے طور پہاڑ کی، اور لکھی ہوئی کتاب کی، جو کھلے ہوئے ورق میں ہے، اور آباد گھر (بیت المعمور) کی، اور اونچی چھت کی، اور ابلتے ہوئے سمندر کی۔",
-        "en":  "By the mount of Sinai, and a Book inscribed, in parchment unrolled, and the frequented House, and the elevated roof, and the sea filled with fire.",
-        "lessonFormatted":  "Lesson 10"
+        "urdu":  "قسم ہے طور پہاڑ کی / اور لکھی ہوئی کتاب کی / جو کھلے ہوئے ورق میں ہے / اور آباد گھر (بیت المعمور) کی / اور اونچی چھت کی / اور ابلتے ہوئے سمندر کی۔",
+        "en":  "By Mount Tur / and a written Book / in unrolled parchment / and the frequented House / and the elevated roof / and the overflowing sea.",
+        "lessonFormatted":  "Lesson 10",
+        "isSlice":  true
     },
     {
         "arabic":  "أَنَّ الحَقَّ لِلَّهِ",
