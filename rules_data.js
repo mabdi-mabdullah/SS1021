@@ -581,8 +581,8 @@ const GRAMMAR_RULES = [
       {
         titleUr: "مفرد نام (عَلَم) پر تنوین ختم ہو کر صرف ایک پیش",
         textUr: "جب (يَا) کے بعد خاص نام آئے تو تنوین ختم ہو کر صرف ایک پیش رہ جاتی ہے، جیسے: نُوحٌ سے يَا نُوحُ، آدَمُ سے يَا آدَمُ، مَرْيَمُ سے يَا مَرْيَمُ، اور إِبْلِيسُ سے يَا إِبْلِيسُ۔",
-        titleEn: "Single Dammah on Proper Names (No Tanween)",
-        textEn: "Addressing a proper name eliminates nunation (tanween), terminating in a single Dammah (e.g. نُوحٌ becomes يَا نُوحُ, آدَمُ becomes يَا آدَمُ, مَرْيَمُ becomes يَا مَرْيَمُ)."
+        titleEn: "Single Dammah on Proper Nouns (No Tanween)",
+        textEn: "Addressing a proper noun eliminates nunation (tanween), terminating in a single Dammah (e.g. نُوحٌ becomes يَا نُوحُ, آدَمُ becomes يَا آدَمُ, مَرْيَمُ becomes يَا مَرْيَمُ)."
       },
       {
         titleUr: "الْـ والے معرفہ اسم کے ساتھ أَيُّهَا کا لازمی اضافہ",

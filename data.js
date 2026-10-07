@@ -8,7 +8,7 @@
         "cleanAr":  "Ø§براهيم",
         "letter":  "أ",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name (Prophet) / عَلَم",
+        "func":  "Proper Noun (Prophet) / عَلَم",
         "ur":  "حضرت ابراہیم علیہ السلام",
         "en":  "Prophet Abraham",
         "cleanEn":  "prophet abraham"
@@ -36,7 +36,7 @@
         "cleanAr":  "Ø§بليس",
         "letter":  "أ",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name / عَلَم",
+        "func":  "Proper Noun / عَلَم",
         "ur":  "ابلیس (شیطان، لعین وجود)",
         "en":  "Iblis (Satan)",
         "cleanEn":  "iblis satan"
@@ -148,7 +148,7 @@
         "cleanAr":  "Ø§دم",
         "letter":  "أ",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name (Prophet) / عَلَم",
+        "func":  "Proper Noun (Prophet) / عَلَم",
         "ur":  "حضرت آدم علیہ السلام (پہلے انسان)",
         "en":  "Prophet Adam (the first human)",
         "cleanEn":  "prophet adam the first human"
@@ -218,7 +218,7 @@
         "cleanAr":  "Ø§سحاق",
         "letter":  "أ",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name (Prophet) / عَلَم",
+        "func":  "Proper Noun (Prophet) / عَلَم",
         "ur":  "حضرت اسحاق علیہ السلام",
         "en":  "Prophet Isaac",
         "cleanEn":  "prophet isaac"
@@ -246,7 +246,7 @@
         "cleanAr":  "Ø§سماعيل",
         "letter":  "أ",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name (Prophet) / عَلَم",
+        "func":  "Proper Noun (Prophet) / عَلَم",
         "ur":  "حضرت اسماعیل علیہ السلام",
         "en":  "Prophet Ishmael",
         "cleanEn":  "prophet ishmael"
@@ -652,7 +652,7 @@
         "cleanAr":  "Ø§يوب",
         "letter":  "أ",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name (Prophet) / عَلَم",
+        "func":  "Proper Noun (Prophet) / عَلَم",
         "ur":  "حضرت ایوب علیہ السلام",
         "en":  "Prophet Job",
         "cleanEn":  "prophet job"
@@ -1128,7 +1128,7 @@
         "cleanAr":  "ثمود",
         "letter":  "ث",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name (Tribe) / عَلَم",
+        "func":  "Proper Noun (Tribe) / عَلَم",
         "ur":  "قومِ ثمود (حضرت صالحؑ کی قوم)",
         "en":  "Thamud (tribe of Prophet Salih)",
         "cleanEn":  "thamud tribe of prophet salih"
@@ -1142,7 +1142,7 @@
         "cleanAr":  "جالوت",
         "letter":  "ج",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name / عَلَم",
+        "func":  "Proper Noun / عَلَم",
         "ur":  "جالوت (طاقتور سرکش ظالم بادشاہ)",
         "en":  "Goliath (tyrannical king)",
         "cleanEn":  "goliath tyrannical king"
@@ -1282,7 +1282,7 @@
         "cleanAr":  "جهنم",
         "letter":  "ج",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name (Hell) / عَلَم",
+        "func":  "Proper Noun (Hell) / عَلَم",
         "ur":  "دوزخ، جہنم، بھڑکتی ہوئی آگ کا گڑھا",
         "en":  "Hell, Jahannam, Pit of fire",
         "cleanEn":  "hell jahannam pit of fire"
@@ -1814,7 +1814,7 @@
         "cleanAr":  "داوود",
         "letter":  "د",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name (Prophet) / عَلَم",
+        "func":  "Proper Noun (Prophet) / عَلَم",
         "ur":  "حضرت داؤد علیہ السلام",
         "en":  "Prophet David",
         "cleanEn":  "prophet david"
@@ -2248,7 +2248,7 @@
         "cleanAr":  "سامري",
         "letter":  "س",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name / عَلَم",
+        "func":  "Proper Noun / عَلَم",
         "ur":  "سامری (بچھڑے کا فتنہ برپا کرنے والا)",
         "en":  "The Samiri (instigator of golden calf)",
         "cleanEn":  "the samiri instigator of golden calf"
@@ -2416,7 +2416,7 @@
         "cleanAr":  "سليمان",
         "letter":  "س",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name (Prophet) / عَلَم",
+        "func":  "Proper Noun (Prophet) / عَلَم",
         "ur":  "حضرت سلیمان علیہ السلام",
         "en":  "Prophet Solomon",
         "cleanEn":  "prophet solomon"
@@ -2586,7 +2586,7 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "شریعت، الٰہی قانون، واضح راہ",
-        "en":  "Divine Law, Clear Way (Shari\u0027ah)",
+        "en":  "Divine Law, Clear Way (Shari'ah)",
         "cleanEn":  "divine law clear way shari ah"
     },
     {
@@ -2612,9 +2612,9 @@
         "cleanAr":  "شعيب",
         "letter":  "ش",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name (Prophet) / عَلَم",
+        "func":  "Proper Noun (Prophet) / عَلَم",
         "ur":  "حضرت شعیب علیہ السلام",
-        "en":  "Prophet Shu\u0027ayb",
+        "en":  "Prophet Shu'ayb",
         "cleanEn":  "prophet shu ayb"
     },
     {
@@ -2964,7 +2964,7 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "سوکھا زہریلا کانٹا، دوزخیوں کا کڑوا کھانا",
-        "en":  "Dhari\u0027 (dry, bitter, thorny plant in Hell)",
+        "en":  "Dhari' (dry, bitter, thorny plant in Hell)",
         "cleanEn":  "dhari dry bitter thorny plant in hell"
     },
     {
@@ -3104,7 +3104,7 @@
         "cat":  "اسْمٌ",
         "func":  "Noun / اسْمٌ",
         "ur":  "گیلی گوندھی مٹی، گارا",
-        "en":  "Clay, Potter\u0027s clay, Mud",
+        "en":  "Clay, Potter's clay, Mud",
         "cleanEn":  "clay potter s clay mud"
     },
     {
@@ -3522,7 +3522,7 @@
         "cleanAr":  "عيسي",
         "letter":  "ع",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name (Prophet) / عَلَم",
+        "func":  "Proper Noun (Prophet) / عَلَم",
         "ur":  "حضرت عیسیٰ علیہ السلام",
         "en":  "Prophet Jesus",
         "cleanEn":  "prophet jesus"
@@ -3734,7 +3734,7 @@
         "cat":  "اسْمٌ",
         "func":  "Noun (Time) / اسْمُ زَمَان",
         "ur":  "صبحِ صادق، پو پھٹنے کا وقت",
-        "en":  "Dawn, Daybreak, Day\u0027s start",
+        "en":  "Dawn, Daybreak, Day's start",
         "cleanEn":  "dawn daybreak day s start"
     },
     {
@@ -3774,7 +3774,7 @@
         "cleanAr":  "فرعون",
         "letter":  "ف",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name / عَلَم",
+        "func":  "Proper Noun / عَلَم",
         "ur":  "فرعون (مصر کا سرکش بادشاہ)",
         "en":  "Pharaoh (tyrannical king of Egypt)",
         "cleanEn":  "pharaoh tyrannical king of egypt"
@@ -3928,7 +3928,7 @@
         "cleanAr":  "قارون",
         "letter":  "ق",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name / عَلَم",
+        "func":  "Proper Noun / عَلَم",
         "ur":  "قارون (بنی اسرائیل کا مغرور دولت مند)",
         "en":  "Korah (arrogant wealthy man)",
         "cleanEn":  "korah arrogant wealthy man"
@@ -4404,7 +4404,7 @@
         "cleanAr":  "الله",
         "letter":  "أ",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name (God) / اِسْمُ الْجَلَالَة",
+        "func":  "Proper Noun (God) / اِسْمُ الْجَلَالَة",
         "ur":  "اللہ، معبودِ برحق، خالقِ کائنات",
         "en":  "Allah, The One True God",
         "cleanEn":  "allah the one true god"
@@ -4432,7 +4432,7 @@
         "cleanAr":  "لوط",
         "letter":  "ل",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name (Prophet) / عَلَم",
+        "func":  "Proper Noun (Prophet) / عَلَم",
         "ur":  "حضرت لوط علیہ السلام",
         "en":  "Prophet Lot",
         "cleanEn":  "prophet lot"
@@ -4474,7 +4474,7 @@
         "cleanAr":  "مØ§جوج",
         "letter":  "م",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name / عَلَم",
+        "func":  "Proper Noun / عَلَم",
         "ur":  "ماجوج (یاجوج کے ساتھ فسادی قوم)",
         "en":  "Magog",
         "cleanEn":  "magog"
@@ -4586,7 +4586,7 @@
         "cleanAr":  "محمد",
         "letter":  "م",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name (The Prophet) / عَلَم",
+        "func":  "Proper Noun (The Prophet) / عَلَم",
         "ur":  "حضرت محمد مصطفیٰ ﷺ (کثرت سے تعریف کیا گیا)",
         "en":  "Prophet Muhammad (peace be upon him)",
         "cleanEn":  "prophet muhammad peace be upon him"
@@ -4630,7 +4630,7 @@
         "cat":  "عَلَمٌ",
         "func":  "Proper (Place / Tribe) / عَلَم",
         "ur":  "مدین (حضرت شعیبؑ کا شہر)",
-        "en":  "Madyan (Midian, city of Shu\u0027ayb)",
+        "en":  "Madyan (Midian, city of Shu'ayb)",
         "cleanEn":  "madyan midian city of shu ayb"
     },
     {
@@ -4698,7 +4698,7 @@
         "cleanAr":  "مريم",
         "letter":  "م",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name / عَلَم",
+        "func":  "Proper Noun / عَلَم",
         "ur":  "حضرت مریم علیہا السلام",
         "en":  "Mary (mother of Jesus)",
         "cleanEn":  "mary mother of jesus"
@@ -4882,7 +4882,7 @@
         "cat":  "اسْمٌ",
         "func":  "Passive Participle / اسْمُ مَفْعُول",
         "ur":  "آباد، فرشتوں سے معمور (بیت المعمور)",
-        "en":  "Frequented, Inhabited (Al-Bayt Al-Ma\u0027mur)",
+        "en":  "Frequented, Inhabited (Al-Bayt Al-Ma'mur)",
         "cleanEn":  "frequented inhabited al bayt al ma mur"
     },
     {
@@ -5034,7 +5034,7 @@
         "cleanAr":  "موسي",
         "letter":  "م",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name (Prophet) / عَلَم",
+        "func":  "Proper Noun (Prophet) / عَلَم",
         "ur":  "حضرت موسیٰ علیہ السلام",
         "en":  "Prophet Moses",
         "cleanEn":  "prophet moses"
@@ -5342,7 +5342,7 @@
         "cleanAr":  "نوح",
         "letter":  "ن",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name (Prophet) / عَلَم",
+        "func":  "Proper Noun (Prophet) / عَلَم",
         "ur":  "حضرت نوح علیہ السلام",
         "en":  "Prophet Noah",
         "cleanEn":  "prophet noah"
@@ -5370,7 +5370,7 @@
         "cleanAr":  "هارون",
         "letter":  "هـ",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name (Prophet) / عَلَم",
+        "func":  "Proper Noun (Prophet) / عَلَم",
         "ur":  "حضرت ہارون علیہ السلام",
         "en":  "Prophet Aaron",
         "cleanEn":  "prophet aaron"
@@ -5384,9 +5384,9 @@
         "cleanAr":  "هامان",
         "letter":  "هـ",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name / عَلَم",
+        "func":  "Proper Noun / عَلَم",
         "ur":  "ہامان (فرعون کا وزیر)",
-        "en":  "Haman (Pharaoh\u0027s minister)",
+        "en":  "Haman (Pharaoh's minister)",
         "cleanEn":  "haman pharaoh s minister"
     },
     {
@@ -5440,7 +5440,7 @@
         "cleanAr":  "هود",
         "letter":  "هـ",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name (Prophet) / عَلَم",
+        "func":  "Proper Noun (Prophet) / عَلَم",
         "ur":  "حضرت ہود علیہ السلام",
         "en":  "Prophet Hud",
         "cleanEn":  "prophet hud"
@@ -5580,7 +5580,7 @@
         "cleanAr":  "يØ§جوج",
         "letter":  "ي",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name / عَلَم",
+        "func":  "Proper Noun / عَلَم",
         "ur":  "یاجوج (ایک سرکش فسادی قوم)",
         "en":  "Gog (corrupt tribe)",
         "cleanEn":  "gog corrupt tribe"
@@ -5594,7 +5594,7 @@
         "cleanAr":  "يحيي",
         "letter":  "ي",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name (Prophet) / عَلَم",
+        "func":  "Proper Noun (Prophet) / عَلَم",
         "ur":  "حضرت یحییٰ علیہ السلام",
         "en":  "Prophet John the Baptist (Yahya)",
         "cleanEn":  "prophet john the baptist yahya"
@@ -5636,7 +5636,7 @@
         "cleanAr":  "يعقوب",
         "letter":  "ي",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name (Prophet) / عَلَم",
+        "func":  "Proper Noun (Prophet) / عَلَم",
         "ur":  "حضرت یعقوب علیہ السلام",
         "en":  "Prophet Jacob",
         "cleanEn":  "prophet jacob"
@@ -5664,7 +5664,7 @@
         "cleanAr":  "يوسف",
         "letter":  "ي",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name (Prophet) / عَلَم",
+        "func":  "Proper Noun (Prophet) / عَلَم",
         "ur":  "حضرت یوسف علیہ السلام",
         "en":  "Prophet Joseph",
         "cleanEn":  "prophet joseph"
@@ -5692,9 +5692,10 @@
         "cleanAr":  "يونس",
         "letter":  "ي",
         "cat":  "عَلَمٌ",
-        "func":  "Proper Name (Prophet) / عَلَم",
+        "func":  "Proper Noun (Prophet) / عَلَم",
         "ur":  "حضرت یونس علیہ السلام",
         "en":  "Prophet Jonah",
         "cleanEn":  "prophet jonah"
     }
 ];
+

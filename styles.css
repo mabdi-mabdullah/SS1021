@@ -17,16 +17,30 @@
   --accent-light: #ccfbf1;    /* Teal-100 */
   --accent-dark: #115e59;     /* Teal-800 */
   
-  --badge-noun-bg: #e0f2fe;
-  --badge-noun-text: #0369a1;
-  --badge-part-bg: #fef3c7;
-  --badge-part-text: #b45309;
-  --badge-prop-bg: #ede9fe;
-  --badge-prop-text: #6d28d9;
-  --badge-verb-bg: #dcfce7;
-  --badge-verb-text: #15803d;
+  /* Typography Systems */
+  --font-ur-display: 'Gulzar', 'Noto Nastaliq Urdu', serif;
+  --font-ur-reading: 'Noto Nastaliq Urdu', 'Gulzar', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
+  
+  /* Micro-Typography Badges */
+  --badge-noun-bg: #eff6ff;
+  --badge-noun-text: #1d4ed8;
+  --badge-noun-border: #bfdbfe;
+  
+  --badge-part-bg: #f0fdfa;
+  --badge-part-text: #0f766e;
+  --badge-part-border: #99f6e4;
+  
+  --badge-prop-bg: #fef2f2;
+  --badge-prop-text: #b91c1c;
+  --badge-prop-border: #fecaca;
+  
+  --badge-verb-bg: #fffbeb;
+  --badge-verb-text: #b45309;
+  --badge-verb-border: #fde68a;
+  
   --badge-adj-bg: #fae8ff;
   --badge-adj-text: #86198f;
+  --badge-adj-border: #f5d0fe;
   
   --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.05);
   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.07), 0 2px 4px -2px rgb(0 0 0 / 0.05);
@@ -50,16 +64,25 @@
   --accent-light: #134e4a;
   --accent-dark: #2dd4bf;
   
-  --badge-noun-bg: #0c4a6e;
-  --badge-noun-text: #7dd3fc;
-  --badge-part-bg: #78350f;
-  --badge-part-text: #fde68a;
-  --badge-prop-bg: #4c1d95;
-  --badge-prop-text: #c4b5fd;
-  --badge-verb-bg: #14532d;
-  --badge-verb-text: #86efac;
-  --badge-adj-bg: #701a75;
+  --badge-noun-bg: rgba(30, 58, 138, 0.35);
+  --badge-noun-text: #93c5fd;
+  --badge-noun-border: rgba(147, 197, 253, 0.25);
+  
+  --badge-part-bg: rgba(19, 78, 74, 0.35);
+  --badge-part-text: #5eead4;
+  --badge-part-border: rgba(94, 234, 212, 0.25);
+  
+  --badge-prop-bg: rgba(127, 29, 29, 0.35);
+  --badge-prop-text: #fca5a5;
+  --badge-prop-border: rgba(252, 165, 165, 0.25);
+  
+  --badge-verb-bg: rgba(120, 53, 15, 0.35);
+  --badge-verb-text: #fcd34d;
+  --badge-verb-border: rgba(252, 211, 77, 0.25);
+  
+  --badge-adj-bg: rgba(112, 26, 117, 0.35);
   --badge-adj-text: #f5d0fe;
+  --badge-adj-border: rgba(245, 208, 254, 0.25);
   
   --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.3);
   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.4);
@@ -82,13 +105,22 @@ body {
   min-height: 100vh;
 }
 
-/* Consistent Urdu Font Helper */
+/* Consistent Script Font Helpers */
+.font-ar,
+.font-arabic {
+  font-family: 'Amiri', 'Traditional Arabic', serif !important;
+  direction: rtl;
+}
+
+.font-ur,
 .font-urdu {
-  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
-  font-size: 1rem;
-  line-height: 1;
-  display: inline-block;
-  vertical-align: -0.1em;
+  font-family: 'Gulzar', 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif !important;
+  direction: rtl;
+}
+
+.font-en {
+  font-family: 'Inter', sans-serif !important;
+  direction: ltr;
 }
 
 /* Container */
@@ -269,7 +301,7 @@ body {
   width: 100%;
   height: 48px;
   padding: 0 2.85rem;
-  font-family: 'Inter', 'Amiri', 'Noto Nastaliq Urdu', system-ui, sans-serif;
+  font-family: 'Inter', 'Amiri', 'Gulzar', 'Noto Nastaliq Urdu', system-ui, sans-serif;
   font-size: 1rem;
   line-height: normal;
   border: 1.5px solid var(--border-color);
@@ -284,7 +316,7 @@ body {
 .search-input::placeholder {
   color: var(--text-muted);
   font-size: 0.88rem;
-  font-family: 'Inter', 'Amiri', 'Noto Nastaliq Urdu', system-ui, sans-serif;
+  font-family: 'Inter', 'Amiri', 'Gulzar', 'Noto Nastaliq Urdu', system-ui, sans-serif;
 }
 
 .search-input:focus {
@@ -300,11 +332,13 @@ body {
   background: none;
   border: none;
   color: var(--text-muted);
-  font-size: 1.25rem;
   cursor: pointer;
   display: none;
-  padding: 0.2rem 0.4rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem;
   border-radius: 50%;
+  transition: color 0.15s ease;
 }
 
 .clear-btn:hover {
@@ -387,156 +421,190 @@ body {
 }
 
 
-/* Dictionary List */
+/* Dictionary List: 2-column on desktop/tablet, 1-column on phone */
 .dictionary-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.15rem;
   margin-top: 0.75rem;
 }
 
+@media (max-width: 680px) {
+  .dictionary-list {
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+  }
+}
+
 /* ==========================================================================
-   Cohesive Dictionary Card
+   Word Card — Blended Option 1 + Option 2
+   - Right accent rail matching grammatical class
+   - RTL flow: word index & hero Arabic on the right
+   - Transliteration & refined POS tag on the left
+   - Flat bilingual meanings row with hairline divider
    ========================================================================== */
 .dict-card {
   background: var(--bg-surface);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-md);
-  padding: 1rem 1.25rem;
+  padding: 1.15rem 1.45rem;
+  box-shadow: var(--shadow-sm);
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
-  box-shadow: var(--shadow-sm);
-  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  gap: 0.85rem;
+  position: relative;
+  overflow: hidden;
+  direction: rtl;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-.dict-card:hover {
-  border-color: var(--border-focus);
-  box-shadow: var(--shadow-md);
-  transform: translateY(-1px);
+.dict-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 5px;
 }
 
-/* Top Header Row of the Card */
-.card-header {
+.dict-card.is-noun::before { background: var(--badge-noun-text); }
+.dict-card.is-part::before { background: var(--badge-part-text); }
+.dict-card.is-prop::before { background: var(--badge-prop-text); }
+.dict-card.is-verb::before { background: var(--badge-verb-text); }
+.dict-card.is-adj::before { background: var(--badge-adj-text); }
+
+.card-blend-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
 }
 
-.card-meta {
+.card-blend-right {
   display: flex;
   align-items: center;
-  gap: 0.55rem;
-  flex-wrap: wrap;
+  gap: 0.85rem;
 }
 
 .card-idx {
-  font-size: 0.72rem;
-  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
   color: var(--text-muted);
-  background: var(--bg-muted);
-  padding: 0.12rem 0.45rem;
-  border-radius: 4px;
+  letter-spacing: 0.04em;
+  background: transparent;
+  padding: 0;
 }
 
-.card-tr {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--text-primary);
-  letter-spacing: 0.01em;
-}
-
-.card-badge {
-  font-size: 0.72rem;
-  font-weight: 600;
-  padding: 0.15rem 0.55rem;
-  border-radius: 4px;
-  white-space: nowrap;
-}
-
-.badge-noun {
-  background: var(--badge-noun-bg);
-  color: var(--badge-noun-text);
-}
-
-.badge-part {
-  background: var(--badge-part-bg);
-  color: var(--badge-part-text);
-}
-
-.badge-prop {
-  background: var(--badge-prop-bg);
-  color: var(--badge-prop-text);
-}
-
-.badge-verb {
-  background: var(--badge-verb-bg);
-  color: var(--badge-verb-text);
-}
-
-.badge-adj {
-  background: var(--badge-adj-bg);
-  color: var(--badge-adj-text);
-}
-
-.badge-default {
-  background: var(--bg-muted);
-  color: var(--text-secondary);
-}
-
-/* Prominent Arabic Word */
 .card-arabic {
-  font-family: 'Amiri', 'Traditional Arabic', serif;
-  font-size: 1.95rem;
+  font-family: 'Amiri', 'Traditional Arabic', serif !important;
+  font-size: 2.35rem;
   font-weight: 700;
   color: var(--accent);
-  line-height: 1.15;
+  line-height: 1.1;
   text-align: right;
   direction: rtl;
   user-select: text;
 }
 
-/* Cohesive Definition Box */
-.card-meanings {
-  display: flex;
-  flex-direction: column;
-  gap: 0.45rem;
-  padding: 0.75rem 1rem;
-  background: var(--bg-card-inner);
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--border-color);
+[data-theme="dark"] .card-arabic {
+  color: var(--accent);
 }
 
-.meaning-urdu {
-  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
-  font-size: 1.15rem;
-  line-height: 1.8;
+.card-blend-left {
+  display: flex;
+  align-items: baseline;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+  direction: ltr;
+}
+
+.card-tr {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  letter-spacing: 0.01em;
+}
+
+/* Refined Micro-Typography Pill Badge */
+.card-badge {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.18rem 0.65rem;
+  border-radius: 9999px;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  border: 1px solid transparent;
+}
+
+.badge-noun {
+  background: var(--badge-noun-bg);
+  color: var(--badge-noun-text);
+  border-color: var(--badge-noun-border);
+}
+
+.badge-part {
+  background: var(--badge-part-bg);
+  color: var(--badge-part-text);
+  border-color: var(--badge-part-border);
+}
+
+.badge-prop {
+  background: var(--badge-prop-bg);
+  color: var(--badge-prop-text);
+  border-color: var(--badge-prop-border);
+}
+
+.badge-verb {
+  background: var(--badge-verb-bg);
+  color: var(--badge-verb-text);
+  border-color: var(--badge-verb-border);
+}
+
+.badge-adj {
+  background: var(--badge-adj-bg);
+  color: var(--badge-adj-text);
+  border-color: var(--badge-adj-border);
+}
+
+.badge-default {
+  background: var(--bg-muted);
+  color: var(--text-secondary);
+  border-color: var(--border-color);
+}
+
+/* Meanings Row — Hairline Divider, Bilingual Baseline */
+.card-meanings-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: baseline;
+  gap: 1.25rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.card-meanings-row.single-lang {
+  grid-template-columns: 1fr;
+}
+
+.card-meanings-row .meaning-urdu {
+  font-family: 'Gulzar', 'Noto Nastaliq Urdu', serif !important;
+  font-size: 1.25rem;
+  line-height: 1.75;
   color: var(--text-primary);
   text-align: right;
   direction: rtl;
 }
 
-.meaning-en {
-  font-family: 'Inter', -apple-system, sans-serif;
-  font-size: 0.92rem;
+.card-meanings-row .meaning-en {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 0.95rem;
   color: var(--text-secondary);
-  line-height: 1.45;
+  line-height: 1.5;
   text-align: left;
   direction: ltr;
-}
-
-/* Subtle separator when both are present */
-.meaning-urdu + .meaning-en {
-  padding-top: 0.45rem;
-  border-top: 1px dashed var(--border-color);
-}
-
-/* Single language emphasis */
-.card-meanings.single-en .meaning-en {
-  font-size: 0.96rem;
-  color: var(--text-primary);
-  font-weight: 500;
 }
 
 /* Empty State */
@@ -669,14 +737,36 @@ body {
   box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.15);
 }
 
+/* RTL Urdu Adaptations for Dual Filter Rows */
+.ayah-filter-row[dir="rtl"] {
+  direction: rtl;
+}
+
+.ayah-filter-row[dir="rtl"] .filter-box-label {
+  font-family: 'Gulzar', 'Noto Nastaliq Urdu', serif;
+  font-size: 0.95rem;
+  letter-spacing: 0;
+  text-align: right;
+  line-height: 1.4;
+  text-transform: none;
+}
+
+.ayah-filter-row[dir="rtl"] .filter-select {
+  direction: rtl;
+  text-align: right;
+  font-family: 'Gulzar', 'Noto Nastaliq Urdu', system-ui, sans-serif;
+  font-size: 0.92rem;
+  padding: 0 0.85rem;
+}
+
 
 /* ==========================================================================
-   Quranic Ayah Cards (Clean, Tag-Free)
+   Quranic Translations & Verse Cards
    ========================================================================== */
 .ayahs-list {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.15rem;
   margin-top: 0.75rem;
 }
 
@@ -684,95 +774,103 @@ body {
   background: var(--bg-surface);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-md);
-  padding: 1.25rem 1.4rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.85rem;
-  box-shadow: var(--shadow-sm);
-  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
-  position: relative;
-}
-
-.ayah-card:hover {
-  border-color: var(--border-focus);
-  box-shadow: var(--shadow-md);
-  transform: translateY(-1px);
-}
-
-.ayah-num {
-  font-size: 0.74rem;
-  font-weight: 600;
-  color: var(--text-muted);
-  align-self: flex-start;
-  user-select: none;
-}
-
-.ayah-arabic {
-  font-family: 'Amiri', 'Traditional Arabic', serif;
-  font-size: 1.85rem;
-  font-weight: 600;
-  line-height: 2.2;
-  color: var(--text-primary);
-  text-align: right;
-  direction: rtl;
-  padding: 0.25rem 0;
-  user-select: text;
-}
-
-.ayah-meanings {
+  padding: 1.05rem 1.35rem;
   display: flex;
   flex-direction: column;
   gap: 0.65rem;
-  padding: 0.85rem 1.15rem;
-  background: var(--bg-card-inner);
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--border-color);
-}
-
-.ayah-meanings .meaning-urdu {
-  line-height: 2.2;
-}
-
-.ayah-meanings .meaning-en {
-  line-height: 1.7;
-}
-
-/* ==========================================================================
-   Slice Cards (Visual Separation from Ayah Cards)
-   ========================================================================== */
-.ayah-card.slice-card {
-  border-left: 4.5px solid var(--accent);
-  background: var(--bg-surface);
+  box-shadow: var(--shadow-sm);
   position: relative;
+  transition: border-color 0.15s ease;
 }
 
-.slice-header {
+.slice-card {
+  border-right: 4px solid var(--accent);
+}
+
+.ayah-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  width: 100%;
+  min-height: 18px;
+  direction: ltr !important;
+  margin-bottom: 0.1rem;
 }
 
-.slice-badge {
+.ayah-tag {
   font-size: 0.72rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
   background: var(--accent-light);
   color: var(--accent);
-  padding: 0.18rem 0.55rem;
-  border-radius: 4px;
+  border: 1px solid rgba(15, 118, 110, 0.25);
+  padding: 0.12rem 0.55rem;
+  border-radius: 9999px;
+  line-height: 1.3;
+  display: inline-flex;
+  align-items: center;
 }
 
-[data-theme="dark"] .slice-badge {
+.ayah-tag.tag-ur {
+  font-family: 'Gulzar', 'Noto Nastaliq Urdu', serif;
+  font-size: 0.88rem;
+  letter-spacing: 0;
+  line-height: 1.35;
+  text-transform: none;
+  padding: 0.05rem 0.6rem;
+}
+
+.ayah-tag.tag-en {
+  font-family: 'Inter', sans-serif;
+}
+
+[data-theme="dark"] .ayah-tag {
   background: var(--accent-light);
   color: var(--accent-dark);
 }
 
-.slice-num {
-  font-size: 0.74rem;
-  font-weight: 600;
-  color: var(--text-muted);
+.ayah-arabic {
+  font-family: 'Amiri', 'Traditional Arabic', serif !important;
+  font-size: 1.95rem;
+  font-weight: 700;
+  line-height: 1.85;
+  text-align: right;
+  color: var(--text-primary);
+  direction: rtl;
+  word-spacing: 0.12em;
+  padding: 0;
+  margin: 0;
+  user-select: text;
+}
+
+[data-theme="dark"] .ayah-arabic {
+  color: #f8fafc;
+}
+
+.ayah-meanings {
+  border-top: 1px solid var(--border-color);
+  padding-top: 0.65rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.ayah-meanings .meaning-urdu {
+  font-family: var(--font-ur-reading) !important;
+  font-size: 1.25rem;
+  line-height: 2.2;
+  color: var(--text-primary);
+  text-align: right;
+  direction: rtl;
+}
+
+.ayah-meanings .meaning-en {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  text-align: left;
+  direction: ltr;
 }
 
 .slice-divider {
@@ -787,6 +885,70 @@ body {
 
 .ayah-meanings .slice-divider {
   font-size: 0.95rem;
+}
+
+/* ==========================================================================
+   Word-to-Translation Color Coded Chunks (Static, No Hover Animations)
+   ========================================================================== */
+.chunk-seg {
+  display: inline;
+  padding: 0.12rem 0.32rem;
+  margin: 0 0.1rem;
+  border-radius: 4px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+/* Light Theme Color Chunks (High contrast, vibrant tones) */
+.chunk-0 {
+  color: #0284c7; /* Sky 600 */
+  background-color: rgba(2, 132, 199, 0.09);
+}
+.chunk-1 {
+  color: #059669; /* Emerald 600 */
+  background-color: rgba(5, 150, 105, 0.09);
+}
+.chunk-2 {
+  color: #d97706; /* Amber 600 */
+  background-color: rgba(217, 119, 6, 0.11);
+}
+.chunk-3 {
+  color: #7c3aed; /* Violet 600 */
+  background-color: rgba(124, 58, 237, 0.09);
+}
+.chunk-4 {
+  color: #e11d48; /* Rose 600 */
+  background-color: rgba(225, 29, 72, 0.09);
+}
+.chunk-5 {
+  color: #4f46e5; /* Indigo 600 */
+  background-color: rgba(79, 70, 229, 0.09);
+}
+
+/* Dark Theme Color Chunks (Luminescent, high legibility pastels) */
+[data-theme="dark"] .chunk-0 {
+  color: #38bdf8; /* Sky 400 */
+  background-color: rgba(56, 189, 248, 0.15);
+}
+[data-theme="dark"] .chunk-1 {
+  color: #34d399; /* Emerald 400 */
+  background-color: rgba(52, 211, 153, 0.15);
+}
+[data-theme="dark"] .chunk-2 {
+  color: #fbbf24; /* Amber 400 */
+  background-color: rgba(251, 191, 36, 0.15);
+}
+[data-theme="dark"] .chunk-3 {
+  color: #c084fc; /* Purple 400 */
+  background-color: rgba(192, 132, 252, 0.15);
+}
+[data-theme="dark"] .chunk-4 {
+  color: #fb7185; /* Rose 400 */
+  background-color: rgba(251, 113, 133, 0.15);
+}
+[data-theme="dark"] .chunk-5 {
+  color: #818cf8; /* Indigo 400 */
+  background-color: rgba(129, 140, 248, 0.15);
 }
 
 
@@ -928,278 +1090,440 @@ body {
 }
 
 /* ==========================================================================
-   Rules View & Cards
+   Continuous Document View (Tajweed & Grammar Rules Long-Form Readers)
    ========================================================================== */
-.rules-header {
-  margin-bottom: 1.25rem;
-  padding-bottom: 0.85rem;
-  border-bottom: 1px solid var(--border-color);
+.continuous-doc-wrapper {
+  display: block;
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
 }
 
-.rules-title {
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: var(--text-primary);
-  margin-bottom: 0.25rem;
-}
-
-.rules-desc {
-  font-size: 0.85rem;
-  color: var(--text-secondary);
-  line-height: 1.5;
-}
-
-.rules-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-  margin-top: 0.75rem;
-}
-
-.rule-card {
+.doc-sheet {
   background: var(--bg-surface);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-md);
-  padding: 1.35rem 1.5rem;
+  padding: 2.25rem 2.5rem;
   box-shadow: var(--shadow-sm);
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  gap: 2rem;
+  transition: background 0.2s ease, border-color 0.2s ease;
 }
 
-.rule-card:hover {
-  border-color: var(--border-focus);
-  box-shadow: var(--shadow-md);
+.doc-sheet.doc-rtl {
+  direction: rtl;
+  text-align: right;
 }
 
-.rule-header {
+.doc-sheet.doc-ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Document Header */
+.doc-header {
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.simple-doc-header {
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.85rem;
+  margin-bottom: 0.25rem;
+}
+
+.doc-header-tag {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+}
+
+.doc-rtl .doc-header-tag {
+  font-family: 'Gulzar', 'Noto Nastaliq Urdu', serif;
+  font-size: 0.95rem;
+  letter-spacing: 0;
+}
+
+.doc-title {
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.doc-rtl .doc-title {
+  font-family: 'Gulzar', 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
+  font-size: 2rem;
+  line-height: 1.8;
+}
+
+.doc-ltr .doc-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.doc-subtitle {
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.doc-rtl .doc-subtitle {
+  font-family: 'Gulzar', 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
+  font-size: 1.15rem;
+  line-height: 1.8;
+}
+
+.doc-ltr .doc-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.98rem;
+  line-height: 1.55;
+}
+
+.doc-meta-strip {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--text-muted);
+  flex-wrap: wrap;
+  font-size: 0.82rem;
+}
+
+.doc-rtl .doc-meta-strip {
+  font-family: 'Gulzar', 'Noto Nastaliq Urdu', serif;
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
+/* Document Content Flow & Sections */
+.doc-content-flow {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.doc-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.doc-section-header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: baseline;
   gap: 1rem;
   flex-wrap: wrap;
-  border-bottom: 1px dashed var(--border-color);
-  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.65rem;
 }
 
-.rule-operator-box {
+.doc-sec-title-wrap {
   display: flex;
   align-items: baseline;
   gap: 0.75rem;
+  flex-wrap: wrap;
 }
 
-.rule-operator {
-  font-family: 'Amiri', 'Traditional Arabic', serif;
+.doc-sec-num {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.doc-sec-title {
+  font-family: 'Gulzar', 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+  line-height: 1.7;
+}
+
+.doc-ltr .doc-sec-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.doc-rule-operator {
+  font-family: 'Amiri', 'Traditional Arabic', serif !important;
   font-size: 2.1rem;
   font-weight: 700;
   color: var(--accent);
-  line-height: 1.2;
+  line-height: 1.1;
+  direction: rtl;
+  display: inline-block;
 }
 
-.rule-operator-tr {
+.doc-rule-op-tr {
   font-family: 'Inter', sans-serif;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   color: var(--text-muted);
   font-weight: 600;
 }
 
-.rule-meta-badges {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-}
-
-.rule-title-badge {
-  font-size: 0.88rem;
-  font-weight: 600;
-  color: var(--text-primary);
-}
-
-.rule-effect-badge {
-  font-size: 0.74rem;
+.doc-rule-title-text {
+  font-family: 'Gulzar', 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
+  font-size: 1.25rem;
   font-weight: 700;
-  padding: 0.2rem 0.55rem;
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+.doc-ltr .doc-rule-title-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.05rem;
+}
+
+.doc-sec-badge {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.22rem 0.65rem;
   border-radius: 4px;
   background: var(--accent-light);
   color: var(--accent);
 }
 
-[data-theme="dark"] .rule-effect-badge {
+.doc-rtl .doc-sec-badge {
+  font-family: 'Gulzar', 'Noto Nastaliq Urdu', serif;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+[data-theme="dark"] .doc-sec-badge {
   background: var(--accent-light);
   color: var(--accent-dark);
 }
 
-.rule-formula-box {
+.doc-section-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+}
+
+.doc-divider {
+  border: none;
+  border-top: 1px dashed var(--border-color);
+  margin: 0.5rem 0;
+}
+
+/* Continuous Section Content Blocks */
+.doc-topic p {
+  font-family: var(--font-ur-reading);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 2.2;
+  margin: 0;
+}
+
+.doc-ltr .doc-topic p {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.98rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Bullet Points List (Unordered items only, no numbering) */
+.doc-points-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.doc-point-item {
+  font-family: var(--font-ur-reading);
+  font-size: 1.18rem;
+  line-height: 2.2;
+  color: var(--text-primary);
+  position: relative;
+  padding-right: 1.45rem;
+}
+
+.doc-point-item::before {
+  content: "•";
+  position: absolute;
+  right: 0;
+  color: var(--accent);
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.doc-ltr .doc-point-item {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--text-primary);
+  padding-right: 0;
+  padding-left: 1.45rem;
+}
+
+.doc-ltr .doc-point-item::before {
+  right: auto;
+  left: 0;
+  font-size: 1.1rem;
+}
+
+/* Numbered List (Ordered items only, no bullets) */
+.doc-ordered-list {
+  list-style: none;
+  counter-reset: doc-item-counter;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.doc-ordered-item {
+  font-family: var(--font-ur-reading);
+  font-size: 1.18rem;
+  line-height: 2.2;
+  color: var(--text-primary);
+  position: relative;
+  padding-right: 2.2rem;
+  counter-increment: doc-item-counter;
+}
+
+.doc-ordered-item::before {
+  content: counter(doc-item-counter) ".";
+  position: absolute;
+  right: 0;
+  color: var(--accent);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 2.2;
+}
+
+.doc-ltr .doc-ordered-item {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  padding-right: 0;
+  padding-left: 2rem;
+}
+
+.doc-ltr .doc-ordered-item::before {
+  right: auto;
+  left: 0;
+  font-size: 0.95rem;
+}
+
+.doc-formula-banner {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  padding: 0.55rem 0.95rem;
+  gap: 0.85rem;
+  padding: 0.65rem 1.15rem;
   background: var(--bg-card-inner);
-  border: 1px solid var(--border-color);
   border-radius: var(--radius-sm);
   width: fit-content;
   max-width: 100%;
   flex-wrap: wrap;
 }
 
-.rule-formula-label {
-  font-size: 0.76rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--accent);
+.doc-ltr .doc-formula-banner {
+  border-left: 3px solid var(--accent);
 }
 
-.rule-formula-text {
-  font-family: 'Amiri', 'Traditional Arabic', 'Inter', sans-serif;
-  font-size: 1.05rem;
-  font-weight: 600;
-  color: var(--text-primary);
-  direction: rtl;
+.doc-rtl .doc-formula-banner {
+  border-right: 3px solid var(--accent);
 }
 
-.rule-meaning-box {
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-  padding: 0.75rem 1rem;
-  background: var(--bg-card-inner);
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--border-color);
-}
-
-.rule-meaning-ur {
-  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
-  font-size: 1.18rem;
-  line-height: 1.85;
-  color: var(--text-primary);
-  direction: rtl;
-  text-align: right;
-  font-weight: 600;
-}
-
-.rule-meaning-en {
-  font-family: 'Inter', sans-serif;
-  font-size: 0.92rem;
-  color: var(--text-secondary);
-  line-height: 1.45;
-  direction: ltr;
-  text-align: left;
-}
-
-.rule-explanation-box {
-  display: flex;
-  flex-direction: column;
-  gap: 0.65rem;
-}
-
-.rule-exp-ur {
-  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
-  font-size: 1.08rem;
-  color: var(--text-primary);
-  line-height: 2;
-  direction: rtl;
-  text-align: right;
-}
-
-.rule-exp-en {
-  font-family: 'Inter', sans-serif;
+.doc-formula-label {
   font-size: 0.88rem;
-  color: var(--text-secondary);
-  line-height: 1.6;
-  direction: ltr;
-  text-align: left;
-}
-
-/* Sub-rules Section & Cards */
-.rule-subrules-section {
-  display: flex;
-  flex-direction: column;
-  gap: 0.65rem;
-  margin-top: 0.25rem;
-}
-
-.rule-section-title {
-  font-size: 0.82rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--accent);
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-}
-
-.rule-subrules-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 0.65rem;
-}
-
-.rule-subrule-card {
-  padding: 0.75rem 0.95rem;
-  background: var(--bg-card-inner);
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-sm);
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-}
-
-.subrule-title-ur {
-  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
-  font-size: 1.02rem;
   font-weight: 700;
   color: var(--accent);
+}
+
+.doc-rtl .doc-formula-label {
+  font-family: var(--font-ur-reading);
+  font-size: 1.15rem;
+}
+
+.doc-formula-code {
+  font-family: 'Amiri', 'Traditional Arabic', serif !important;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-primary);
   direction: rtl;
-  text-align: right;
+  display: inline-block;
+}
+
+.doc-rule-meta-prose {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  font-size: 1.02rem;
+  color: var(--text-primary);
   line-height: 1.7;
 }
 
-.subrule-text-ur {
-  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
-  font-size: 0.98rem;
-  color: var(--text-primary);
-  direction: rtl;
-  text-align: right;
-  line-height: 1.85;
+.doc-rtl .doc-rule-meta-prose {
+  font-family: var(--font-ur-reading);
+  font-size: 1.18rem;
+  line-height: 2.2;
 }
 
-.subrule-divider {
-  border-top: 1px dashed var(--border-color);
-  margin: 0.2rem 0;
+.doc-meta-line {
+  display: flex;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+  align-items: baseline;
 }
 
-.subrule-title-en {
-  font-size: 0.84rem;
-  font-weight: 600;
+.doc-meta-line strong {
   color: var(--accent);
-  direction: ltr;
-  text-align: left;
 }
 
-.subrule-text-en {
-  font-size: 0.83rem;
+.doc-effect-val {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.doc-explanation-prose {
+  font-size: 0.95rem;
   color: var(--text-secondary);
-  direction: ltr;
-  text-align: left;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
-/* Quranic Examples Section */
-.rule-examples-box {
+.doc-rtl .doc-explanation-prose {
+  font-family: var(--font-ur-reading);
+  font-size: 1.18rem;
+  line-height: 2.2;
+  color: var(--text-primary);
+}
+
+/* Sub-rules Block */
+.doc-subrules-block {
   display: flex;
   flex-direction: column;
   gap: 0.65rem;
+  padding: 0.85rem 1.15rem;
   background: var(--bg-card-inner);
   border-radius: var(--radius-sm);
   border: 1px solid var(--border-color);
-  padding: 0.85rem 1rem;
 }
 
-.rule-examples-title {
+.doc-subrules-label {
   font-size: 0.78rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -1207,43 +1531,280 @@ body {
   color: var(--accent);
 }
 
-.rule-example-item {
+.doc-rtl .doc-subrules-label {
+  font-family: var(--font-ur-reading);
+  font-size: 1.12rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.doc-subrules-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
-  padding-bottom: 0.55rem;
+  gap: 0.65rem;
+}
+
+.doc-subrule-item {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--text-primary);
+}
+
+.doc-rtl .doc-subrule-item {
+  font-family: var(--font-ur-reading);
+  font-size: 1.14rem;
+  line-height: 2.2;
+}
+
+.doc-subrule-title {
+  color: var(--accent);
+  margin-inline-end: 0.35rem;
+}
+
+/* Examples Block */
+.doc-examples-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  padding: 0.85rem 1.15rem;
+  background: var(--bg-card-inner);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-color);
+}
+
+.doc-examples-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+.doc-rtl .doc-examples-label {
+  font-family: var(--font-ur-reading);
+  font-size: 1.12rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.doc-examples-flow {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.doc-example-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  padding-bottom: 0.5rem;
   border-bottom: 1px dashed var(--border-color);
 }
 
-.rule-example-item:last-child {
-  padding-bottom: 0;
+.doc-example-row:last-child {
   border-bottom: none;
+  padding-bottom: 0;
 }
 
-.rule-ex-ar {
-  font-family: 'Amiri', 'Traditional Arabic', serif;
-  font-size: 1.45rem;
-  font-weight: 600;
+.doc-ex-ar {
+  font-family: 'Amiri', 'Traditional Arabic', serif !important;
+  font-size: 1.55rem;
+  font-weight: 700;
   color: var(--accent);
-  text-align: right;
-  direction: rtl;
   line-height: 1.6;
-}
-
-.rule-ex-ur {
-  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
-  font-size: 1.05rem;
-  text-align: right;
   direction: rtl;
-  color: var(--text-primary);
-  line-height: 1.9;
+  display: inline-block;
 }
 
-.rule-ex-en {
-  font-size: 0.84rem;
+.doc-ex-sep {
+  color: var(--text-muted);
+  font-weight: bold;
+}
+
+.doc-ex-note {
+  font-size: 0.95rem;
   color: var(--text-secondary);
-  text-align: left;
-  direction: ltr;
+  line-height: 1.55;
+}
+
+.doc-ltr .doc-ex-note {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.94rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+.doc-rtl .doc-ex-note {
+  font-family: var(--font-ur-reading);
+  font-size: 1.15rem;
+  color: var(--text-primary);
+  line-height: 2.1;
+}
+
+/* ==========================================================================
+   Rule Island Navigation & Stepper
+   ========================================================================== */
+.rule-island-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  margin-bottom: 1.25rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 0.95rem 1.15rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.rule-island-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.rule-nav-mode-btn {
+  background: var(--bg-card-inner);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.35rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.rule-nav-mode-btn:hover {
+  background: var(--bg-muted);
+  color: var(--text-primary);
+}
+
+.rule-nav-mode-btn.active {
+  background: var(--accent);
+  color: #ffffff;
+  border-color: var(--accent);
+}
+
+.rule-island-stepper {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  overflow-x: auto;
+  padding-bottom: 0.2rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.rule-step-btn {
+  background: var(--bg-card-inner);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  min-width: 34px;
+  height: 34px;
+  padding: 0 0.45rem;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+}
+
+.rule-step-btn:hover {
+  background: var(--bg-muted);
+  color: var(--text-primary);
+}
+
+.rule-step-btn.active {
+  background: var(--accent);
+  color: #ffffff;
+  border-color: var(--accent);
+  box-shadow: 0 1px 4px rgba(15, 118, 110, 0.3);
+}
+
+/* Rule Island Card Footer (Next / Prev Buttons) */
+.rule-island-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1.25rem;
+  margin-top: 1.25rem;
+  border-top: 1px solid var(--border-color);
+  flex-wrap: wrap;
+}
+
+.rule-nav-action-btn {
+  background: var(--bg-card-inner);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 0.88rem;
+  font-weight: 650;
+  padding: 0.55rem 1.15rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.15s ease;
+  user-select: none;
+}
+
+.rule-nav-action-btn:hover:not(:disabled) {
+  background: var(--accent);
+  color: #ffffff;
+  border-color: var(--accent);
+}
+
+.rule-nav-action-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.rule-counter-badge {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  background: var(--bg-card-inner);
+  border: 1px solid var(--border-color);
+  padding: 0.35rem 0.85rem;
+  border-radius: 9999px;
+}
+
+.doc-rtl .rule-counter-badge {
+  font-family: var(--font-ur-reading);
+  font-size: 1.05rem;
+}
+
+.rule-island-num-badge {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  background: var(--accent-light);
+  color: var(--accent);
+  border: 1px solid rgba(15, 118, 110, 0.25);
+  padding: 0.2rem 0.65rem;
+  border-radius: 9999px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.doc-rtl .rule-island-num-badge {
+  font-family: var(--font-ur-reading);
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 /* ==========================================================================
@@ -1349,5 +1910,22 @@ body {
   .modal-content {
     padding: 1.25rem 1rem;
     max-height: 90vh;
+  }
+
+  .doc-sheet {
+    padding: 1.25rem 1rem;
+    gap: 1.35rem;
+  }
+
+  .doc-rtl .doc-title {
+    font-size: 1.55rem;
+  }
+
+  .doc-ltr .doc-title {
+    font-size: 1.35rem;
+  }
+
+  .doc-sec-title {
+    font-size: 1.2rem;
   }
 }

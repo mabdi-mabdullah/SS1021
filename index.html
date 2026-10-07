@@ -9,13 +9,13 @@
 
   <!-- Open Graph / WhatsApp Preview Meta Tags -->
   <meta property="og:title" content="Lexicon (BETA) — Quranic Arabic Study Companion">
-  <meta property="og:description" content="FAST-NUCES SS-1021 bilingual Quranic Arabic dictionary & color-coded verse study companion.">
+  <meta property="og:description" content="Bilingual Quranic Arabic study companion: vocabulary dictionary, grammar rules, tajweed, and verse breakdown.">
   <meta property="og:type" content="website">
 
-  <!-- Google Fonts: Amiri (Arabic), Inter (English) & Noto Nastaliq Urdu (Urdu) -->
+  <!-- Google Fonts: Amiri (Arabic), Gulzar (Urdu), Inter (English) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Gulzar&family=Inter:wght@400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -51,18 +51,28 @@
       </div>
     </header>
 
-    <!-- Main Navigation Tabs: Words, Ayahs & Slices, Rules -->
+    <!-- Main Navigation Tabs: Tajweed, Rules, Words, Ayahs & Slices -->
     <nav class="main-tabs" role="tablist" aria-label="Main study views">
-      <button id="tabWordsBtn" class="main-tab-btn active" role="tab" aria-selected="true" aria-controls="viewWords">
-        <span class="tab-text">Words</span>
-      </button>
-      <button id="tabAyahsBtn" class="main-tab-btn" role="tab" aria-selected="false" aria-controls="viewAyahs">
-        <span class="tab-text">Ayahs & Slices</span>
+      <button id="tabTajweedBtn" class="main-tab-btn" role="tab" aria-selected="false" aria-controls="viewTajweed">
+        <span class="tab-text">Tajweed</span>
       </button>
       <button id="tabRulesBtn" class="main-tab-btn" role="tab" aria-selected="false" aria-controls="viewRules">
         <span class="tab-text">Rules</span>
       </button>
+      <button id="tabWordsBtn" class="main-tab-btn active" role="tab" aria-selected="true" aria-controls="viewWords">
+        <span class="tab-text">Words</span>
+      </button>
+      <button id="tabAyahsBtn" class="main-tab-btn" role="tab" aria-selected="false" aria-controls="viewAyahs">
+        <span class="tab-text">Translations</span>
+      </button>
     </nav>
+
+    <!-- Tab View: Tajweed (Single Continuous Document) -->
+    <div id="viewTajweed" class="tab-view" role="tabpanel" aria-labelledby="tabTajweedBtn" style="display: none;">
+      <main id="tajweedList" class="continuous-doc-wrapper" aria-live="polite">
+        <!-- Rendered dynamically by app.js as a single continuous long-form document -->
+      </main>
+    </div>
 
     <!-- Tab View 1: Words Dictionary & Universal Search -->
     <div id="viewWords" class="tab-view active" role="tabpanel" aria-labelledby="tabWordsBtn">
@@ -82,7 +92,9 @@
             autocorrect="off"
             spellcheck="false"
           >
-          <button id="clearSearchBtn" class="clear-btn" aria-label="Clear search">✕</button>
+          <button id="clearSearchBtn" class="clear-btn" aria-label="Clear search">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
         </div>
 
         <!-- Search communication hint -->
@@ -107,9 +119,9 @@
       <!-- Sticky Unit & Lesson Selector -->
       <section class="search-controls">
         <!-- Unit > Lesson Dual Filter Boxes (No Search Bar) -->
-        <div class="ayah-filter-row">
+        <div class="ayah-filter-row" id="ayahFilterRow">
           <div class="filter-box">
-            <label for="ayahUnitSelect" class="filter-box-label">Unit</label>
+            <label for="ayahUnitSelect" id="ayahUnitLabel" class="filter-box-label">Unit</label>
             <select id="ayahUnitSelect" class="filter-select">
               <option value="1" disabled>Unit 1 (Coming Soon)</option>
               <option value="2" selected>Unit 2</option>
@@ -118,7 +130,7 @@
           </div>
 
           <div class="filter-box">
-            <label for="ayahLessonSelect" class="filter-box-label">Lesson</label>
+            <label for="ayahLessonSelect" id="ayahLessonLabel" class="filter-box-label">Lesson</label>
             <select id="ayahLessonSelect" class="filter-select">
               <!-- Populated dynamically by app.js: Lesson 1, Lesson 2, ... -->
             </select>
@@ -132,35 +144,50 @@
       </main>
     </div>
 
-    <!-- Tab View 3: Grammar Rules Reference (Listed all in one place, no lesson labels) -->
+    <!-- Tab View: Grammar Rules Reference -->
     <div id="viewRules" class="tab-view" role="tabpanel" aria-labelledby="tabRulesBtn" style="display: none;">
-      <div class="rules-header">
-        <h2 class="rules-title">Quranic Grammar Rules & Syntactic Operators</h2>
-        <p class="rules-desc">A unified reference of grammatical operators, syntactic formulas, and case effects (I'rab) across the curriculum.</p>
-      </div>
+      <!-- Sticky Unit & Rule Selector (Copied from Translations Tab pattern) -->
+      <section class="search-controls">
+        <div class="ayah-filter-row" id="ruleFilterRow">
+          <div class="filter-box">
+            <label for="ruleUnitSelect" id="ruleUnitLabel" class="filter-box-label">Unit</label>
+            <select id="ruleUnitSelect" class="filter-select">
+              <option value="1" disabled>Unit 1 (Coming Soon)</option>
+              <option value="2" selected>Unit 2</option>
+              <option value="3" disabled>Unit 3 (Coming Soon)</option>
+            </select>
+          </div>
 
-      <!-- Rules List Display -->
-      <main id="rulesList" class="rules-list" aria-live="polite">
-        <!-- Rule cards rendered dynamically by app.js -->
+          <div class="filter-box">
+            <label for="ruleSelect" id="ruleSelectLabel" class="filter-box-label">Rule</label>
+            <select id="ruleSelect" class="filter-select">
+              <!-- Populated dynamically by app.js: Rule 1, Rule 2, ... -->
+            </select>
+          </div>
+        </div>
+      </section>
+
+      <main id="rulesList" class="continuous-doc-wrapper" aria-live="polite">
+        <!-- Rendered dynamically by app.js -->
       </main>
     </div>
 
   </div>
 
-  <!-- Course Outline Modal (SS-1021: UOHQ-I Weeks 01 to 08) -->
+  <!-- Course Outline Modal (Weeks 01 to 08) -->
   <div id="outlineModal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-labelledby="outlineModalTitle">
     <div class="modal-content">
       <div class="modal-header">
         <div>
-          <h2 id="outlineModalTitle" class="modal-title">SS-1021: Understanding Holy Quran - I (UOHQ-I)</h2>
-          <p class="modal-subtitle">Course Syllabus & Weekly Academic Roadmap (Weeks 01 – 08)</p>
+          <h2 id="outlineModalTitle" class="modal-title">Course Outline (Weeks 01 – 08)</h2>
+          <p class="modal-subtitle">Weekly Roadmap (Weeks 01 – 08)</p>
         </div>
         <button id="outlineCloseBtn" class="modal-close-btn" aria-label="Close modal">&times;</button>
       </div>
 
       <!-- Weekly Roadmap (Weeks 1 to 8 only) -->
       <div class="outline-section">
-        <h3 class="outline-section-title">Weekly Academic Roadmap (Part I)</h3>
+        <h3 class="outline-section-title">Weekly Roadmap</h3>
 
         <div class="week-list">
           <div class="week-item">
@@ -207,7 +234,7 @@
 
       <div class="outline-section" style="margin-bottom: 0;">
         <p style="font-size: 0.8rem; color: var(--text-muted); text-align: center;">
-          Contact Hours: 02 • Credit Hours: 01 • Press ESC or click outside to close
+          Press ESC or click outside to close
         </p>
       </div>
 
@@ -223,6 +250,7 @@
   <script src="data.js"></script>
   <script src="rules_data.js"></script>
   <script src="ayahs_data.js"></script>
+  <script src="tajweed_data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

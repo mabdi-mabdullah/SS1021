@@ -16,7 +16,7 @@ const QURANIC_AYAHS = [
                        },
                        {
                            "ur":  "بیشک اللہ",
-                           "en":  "\u0027Indeed, Allah",
+                           "en":  "'Indeed, Allah",
                            "ar":  "إِنَّ اللَّهَ"
                        },
                        {
@@ -26,12 +26,12 @@ const QURANIC_AYAHS = [
                        },
                        {
                            "ur":  "نہایت رحم فرمانے والا ہے۔",
-                           "en":  "and Merciful.\u0027",
+                           "en":  "and Merciful.'",
                            "ar":  "رَحِيمٌ"
                        }
                    ],
         "urdu":  "اس نے کہا بیشک اللہ بہت بخشنے والا، نہایت رحم فرمانے والا ہے۔",
-        "en":  "He said, \u0027Indeed, Allah is Forgiving and Merciful.\u0027",
+        "en":  "He said, 'Indeed, Allah is Forgiving and Merciful.'",
         "lessonFormatted":  "Lesson 01"
     },
     {
@@ -669,17 +669,17 @@ const QURANIC_AYAHS = [
                        },
                        {
                            "ur":  "کہ عیسائی نہیں ہیں",
-                           "en":  "\u0027The Christians have nothing",
+                           "en":  "'The Christians have nothing",
                            "ar":  "لَيْسَتِ النَّصَارَىٰ"
                        },
                        {
                            "ur":  "کسی بنیاد پر۔",
-                           "en":  "to stand upon.\u0027",
+                           "en":  "to stand upon.'",
                            "ar":  "عَلَىٰ شَيْءٍ"
                        }
                    ],
         "urdu":  "اور یہودیوں نے کہا کہ عیسائی کسی بنیاد پر نہیں ہیں۔",
-        "en":  "The Jews said, \u0027The Christians have nothing [true] to stand upon.\u0027",
+        "en":  "The Jews said, 'The Christians have nothing [true] to stand upon.'",
         "lessonFormatted":  "Lesson 04"
     },
     {
@@ -1057,7 +1057,7 @@ const QURANIC_AYAHS = [
         "chunks":  [
                        {
                            "ur":  "کہہ دیجیے یہ میرا راستہ ہے،",
-                           "en":  "Say, \u0027This is my way;",
+                           "en":  "Say, 'This is my way;",
                            "ar":  "قُلْ هٰذِهِ سَبِيلِي"
                        },
                        {
@@ -1067,12 +1067,12 @@ const QURANIC_AYAHS = [
                        },
                        {
                            "ur":  "بصیرت کے ساتھ۔",
-                           "en":  "with insight.\u0027",
+                           "en":  "with insight.'",
                            "ar":  "عَلَىٰ بَصِيرَةٍ"
                        }
                    ],
         "urdu":  "کہہ دیجیے یہ میرا راستہ ہے، میں بصیرت کے ساتھ اللہ کی طرف بلاتا ہوں۔",
-        "en":  "Say, \u0027This is my way; I invite to Allah with clear insight.\u0027",
+        "en":  "Say, 'This is my way; I invite to Allah with clear insight.'",
         "lessonFormatted":  "Lesson 06"
     },
     {
@@ -1366,17 +1366,17 @@ const QURANIC_AYAHS = [
         "chunks":  [
                        {
                            "ur":  "انہوں نے کہا اب",
-                           "en":  "They said, \u0027Now",
+                           "en":  "They said, 'Now",
                            "ar":  "قَالُوا الْآنَ"
                        },
                        {
                            "ur":  "تم حق کے ساتھ آئے ہو۔",
-                           "en":  "you came with truth.\u0027",
+                           "en":  "you came with truth.'",
                            "ar":  "جِئْتَ بِالْحَقِّ"
                        }
                    ],
         "urdu":  "انہوں نے کہا اب تم حق کے ساتھ آئے ہو۔",
-        "en":  "They said, \u0027Now you have come with the truth.\u0027",
+        "en":  "They said, 'Now you have come with the truth.'",
         "lessonFormatted":  "Lesson 07"
     },
     {
@@ -1513,7 +1513,7 @@ const QURANIC_AYAHS = [
         "chunks":  [
                        {
                            "ur":  "انہوں نے کہا تو پاک ہے،",
-                           "en":  "They said, \u0027Exalted are You;",
+                           "en":  "They said, 'Exalted are You;",
                            "ar":  "قَالُوا سُبْحَانَكَ"
                        },
                        {
@@ -1523,12 +1523,12 @@ const QURANIC_AYAHS = [
                        },
                        {
                            "ur":  "سوائے اس کے جو تو نے ہمیں سکھایا۔",
-                           "en":  "except what You taught us.\u0027",
+                           "en":  "except what You taught us.'",
                            "ar":  "إِلَّا مَا عَلَّمْتَنَا"
                        }
                    ],
         "urdu":  "انہوں نے کہا تو پاک ہے، ہمارے پاس کوئی علم نہیں سوائے اس کے جو تو نے ہمیں سکھایا۔",
-        "en":  "They said, \u0027Exalted are You; we have no knowledge except what You have taught us.\u0027",
+        "en":  "They said, 'Exalted are You; we have no knowledge except what You have taught us.'",
         "lessonFormatted":  "Lesson 08"
     },
     {
@@ -2402,17 +2402,17 @@ const QURANIC_AYAHS = [
         "chunks":  [
                        {
                            "ur":  "اور کہہ دیجیے حق آ گیا اور باطل مٹ گیا،",
-                           "en":  "And say, \u0027Truth came, falsehood vanished.",
+                           "en":  "And say, 'Truth came, falsehood vanished.",
                            "ar":  "وَقُلْ جَاءَ الْحَقُّ وَزَهَقَ الْبَاطِلُ"
                        },
                        {
                            "ur":  "بلاشبہ باطل تو مٹ جانے ہی والا تھا۔",
-                           "en":  "Indeed, falsehood is bound to vanish.\u0027",
+                           "en":  "Indeed, falsehood is bound to vanish.'",
                            "ar":  "إِنَّ الْبَاطِلَ كَانَ زَهُوقًا"
                        }
                    ],
         "urdu":  "اور کہہ دیجیے کہ حق آ گیا اور باطل مٹ گیا، بلاشبہ باطل تو مٹ جانے ہی والا تھا۔",
-        "en":  "And say, \u0027Truth has come, and falsehood has departed. Indeed, falsehood is bound to vanish.\u0027",
+        "en":  "And say, 'Truth has come, and falsehood has departed. Indeed, falsehood is bound to vanish.'",
         "lessonFormatted":  "Lesson 12"
     },
     {
@@ -2491,17 +2491,17 @@ const QURANIC_AYAHS = [
         "chunks":  [
                        {
                            "ur":  "فرمایا اے آدمؑ!",
-                           "en":  "He said, \u0027O Adam,",
+                           "en":  "He said, 'O Adam,",
                            "ar":  "قَالَ يَا آدَمُ"
                        },
                        {
                            "ur":  "ان کو ان کے نام بتا دو۔",
-                           "en":  "inform them of their names.\u0027",
+                           "en":  "inform them of their names.'",
                            "ar":  "أَنْبِئْهُمْ بِأَسْمَائِهِمْ"
                        }
                    ],
         "urdu":  "فرمایا اے آدمؑ! ان کو ان چیزوں کے نام بتا دو۔",
-        "en":  "He said, \u0027O Adam, inform them of their names.\u0027",
+        "en":  "He said, 'O Adam, inform them of their names.'",
         "lessonFormatted":  "Lesson 13"
     },
     {
@@ -2512,17 +2512,17 @@ const QURANIC_AYAHS = [
         "chunks":  [
                        {
                            "ur":  "فرمایا اے ابلیس!",
-                           "en":  "He said, \u0027O Iblees,",
+                           "en":  "He said, 'O Iblees,",
                            "ar":  "قَالَ يَا إِبْلِيسُ"
                        },
                        {
                            "ur":  "تجھے کس نے روکا سجدہ کرنے سے۔",
-                           "en":  "what prevented you from prostrating?\u0027",
+                           "en":  "what prevented you from prostrating?'",
                            "ar":  "مَا مَنَعَكَ أَنْ تَسْجُدَ"
                        }
                    ],
         "urdu":  "فرمایا اے ابلیس! تجھے کس چیز نے روکا کہ تو سجدہ کرے۔",
-        "en":  "He said, \u0027O Iblees, what prevented you from prostrating?\u0027",
+        "en":  "He said, 'O Iblees, what prevented you from prostrating?'",
         "lessonFormatted":  "Lesson 13"
     },
     {
@@ -2533,17 +2533,17 @@ const QURANIC_AYAHS = [
         "chunks":  [
                        {
                            "ur":  "انہوں نے کہا اے صالحؑ!",
-                           "en":  "They said, \u0027O Saleh,",
+                           "en":  "They said, 'O Saleh,",
                            "ar":  "قَالُوا يَا صَالِحُ"
                        },
                        {
                            "ur":  "ہمارے پاس وہ عذاب لا جس کا وعدہ ہے۔",
-                           "en":  "bring what you threaten us with.\u0027",
+                           "en":  "bring what you threaten us with.'",
                            "ar":  "ائْتِنَا بِمَا تَعِدُنَا"
                        }
                    ],
         "urdu":  "انہوں نے کہا اے صالحؑ! ہمارے پاس وہ عذاب لا جس کا تو ہم سے وعدہ کرتا ہے۔",
-        "en":  "They said, \u0027O Saleh, bring us what you threaten us with.\u0027",
+        "en":  "They said, 'O Saleh, bring us what you threaten us with.'",
         "lessonFormatted":  "Lesson 13"
     },
     {
@@ -2580,7 +2580,7 @@ const QURANIC_AYAHS = [
         "chunks":  [
                        {
                            "ur":  "جب اللہ نے فرمایا اے عیسیٰؑ!",
-                           "en":  "When Allah said, \u0027O Jesus,",
+                           "en":  "When Allah said, 'O Jesus,",
                            "ar":  "إِذْ قَالَ اللَّهُ يَا عِيسَىٰ"
                        },
                        {
@@ -2590,12 +2590,12 @@ const QURANIC_AYAHS = [
                        },
                        {
                            "ur":  "اور اپنی طرف اٹھانے والا ہوں۔",
-                           "en":  "and raise you to Myself.\u0027",
+                           "en":  "and raise you to Myself.'",
                            "ar":  "وَرَافِعُكَ إِلَيَّ"
                        }
                    ],
         "urdu":  "جب اللہ نے فرمایا اے عیسیٰؑ! میں تمہیں پورا پورا لینے والا ہوں اور اپنی طرف اٹھانے والا ہوں۔",
-        "en":  "When Allah said, \u0027O Jesus, indeed I will take you and raise you to Myself.\u0027",
+        "en":  "When Allah said, 'O Jesus, indeed I will take you and raise you to Myself.'",
         "lessonFormatted":  "Lesson 13"
     },
     {
@@ -2606,7 +2606,7 @@ const QURANIC_AYAHS = [
         "chunks":  [
                        {
                            "ur":  "ہم نے کہا اے آگ!",
-                           "en":  "We said, \u0027O fire,",
+                           "en":  "We said, 'O fire,",
                            "ar":  "قُلْنَا يَا نَارُ"
                        },
                        {
@@ -2616,12 +2616,13 @@ const QURANIC_AYAHS = [
                        },
                        {
                            "ur":  "ابراہیم پر۔",
-                           "en":  "upon Abraham.\u0027",
+                           "en":  "upon Abraham.'",
                            "ar":  "عَلَىٰ إِبْرَاهِيمَ"
                        }
                    ],
         "urdu":  "ہم نے کہا اے آگ! ابراہیم پر ٹھنڈی اور سلامتی والی بن جا۔",
-        "en":  "We said, \u0027O fire, be coolness and safety upon Abraham.\u0027",
+        "en":  "We said, 'O fire, be coolness and safety upon Abraham.'",
         "lessonFormatted":  "Lesson 13"
     }
 ];
+
